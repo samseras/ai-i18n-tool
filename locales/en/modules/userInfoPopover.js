@@ -1,0 +1,16 @@
+export default {
+  editProfile: "Edit Profile",
+  viewBenefits: "View",
+  expireInDays: "Expires in {days} days—renew <span>with 50% off >></span>",
+  expireToday: "Expires in today renew <span>with 50% off >></span>",
+  expired: "Expired, renew to <br />enjoy more benefits >>",
+  renewNow: "Renew now",
+  subscribe: "Subscribe",
+  discount50: "50% OFF",
+  creatingVideos: "Creating {count} videos",
+  kCoinReward: "K-coin Reward",
+  earnKCoin: "Free",
+  upgradeToProPrefix: "Upgrade ",
+  upgradeToProLink: "to Pro",
+  kCoinExpiring: "The K-coins are about to expire. Please use them promptly.",
+};

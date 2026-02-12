@@ -1,0 +1,16 @@
+export default {
+  editProfile: "编辑资料",
+  viewBenefits: "查看权益",
+  expireInDays: "会员将于{days}天后到期，<span>续费享5折 >></span>",
+  expireToday: "会员将于今天到期，<span>续费享5折 >></span>",
+  expired: "会员已过期，<br /><span>续费享更多权益 >></span>",
+  renewNow: "续费会员",
+  subscribe: "重新开通",
+  discount50: "5折",
+  creatingVideos: "{count}个视频生成中",
+  kCoinReward: "K币奖励",
+  earnKCoin: "赚K币",
+  upgradeToProPrefix: "请先升级为 ",
+  upgradeToProLink: "专业版",
+  kCoinExpiring: "K币即将过期失效，请及时使用。",
+};

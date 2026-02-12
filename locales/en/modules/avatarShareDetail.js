@@ -1,0 +1,16 @@
+export default {
+  useAvatar: "Create video with this avatar",
+  allAvatar: "All Avatars",
+  avatarDesc: "Avatar Description",
+  avatarAttr: "Avatar Attributes",
+  type: "Avatar Type:",
+  area: "Area:",
+  ratio: "Ratio:",
+  sex: "Sex:",
+  age: "Age:",
+  style: "Style:",
+  category: "Category:",
+  pose: "Pose:",
+  shareList: "Videos shared by users with this avatar",
+  moreShare: "More Videos",
+};

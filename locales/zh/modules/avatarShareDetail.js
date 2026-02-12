@@ -1,0 +1,16 @@
+export default {
+  useAvatar: "使用此人物创建视频",
+  allAvatar: "所有数字人形象",
+  avatarDesc: "人物描述",
+  avatarAttr: "人物属性",
+  type: "人物类型：",
+  area: "地域：",
+  ratio: "比例：",
+  sex: "性别：",
+  age: "年龄：",
+  style: "风格：",
+  category: "人物分类：",
+  pose: "人物姿势：",
+  shareList: "用户使用此人物分享的视频",
+  moreShare: "更多视频",
+};

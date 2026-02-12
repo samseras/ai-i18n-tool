@@ -1,0 +1,16 @@
+export default {
+  useAvatar: "Usar este personagem para criar vídeo",
+  allAvatar: "Todas as imagens de humanos digitais",
+  avatarDesc: "Descrição do personagem",
+  avatarAttr: "Atributos do personagem",
+  type: "Tipo de personagem:",
+  area: "Região:",
+  ratio: "Proporção:",
+  sex: "Gênero:",
+  age: "Idade:",
+  style: "Estilo:",
+  category: "Categoria do personagem:",
+  pose: "Postura do personagem:",
+  shareList: "Vídeos compartilhados por usuários com este personagem",
+  moreShare: "Mais vídeos",
+};
