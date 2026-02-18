@@ -5,10 +5,12 @@ import fr from "./ai-image-template-data/fr";
 import es from "./ai-image-template-data/es";
 import ja from "./ai-image-template-data/ja";
 import ko from "./ai-image-template-data/ko";
+import ar from "./ai-image-template-data/ar";
 
 export const nanoBananaTemplateData = {
   zh: zh.nanoBanana,
   en: en.nanoBanana,
+  ar: ar.nanoBanana,
   ko: ko.nanoBanana,
   ja: ja.nanoBanana,
   es: es.nanoBanana,
@@ -19,6 +21,7 @@ export const nanoBananaTemplateData = {
 export const doubaoSeedream4TemplateData = {
   zh: zh.doubaoSeedream4,
   en: en.doubaoSeedream4,
+  ar: ar.doubaoSeedream4,
   ko: ko.doubaoSeedream4,
   ja: ja.doubaoSeedream4,
   es: es.doubaoSeedream4,
@@ -29,6 +32,7 @@ export const doubaoSeedream4TemplateData = {
 export const gptImage1MiniTemplateData = {
   zh: zh.gptImage1Mini,
   en: en.gptImage1Mini,
+  ar: ar.gptImage1Mini,
   ko: ko.gptImage1Mini,
   ja: ja.gptImage1Mini,
   es: es.gptImage1Mini,
@@ -39,6 +43,7 @@ export const gptImage1MiniTemplateData = {
 export const gptImage1QualityTemplateData = {
   zh: zh.gptImage1Quality,
   en: en.gptImage1Quality,
+  ar: ar.gptImage1Quality,
   ko: ko.gptImage1Quality,
   ja: ja.gptImage1Quality,
   es: es.gptImage1Quality,
@@ -49,6 +54,7 @@ export const gptImage1QualityTemplateData = {
 export const nanoBananaProTemplateData = {
   zh: zh.nanoBananaPro,
   en: en.nanoBananaPro,
+  ar: ar.nanoBananaPro,
   ko: ko.nanoBananaPro,
   ja: ja.nanoBananaPro,
   es: es.nanoBananaPro,
@@ -59,6 +65,7 @@ export const nanoBananaProTemplateData = {
 export const adImageGeneratorTemplateData = {
   zh: zh.adImageGenerator,
   en: en.adImageGenerator,
+  ar: ar.adImageGenerator,
   ko: ko.adImageGenerator,
   ja: ja.adImageGenerator,
   es: es.adImageGenerator,
@@ -69,6 +76,7 @@ export const adImageGeneratorTemplateData = {
 export const seedream45TemplateData = {
   zh: zh.seedream45,
   en: en.seedream45,
+  ar: ar.seedream45,
   ko: ko.seedream45,
   ja: ja.seedream45,
   es: es.seedream45,
@@ -79,6 +87,7 @@ export const seedream45TemplateData = {
 export const clothesChangerTemplateData = {
   zh: zh.clothesChanger,
   en: en.clothesChanger,
+  ar: ar.clothesChanger,
   ko: ko.clothesChanger,
   ja: ja.clothesChanger,
   es: es.clothesChanger,
@@ -89,6 +98,7 @@ export const clothesChangerTemplateData = {
 export const imageUpscalerTemplateData = {
   zh: zh.imageUpscaler,
   en: en.imageUpscaler,
+  ar: ar.imageUpscaler,
   ko: ko.imageUpscaler,
   ja: ja.imageUpscaler,
   es: es.imageUpscaler,
@@ -99,6 +109,7 @@ export const imageUpscalerTemplateData = {
 export const textEditorTemplateData = {
   zh: zh.textEditor,
   en: en.textEditor,
+  ar: ar.textEditor,
   ko: ko.textEditor,
   ja: ja.textEditor,
   es: es.textEditor,
@@ -109,6 +120,7 @@ export const textEditorTemplateData = {
 export const imageTranslatorTemplateData = {
   zh: zh.imageTranslator,
   en: en.imageTranslator,
+  ar: ar.imageTranslator,
   ko: ko.imageTranslator,
   ja: ja.imageTranslator,
   es: es.imageTranslator,
@@ -119,6 +131,7 @@ export const imageTranslatorTemplateData = {
 export const inpaintingTemplateData = {
   zh: zh.inpainting,
   en: en.inpainting,
+  ar: ar.inpainting,
   ko: ko.inpainting,
   ja: ja.inpainting,
   es: es.inpainting,
@@ -129,6 +142,7 @@ export const inpaintingTemplateData = {
 export const outpaintingTemplateData = {
   zh: zh.outpainting,
   en: en.outpainting,
+  ar: ar.outpainting,
   ko: ko.outpainting,
   ja: ja.outpainting,
   es: es.outpainting,

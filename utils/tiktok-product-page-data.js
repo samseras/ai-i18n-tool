@@ -5,10 +5,12 @@ import fr from "./tiktok-product-page-data/fr";
 import es from "./tiktok-product-page-data/es";
 import ja from "./tiktok-product-page-data/ja";
 import ko from "./tiktok-product-page-data/ko";
+import ar from "./tiktok-product-page-data/ar";
 
 export const tiktokVideoTranslatorTemplateData = {
   zh: zh.tiktokVideoTranslator,
   en: en.tiktokVideoTranslator,
+  ar: ar.tiktokVideoTranslator,
   ko: ko.tiktokVideoTranslator,
   ja: ja.tiktokVideoTranslator,
   es: es.tiktokVideoTranslator,
@@ -19,6 +21,7 @@ export const tiktokVideoTranslatorTemplateData = {
 export const tiktokAvatarVideoTemplateData = {
   zh: zh.tiktokAvatarVideo,
   en: en.tiktokAvatarVideo,
+  ar: ar.tiktokAvatarVideo,
   ko: ko.tiktokAvatarVideo,
   ja: ja.tiktokAvatarVideo,
   es: es.tiktokAvatarVideo,
@@ -29,6 +32,7 @@ export const tiktokAvatarVideoTemplateData = {
 export const tiktokScriptGeneratorTemplateData = {
   zh: zh.tiktokScriptGenerator,
   en: en.tiktokScriptGenerator,
+  ar: ar.tiktokScriptGenerator,
   ko: ko.tiktokScriptGenerator,
   ja: ja.tiktokScriptGenerator,
   es: es.tiktokScriptGenerator,
@@ -39,6 +43,7 @@ export const tiktokScriptGeneratorTemplateData = {
 export const tiktokProductMarketingVideoGeneratorTemplateData = {
   zh: zh.tiktokProductMarketingVideoGenerator,
   en: en.tiktokProductMarketingVideoGenerator,
+  ar: ar.tiktokProductMarketingVideoGenerator,
   ko: ko.tiktokProductMarketingVideoGenerator,
   ja: ja.tiktokProductMarketingVideoGenerator,
   es: es.tiktokProductMarketingVideoGenerator,

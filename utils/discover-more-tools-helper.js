@@ -353,6 +353,56 @@ export const avatarToolsData = {
         "path": "tiktok-avatar"
       }
     ]
+  },
+  "ar": {
+    "title": "اكتشف المزيد من حلول AI Avatar وإنشاء الفيديو البشري الرقمي",
+    "desc": "اكتشف المزيد من الطرق لإنشاء بشر رقميين نابضين بالحياة لمقاطع الفيديو والتسويق وسرد القصص - بدءًا من الصور الرمزية وحتى الصور الناطقة والمقدمين الافتراضيين",
+    "list": [
+      {
+        "name": "فيديو الصورة الرمزية البشرية الرقمية",
+        "path": "digital-avatar"
+      },
+      {
+        "name": "فيديو الصورة الرمزية للفيلم",
+        "path": "movie-avatar"
+      },
+      {
+        "name": "فيديو الصورة الرمزية PPT/PDF",
+        "path": "digital-ppt-creation"
+      },
+      {
+        "name": "الحديث صور فيديو",
+        "path": "talking-photo"
+      },
+      {
+        "name": "الصورة إلى الفيديو الرمزي",
+        "path": "image-to-avatar-video"
+      },
+      {
+        "name": "الصور الرمزية المخصصة للذكاء الاصطناعي",
+        "path": "avatar-clone"
+      },
+      {
+        "name": "استنساخ الصورة الرمزية الفورية",
+        "path": "instant-avatar-clone"
+      },
+      {
+        "name": "استنساخ صوتي فوري",
+        "path": "voice-clone"
+      },
+      {
+        "name": "مكتبة الصور الرمزية لمنظمة العفو الدولية",
+        "path": "avatars"
+      },
+      {
+        "name": "مكتبة أصوات الذكاء الاصطناعي",
+        "path": "ai-voices"
+      },
+      {
+        "name": "فيديو الصورة الرمزية لـ TikTok/UGC",
+        "path": "tiktok-avatar"
+      }
+    ]
   }
 };
 
@@ -707,6 +757,52 @@ export const videoToolsData = {
       },
       {
         "name": "Wan 2.6 AI 비디오 생성기",
+        "path": "ai-video/wan-2-6"
+      }
+    ]
+  },
+  "ar": {
+    "title": "اكتشف المزيد من أدوات إنشاء الفيديو بالذكاء الاصطناعي",
+    "desc": "اكتشف المزيد من أدوات الفيديو المدعومة بالذكاء الاصطناعي لتحويل النصوص والصور والأفكار إلى مقاطع فيديو جذابة للتسويق والتعليم ووسائل التواصل الاجتماعي",
+    "list": [
+      {
+        "name": "النص إلى الفيديو",
+        "path": "text-to-video"
+      },
+      {
+        "name": "الصورة إلى الفيديو",
+        "path": "image-to-video"
+      },
+      {
+        "name": "سورا 2 مولد فيديو بالذكاء الاصطناعي",
+        "path": "ai-video/sora2"
+      },
+      {
+        "name": "Veo 3 AI مولد الفيديو",
+        "path": "ai-video/google-veo3"
+      },
+      {
+        "name": "Veo 3.1 مولد فيديو بالذكاء الاصطناعي",
+        "path": "ai-video/google-veo3-1"
+      },
+      {
+        "name": "سيدانس 1.0 مولد فيديو بالذكاء الاصطناعي",
+        "path": "ai-video/doubao-seedance"
+      },
+      {
+        "name": "سيدانس 1.5 مولد فيديو بالذكاء الاصطناعي",
+        "path": "ai-video/seedance-1-5-pro"
+      },
+      {
+        "name": "Hailuo AI مولد الفيديو",
+        "path": "ai-video/minimax-hailuo02"
+      },
+      {
+        "name": "Tiktok AI مولد الفيديو",
+        "path": "ai-video/tiktok"
+      },
+      {
+        "name": "وان 2.6 مولد فيديو بالذكاء الاصطناعي",
         "path": "ai-video/wan-2-6"
       }
     ]
@@ -1115,6 +1211,64 @@ export const marketingToolsData = {
       },
       {
         "name": "YouTube 워터마크 제거기",
+        "path": "video-watermark-remover/youtube"
+      }
+    ]
+  },
+  "ar": {
+    "title": "اكتشف المزيد من أدوات الذكاء الاصطناعي الإبداعية للتسويق",
+    "desc": "استكشف مجموعة كاملة من أدوات الذكاء الاصطناعي المصممة لتبسيط عملية التسويق وتحسين الإنتاجية وتوسيع نطاق الإنتاج الإبداعي",
+    "list": [
+      {
+        "name": "فيديو منتج TikTok / UGC",
+        "path": "product-marketing-video"
+      },
+      {
+        "name": "عنوان URL لمولد إعلانات الفيديو",
+        "path": "url-to-video"
+      },
+      {
+        "name": "AI فيديو الوجه مبادلة",
+        "path": "video-face-swap"
+      },
+      {
+        "name": "ترجمة الفيديو بالذكاء الاصطناعي",
+        "path": "video-translator"
+      },
+      {
+        "name": "إزالة الخلفية",
+        "path": "image-background-remover"
+      },
+      {
+        "name": "تحويل النص إلى كلام",
+        "path": "text-to-speech"
+      },
+      {
+        "name": "مولد البرنامج النصي لمنظمة العفو الدولية",
+        "path": "ai-text-generator"
+      },
+      {
+        "name": "TikTok مولد النص",
+        "path": "script-generation"
+      },
+      {
+        "name": "مزيل العلامة المائية والترجمة للفيديو",
+        "path": "video-subtitle-remover"
+      },
+      {
+        "name": "مزيل العلامات المائية من تيك توك",
+        "path": "video-watermark-remover/tiktok"
+      },
+      {
+        "name": "مزيل العلامة المائية Sora2",
+        "path": "video-watermark-remover/sora2"
+      },
+      {
+        "name": "مزيل العلامات المائية في الانستقرام",
+        "path": "video-watermark-remover/instagram"
+      },
+      {
+        "name": "يوتيوب مزيل العلامة المائية",
         "path": "video-watermark-remover/youtube"
       }
     ]
@@ -1552,6 +1706,68 @@ export const imageToolsData = {
       },
       {
         "name": "AI 이미지 아웃페인팅",
+        "path": "ai-image/outpainting"
+      }
+    ]
+  },
+  "ar": {
+    "title": "اكتشف المزيد من أدوات إنشاء الصور بالذكاء الاصطناعي",
+    "desc": "قم بإنشاء الصور وتحريرها وتحسينها باستخدام أدوات الذكاء الاصطناعي القوية المصممة للإعلان والتجارة الإلكترونية والإنتاج الإبداعي",
+    "list": [
+      {
+        "name": "مولد الصور بالذكاء الاصطناعي",
+        "path": "ai-image-generator"
+      },
+      {
+        "name": "مولد صور إعلان متعدد الأحجام",
+        "path": "ai-image/ad-image-generator"
+      },
+      {
+        "name": "نانو الموز AI مولد الصور",
+        "path": "ai-image/nano-banana"
+      },
+      {
+        "name": "نانو الموز برو AI مولد الصور",
+        "path": "ai-image/nano-banana-pro"
+      },
+      {
+        "name": "سيدريم 4.0 مولد الصور AI",
+        "path": "ai-image/doubao-seedream4"
+      },
+      {
+        "name": "سيدريم 4.5 مولد الصور AI",
+        "path": "ai-image/seedream-4-5"
+      },
+      {
+        "name": "GPT Image 1 مولد صور صغير بالذكاء الاصطناعي",
+        "path": "ai-image/gpt-image-1-mini"
+      },
+      {
+        "name": "GPT Image 1 مولد صور AI عالي الجودة",
+        "path": "ai-image/gpt-image-1-quality"
+      },
+      {
+        "name": "منظمة العفو الدولية مبدل الملابس",
+        "path": "ai-image/clothes-changer"
+      },
+      {
+        "name": "AI Image Upscaler",
+        "path": "ai-image/image-upscaler"
+      },
+      {
+        "name": "محرر نصوص الصور بالذكاء الاصطناعي",
+        "path": "ai-image/text-editor"
+      },
+      {
+        "name": "مترجم الصور بالذكاء الاصطناعي",
+        "path": "ai-image/image-translator"
+      },
+      {
+        "name": "رسم الصور بالذكاء الاصطناعي",
+        "path": "ai-image/inpainting"
+      },
+      {
+        "name": "AI صورة Outpainting",
         "path": "ai-image/outpainting"
       }
     ]

@@ -1106,412 +1106,667 @@ export const instantAvatarCloneTemplateData = {
     },
   },
 
-  "ja": {
-    "meta": {
-      "title": "無料のインスタント アバター クローン作成 – 数分で自分自身のクローンを作成",
-      "description": "インスタント AI アバター クローン作成を使用して、数分でカスタム デジタル アバターを作成します。 ビジネスビデオ、教育、電子商取引マーケティング、クリエイターに最適"
+  ja: {
+    meta: {
+      title:
+        "無料のインスタント アバター クローン作成 – 数分で自分自身のクローンを作成",
+      description:
+        "インスタント AI アバター クローン作成を使用して、数分でカスタム デジタル アバターを作成します。 ビジネスビデオ、教育、電子商取引マーケティング、クリエイターに最適",
     },
-    "pagePath": "/ai/create?tab=clone",
-    "pageTitle": "数分でインスタント AI アバターのクローンを作成",
-    "pageDesc": "KreadoAI Instant Avatar Cloning を使用すると、デジタル アバターのクローンを 1 分以内に作成できます。高速かつリアルで、すぐにビデオを作成できます。",
-    "pageBtnText": "無料でお試しください",
-    "pageImageUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/0534ae4d780e41859e5f1a32140331f3.webp",
-    "modelCanMake": {
-      "title": "インスタント アバター クローン作成で何ができるでしょうか?",
-      "scenariosList": [
+    pagePath: "/ai/create?tab=clone",
+    pageTitle: "数分でインスタント AI アバターのクローンを作成",
+    pageDesc:
+      "KreadoAI Instant Avatar Cloning を使用すると、デジタル アバターのクローンを 1 分以内に作成できます。高速かつリアルで、すぐにビデオを作成できます。",
+    pageBtnText: "無料でお試しください",
+    pageImageUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/0534ae4d780e41859e5f1a32140331f3.webp",
+    modelCanMake: {
+      title: "インスタント アバター クローン作成で何ができるでしょうか?",
+      scenariosList: [
         {
-          "id": 1,
-          "title": "ビジネス・企業プロモーション",
-          "desc": "AI アバター クローンを使用して、ブランド ビデオ、プレゼンテーション、製品発売、グローバル マーケティング キャンペーンのためのプロフェッショナルなデジタル スポークスマンを作成します。"
+          id: 1,
+          title: "ビジネス・企業プロモーション",
+          desc: "AI アバター クローンを使用して、ブランド ビデオ、プレゼンテーション、製品発売、グローバル マーケティング キャンペーンのためのプロフェッショナルなデジタル スポークスマンを作成します。",
         },
         {
-          "id": 2,
-          "title": "教育とトレーニングのビデオ",
-          "desc": "カスタム アバターのクローンを作成して、スケーラブルなトレーニング コンテンツ、オンライン コース、チュートリアル、社内学習ビデオを配信します"
+          id: 2,
+          title: "教育とトレーニングのビデオ",
+          desc: "カスタム アバターのクローンを作成して、スケーラブルなトレーニング コンテンツ、オンライン コース、チュートリアル、社内学習ビデオを配信します",
         },
         {
-          "id": 3,
-          "title": "E-commerce Marketing & Sales",
-          "desc": "製品デモ、ライブストリーム スタイルのビデオ、プロモーション コンテンツ用のアバター クローンを作成して、エンゲージメントとコンバージョンを促進します"
+          id: 3,
+          title: "E-commerce Marketing & Sales",
+          desc: "製品デモ、ライブストリーム スタイルのビデオ、プロモーション コンテンツ用のアバター クローンを作成して、エンゲージメントとコンバージョンを促進します",
         },
         {
-          "id": 4,
-          "title": "個人の創作物およびコンテンツクリエイター",
-          "desc": "インスタント アバター クローン作成を使用して、YouTube、TikTok、ショート ビデオ用のカスタム アバターを作成します。カメラは必要ありません。"
-        }
-      ]
-    },
-    "steps": {
-      "title": "3 ステップで自分のアバターのクローンを作成するには?",
-      "list": [
-        {
-          "id": 1,
-          "title": "ステップ 1: ビデオを送信する",
-          "desc": "5 秒から 10 分のビデオをアップロードして、インスタント アバターのクローン作成を開始します",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/64d8d1d4e61b4b10b1088f9dd9d69f67.webp",
-          "path": "/ai/create?tab=clone"
+          id: 4,
+          title: "個人の創作物およびコンテンツクリエイター",
+          desc: "インスタント アバター クローン作成を使用して、YouTube、TikTok、ショート ビデオ用のカスタム アバターを作成します。カメラは必要ありません。",
         },
-        {
-          "id": 2,
-          "title": "ステップ 2: AI アバター モデルのトレーニング",
-          "desc": "KreadoAI はアバター クローン モデルを自動的にトレーニングします。 レビュー後、約 1 分で AI クローン アバターが完成します",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/7b595d919294480f930196b619bb3b2a.webp",
-          "path": "/ai/create?tab=clone"
-        },
-        {
-          "id": 3,
-          "title": "ステップ 3: ビデオの作成と管理",
-          "desc": "デジタル アバターをプレビュー、管理し、クローン アバターを使用してクリエイティブなビデオを即座に作成します",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/f3009d6e24174ad886e1a8d09ef52dc5.webp",
-          "path": "/ai/create?tab=clone"
-        }
       ],
-      "btnText": "アバターのクローン作成を無料で始める"
     },
-    "caseInfo": {
-      "title": "KreadoAI インスタント アバター クローン作成の例",
-      "type": "ビデオ",
-      "videoRatio": "9:16",
-      "caseBtnText": "KreadoAI インスタント アバター クローン作成を今すぐお試しください",
-      "list": [
+    steps: {
+      title: "3 ステップで自分のアバターのクローンを作成するには?",
+      list: [
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/2602529543a046c5b6d35b8b52d3874e.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/ec387802d61840df904cd804a260d64e.mp4",
-          "isPlaying": false,
-          "id": 1
+          id: 1,
+          title: "ステップ 1: ビデオを送信する",
+          desc: "5 秒から 10 分のビデオをアップロードして、インスタント アバターのクローン作成を開始します",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/64d8d1d4e61b4b10b1088f9dd9d69f67.webp",
+          path: "/ai/create?tab=clone",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/eec00e12efbc4994ac1689305141cc28.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/0e464e91116b4a80aadd9b758966ea6e.mp4",
-          "isPlaying": false,
-          "id": 2
+          id: 2,
+          title: "ステップ 2: AI アバター モデルのトレーニング",
+          desc: "KreadoAI はアバター クローン モデルを自動的にトレーニングします。 レビュー後、約 1 分で AI クローン アバターが完成します",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/7b595d919294480f930196b619bb3b2a.webp",
+          path: "/ai/create?tab=clone",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/b13575e65f614f9a9060ead5d88c8459.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/04db56981e7444cda5719ba6627979e2.mp4",
-          "isPlaying": false,
-          "id": 3
+          id: 3,
+          title: "ステップ 3: ビデオの作成と管理",
+          desc: "デジタル アバターをプレビュー、管理し、クローン アバターを使用してクリエイティブなビデオを即座に作成します",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/f3009d6e24174ad886e1a8d09ef52dc5.webp",
+          path: "/ai/create?tab=clone",
         },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/5c89d167e0034278a1c73aedaa2a0b9f.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/0ae77f50b3e548ddbaf619d444ebcf21.mp4",
-          "isPlaying": false,
-          "id": 4
-        },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/dbf889d4e6c94467a1f1407c327528d9.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/f1d6ebfe5a3542808b24d121263484b8.mp4",
-          "isPlaying": false,
-          "id": 5
-        }
-      ]
+      ],
+      btnText: "アバターのクローン作成を無料で始める",
     },
-    "selectModel": {
-      "title": "KreadoAI インスタント アバター クローン作成を選択する理由",
-      "scenariosList": [
+    caseInfo: {
+      title: "KreadoAI インスタント アバター クローン作成の例",
+      type: "ビデオ",
+      videoRatio: "9:16",
+      caseBtnText:
+        "KreadoAI インスタント アバター クローン作成を今すぐお試しください",
+      list: [
         {
-          "id": 1,
-          "title": "1 分でアバターのクローンを作成",
-          "desc": "一度アップロードすれば、長いトレーニングや複雑なセットアップを必要とせずにインスタント アバターを作成できます"
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/2602529543a046c5b6d35b8b52d3874e.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/ec387802d61840df904cd804a260d64e.mp4",
+          isPlaying: false,
+          id: 1,
         },
         {
-          "id": 2,
-          "title": "完璧なリップシンクと顔の正確さ",
-          "desc": "高度な AI アバターのクローン作成により、正確な唇の動き、顔の表情、自然な頭の動きが実現されます。"
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/eec00e12efbc4994ac1689305141cc28.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/0e464e91116b4a80aadd9b758966ea6e.mp4",
+          isPlaying: false,
+          id: 2,
         },
         {
-          "id": 3,
-          "title": "1:1 リアルな人間の動き",
-          "desc": "同様のアバター クローン ツールをはるかに超えて、本物そっくりのジェスチャー、姿勢、表情を実現します。"
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/b13575e65f614f9a9060ead5d88c8459.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/04db56981e7444cda5719ba6627979e2.mp4",
+          isPlaying: false,
+          id: 3,
         },
         {
-          "id": 4,
-          "title": "140以上の言語",
-          "desc": "一度作成すれば、1 つの AI クローン アバターを使用して 140 以上の言語でビデオを生成できるため、グローバル ビジネスや教育に最適です"
-        }
-      ]
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/5c89d167e0034278a1c73aedaa2a0b9f.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/0ae77f50b3e548ddbaf619d444ebcf21.mp4",
+          isPlaying: false,
+          id: 4,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/dbf889d4e6c94467a1f1407c327528d9.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/f1d6ebfe5a3542808b24d121263484b8.mp4",
+          isPlaying: false,
+          id: 5,
+        },
+      ],
     },
-    "discoverMoreTools": {
-      "title": "AI アバターおよびデジタル ヒューマン ビデオ生成ソリューションをさらに詳しく見る",
-      "desc": "アバターから話す写真、バーチャルプレゼンターまで、ビデオ、マーケティング、ストーリーテリング用に本物そっくりのデジタル ヒューマンを作成するさらなる方法を探求します。",
-      "list": [
+    selectModel: {
+      title: "KreadoAI インスタント アバター クローン作成を選択する理由",
+      scenariosList: [
         {
-          "name": "デジタルヒューマンアバタービデオ",
-          "path": "digital-avatar"
+          id: 1,
+          title: "1 分でアバターのクローンを作成",
+          desc: "一度アップロードすれば、長いトレーニングや複雑なセットアップを必要とせずにインスタント アバターを作成できます",
         },
         {
-          "name": "映画アバタービデオ",
-          "path": "movie-avatar"
+          id: 2,
+          title: "完璧なリップシンクと顔の正確さ",
+          desc: "高度な AI アバターのクローン作成により、正確な唇の動き、顔の表情、自然な頭の動きが実現されます。",
         },
         {
-          "name": "PPT/PDF アバタービデオ",
-          "path": "digital-ppt-creation"
+          id: 3,
+          title: "1:1 リアルな人間の動き",
+          desc: "同様のアバター クローン ツールをはるかに超えて、本物そっくりのジェスチャー、姿勢、表情を実現します。",
         },
         {
-          "name": "トーキングフォトビデオ",
-          "path": "talking-photo"
+          id: 4,
+          title: "140以上の言語",
+          desc: "一度作成すれば、1 つの AI クローン アバターを使用して 140 以上の言語でビデオを生成できるため、グローバル ビジネスや教育に最適です",
         },
-        {
-          "name": "画像からアバタービデオへ",
-          "path": "image-to-avatar-video"
-        },
-        {
-          "name": "カスタム AI アバター",
-          "path": "avatar-clone"
-        },
-        {
-          "name": "インスタント音声クローン",
-          "path": "voice-clone"
-        },
-        {
-          "name": "AIアバターライブラリ",
-          "path": "avatars"
-        },
-        {
-          "name": "AI音声ライブラリ",
-          "path": "ai-voices"
-        },
-        {
-          "name": "TikTok/UGC アバタービデオ",
-          "path": "tiktok-avatar"
-        }
-      ]
+      ],
     },
-    "faq": {
-      "title": "インスタント アバター クローン作成に関するよくある質問",
-      "questionList": [
+    discoverMoreTools: {
+      title:
+        "AI アバターおよびデジタル ヒューマン ビデオ生成ソリューションをさらに詳しく見る",
+      desc: "アバターから話す写真、バーチャルプレゼンターまで、ビデオ、マーケティング、ストーリーテリング用に本物そっくりのデジタル ヒューマンを作成するさらなる方法を探求します。",
+      list: [
         {
-          "q": "KreadoAI でインスタント アバター クローン作成を使用するには?",
-          "a": "短いビデオ (5 秒から 10 分) をアップロードすると、KreadoAI が約 1 分でデジタル アバターのクローンを作成します。 準備が完了すると、アバターはアカウントに保存され、スクリプトを入力するだけでトーキングビデオを作成するために使用できます。 アバターの声も自分に似せたい場合は、KreadoAI Instant Voice Cloning と簡単に組み合わせて自分の声を複製し、顔と声の両方を備えた完全な AI デジタル ヒューマンを作成できます。"
+          name: "デジタルヒューマンアバタービデオ",
+          path: "digital-avatar",
         },
         {
-          "q": "KreadoAI インスタント アバター クローン作成は何に使用できますか?",
-          "a": "アバターのクローン作成は、ビジネスのプロモーション、教育トレーニング、電子商取引マーケティング、個人コンテンツの作成、AI ビデオ制作などに使用できます。"
+          name: "映画アバタービデオ",
+          path: "movie-avatar",
         },
         {
-          "q": "インスタント アバター クローン作成と他の同様のツールの違いは何ですか?",
-          "a": "KreadoAI Instant Avatar Cloning は、超高速のアバター作成と完全な音声およびビデオのワークフローを組み合わせています。 アバターのクローンは約 1 分で作成され、140 以上の言語でのビデオ生成をサポートし、40,000 以上の AI 音声へのアクセスを提供し、インスタント音声クローン作成もサポートしています。そのため、アバター、音声、ビデオをすべて 1 つのプラットフォームで備えた完全な AI デジタル ヒューマンを作成できます。"
+          name: "PPT/PDF アバタービデオ",
+          path: "digital-ppt-creation",
         },
         {
-          "q": "インスタント アバター クローン作成を無料で使用できますか?",
-          "a": "はい！ 新規ユーザーは AI 音声の無料トライアルにアクセスでき、アップグレードすると、より多くの使用クレジットと高度な機能のロックが解除されます。"
+          name: "トーキングフォトビデオ",
+          path: "talking-photo",
         },
         {
-          "q": "動画をアップロードするときのデータは安全ですか?",
-          "a": "絶対に。 KreadoAI は安全性と倫理を非常に重視しています。 情報を保護するための厳格な基準に従っており、最上位のサーバーを使用しているため、データが侵害されることを心配する必要はありません。"
-        }
-      ]
+          name: "画像からアバタービデオへ",
+          path: "image-to-avatar-video",
+        },
+        {
+          name: "カスタム AI アバター",
+          path: "avatar-clone",
+        },
+        {
+          name: "インスタント音声クローン",
+          path: "voice-clone",
+        },
+        {
+          name: "AIアバターライブラリ",
+          path: "avatars",
+        },
+        {
+          name: "AI音声ライブラリ",
+          path: "ai-voices",
+        },
+        {
+          name: "TikTok/UGC アバタービデオ",
+          path: "tiktok-avatar",
+        },
+      ],
     },
-    "startSection": {
-      "title": "今すぐインスタントアバターのクローン作成を開始",
-      "desc": "カスタム AI アバターを数分で作成し、ビデオをパワーアップしましょう!",
-      "btnText": "無料で始めましょう",
-      "btnUrl": "/ai/create?tab=clone"
-    }
+    faq: {
+      title: "インスタント アバター クローン作成に関するよくある質問",
+      questionList: [
+        {
+          q: "KreadoAI でインスタント アバター クローン作成を使用するには?",
+          a: "短いビデオ (5 秒から 10 分) をアップロードすると、KreadoAI が約 1 分でデジタル アバターのクローンを作成します。 準備が完了すると、アバターはアカウントに保存され、スクリプトを入力するだけでトーキングビデオを作成するために使用できます。 アバターの声も自分に似せたい場合は、KreadoAI Instant Voice Cloning と簡単に組み合わせて自分の声を複製し、顔と声の両方を備えた完全な AI デジタル ヒューマンを作成できます。",
+        },
+        {
+          q: "KreadoAI インスタント アバター クローン作成は何に使用できますか?",
+          a: "アバターのクローン作成は、ビジネスのプロモーション、教育トレーニング、電子商取引マーケティング、個人コンテンツの作成、AI ビデオ制作などに使用できます。",
+        },
+        {
+          q: "インスタント アバター クローン作成と他の同様のツールの違いは何ですか?",
+          a: "KreadoAI Instant Avatar Cloning は、超高速のアバター作成と完全な音声およびビデオのワークフローを組み合わせています。 アバターのクローンは約 1 分で作成され、140 以上の言語でのビデオ生成をサポートし、40,000 以上の AI 音声へのアクセスを提供し、インスタント音声クローン作成もサポートしています。そのため、アバター、音声、ビデオをすべて 1 つのプラットフォームで備えた完全な AI デジタル ヒューマンを作成できます。",
+        },
+        {
+          q: "インスタント アバター クローン作成を無料で使用できますか?",
+          a: "はい！ 新規ユーザーは AI 音声の無料トライアルにアクセスでき、アップグレードすると、より多くの使用クレジットと高度な機能のロックが解除されます。",
+        },
+        {
+          q: "動画をアップロードするときのデータは安全ですか?",
+          a: "絶対に。 KreadoAI は安全性と倫理を非常に重視しています。 情報を保護するための厳格な基準に従っており、最上位のサーバーを使用しているため、データが侵害されることを心配する必要はありません。",
+        },
+      ],
+    },
+    startSection: {
+      title: "今すぐインスタントアバターのクローン作成を開始",
+      desc: "カスタム AI アバターを数分で作成し、ビデオをパワーアップしましょう!",
+      btnText: "無料で始めましょう",
+      btnUrl: "/ai/create?tab=clone",
+    },
   },
-  "ko": {
-    "meta": {
-      "title": "무료 인스턴트 아바타 복제 - 몇 분 만에 자신을 복제하세요",
-      "description": "즉각적인 AI 아바타 복제를 사용하여 몇 분 만에 맞춤형 디지털 아바타를 만드세요. 비즈니스 비디오, 교육, 전자상거래 마케팅 및 제작자에게 적합합니다."
+  ko: {
+    meta: {
+      title: "무료 인스턴트 아바타 복제 - 몇 분 만에 자신을 복제하세요",
+      description:
+        "즉각적인 AI 아바타 복제를 사용하여 몇 분 만에 맞춤형 디지털 아바타를 만드세요. 비즈니스 비디오, 교육, 전자상거래 마케팅 및 제작자에게 적합합니다.",
     },
-    "pagePath": "/ai/create?tab=clone",
-    "pageTitle": "몇 분 만에 즉각적인 AI 아바타 복제",
-    "pageDesc": "KreadoAI Instant Avatar Cloning을 사용하여 1분 이내에 디지털 아바타를 복제하세요. 빠르고 현실적이며 비디오 제작 준비가 완료되었습니다.",
-    "pageBtnText": "무료로 사용해 보세요",
-    "pageImageUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/0534ae4d780e41859e5f1a32140331f3.webp",
-    "modelCanMake": {
-      "title": "인스턴트 아바타 복제로 무엇을 할 수 있나요?",
-      "scenariosList": [
+    pagePath: "/ai/create?tab=clone",
+    pageTitle: "몇 분 만에 즉각적인 AI 아바타 복제",
+    pageDesc:
+      "KreadoAI Instant Avatar Cloning을 사용하여 1분 이내에 디지털 아바타를 복제하세요. 빠르고 현실적이며 비디오 제작 준비가 완료되었습니다.",
+    pageBtnText: "무료로 사용해 보세요",
+    pageImageUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/0534ae4d780e41859e5f1a32140331f3.webp",
+    modelCanMake: {
+      title: "인스턴트 아바타 복제로 무엇을 할 수 있나요?",
+      scenariosList: [
         {
-          "id": 1,
-          "title": "비즈니스 및 기업홍보",
-          "desc": "AI 아바타 클론을 사용하여 브랜드 비디오, 프레젠테이션, 제품 출시 및 글로벌 마케팅 캠페인을 위한 전문 디지털 대변인을 만드세요."
+          id: 1,
+          title: "비즈니스 및 기업홍보",
+          desc: "AI 아바타 클론을 사용하여 브랜드 비디오, 프레젠테이션, 제품 출시 및 글로벌 마케팅 캠페인을 위한 전문 디지털 대변인을 만드세요.",
         },
         {
-          "id": 2,
-          "title": "교육 및 훈련 동영상",
-          "desc": "맞춤형 아바타를 복제하여 확장 가능한 교육 콘텐츠, 온라인 강좌, 튜토리얼 및 내부 학습 비디오 제공"
+          id: 2,
+          title: "교육 및 훈련 동영상",
+          desc: "맞춤형 아바타를 복제하여 확장 가능한 교육 콘텐츠, 온라인 강좌, 튜토리얼 및 내부 학습 비디오 제공",
         },
         {
-          "id": 3,
-          "title": "전자상거래 마케팅 및 판매",
-          "desc": "제품 데모, 실시간 스트리밍 스타일 비디오, 홍보 콘텐츠를 위한 아바타 클론을 만들어 참여와 전환율을 높입니다."
+          id: 3,
+          title: "전자상거래 마케팅 및 판매",
+          desc: "제품 데모, 실시간 스트리밍 스타일 비디오, 홍보 콘텐츠를 위한 아바타 클론을 만들어 참여와 전환율을 높입니다.",
         },
         {
-          "id": 4,
-          "title": "개인 창작물 및 콘텐츠 제작자",
-          "desc": "즉각적인 아바타 복제를 사용하여 YouTube, TikTok 및 짧은 동영상용 맞춤형 아바타를 구축하세요. 카메라가 필요하지 않습니다."
-        }
-      ]
-    },
-    "steps": {
-      "title": "3단계로 자신의 아바타를 복제하는 방법은 무엇입니까?",
-      "list": [
-        {
-          "id": 1,
-          "title": "1단계: 동영상 제출",
-          "desc": "즉시 아바타 복제를 시작하려면 5초~10분 사이의 동영상을 업로드하세요.",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/64d8d1d4e61b4b10b1088f9dd9d69f67.webp",
-          "path": "/ai/create?tab=clone"
+          id: 4,
+          title: "개인 창작물 및 콘텐츠 제작자",
+          desc: "즉각적인 아바타 복제를 사용하여 YouTube, TikTok 및 짧은 동영상용 맞춤형 아바타를 구축하세요. 카메라가 필요하지 않습니다.",
         },
-        {
-          "id": 2,
-          "title": "2단계: AI 아바타 모델 훈련",
-          "desc": "KreadoAI는 아바타 복제 모델을 자동으로 학습시킵니다. 검토 후 약 1분 안에 AI 복제 아바타가 준비됩니다.",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/7b595d919294480f930196b619bb3b2a.webp",
-          "path": "/ai/create?tab=clone"
-        },
-        {
-          "id": 3,
-          "title": "3단계: 동영상 제작 및 관리",
-          "desc": "디지털 아바타를 미리 보고, 관리하고, 복제된 아바타를 사용하여 창의적인 비디오를 즉시 제작하세요.",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/f3009d6e24174ad886e1a8d09ef52dc5.webp",
-          "path": "/ai/create?tab=clone"
-        }
       ],
-      "btnText": "아바타 복제를 무료로 시작하세요"
     },
-    "caseInfo": {
-      "title": "KreadoAI 인스턴트 아바타 복제 예제",
-      "type": "동영상",
-      "videoRatio": "9:16",
-      "caseBtnText": "지금 KreadoAI 인스턴트 아바타 복제를 사용해 보세요",
-      "list": [
+    steps: {
+      title: "3단계로 자신의 아바타를 복제하는 방법은 무엇입니까?",
+      list: [
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/2602529543a046c5b6d35b8b52d3874e.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/ec387802d61840df904cd804a260d64e.mp4",
-          "isPlaying": false,
-          "id": 1
+          id: 1,
+          title: "1단계: 동영상 제출",
+          desc: "즉시 아바타 복제를 시작하려면 5초~10분 사이의 동영상을 업로드하세요.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/64d8d1d4e61b4b10b1088f9dd9d69f67.webp",
+          path: "/ai/create?tab=clone",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/eec00e12efbc4994ac1689305141cc28.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/0e464e91116b4a80aadd9b758966ea6e.mp4",
-          "isPlaying": false,
-          "id": 2
+          id: 2,
+          title: "2단계: AI 아바타 모델 훈련",
+          desc: "KreadoAI는 아바타 복제 모델을 자동으로 학습시킵니다. 검토 후 약 1분 안에 AI 복제 아바타가 준비됩니다.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/7b595d919294480f930196b619bb3b2a.webp",
+          path: "/ai/create?tab=clone",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/b13575e65f614f9a9060ead5d88c8459.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/04db56981e7444cda5719ba6627979e2.mp4",
-          "isPlaying": false,
-          "id": 3
+          id: 3,
+          title: "3단계: 동영상 제작 및 관리",
+          desc: "디지털 아바타를 미리 보고, 관리하고, 복제된 아바타를 사용하여 창의적인 비디오를 즉시 제작하세요.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/f3009d6e24174ad886e1a8d09ef52dc5.webp",
+          path: "/ai/create?tab=clone",
         },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/5c89d167e0034278a1c73aedaa2a0b9f.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/0ae77f50b3e548ddbaf619d444ebcf21.mp4",
-          "isPlaying": false,
-          "id": 4
-        },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/dbf889d4e6c94467a1f1407c327528d9.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/f1d6ebfe5a3542808b24d121263484b8.mp4",
-          "isPlaying": false,
-          "id": 5
-        }
-      ]
+      ],
+      btnText: "아바타 복제를 무료로 시작하세요",
     },
-    "selectModel": {
-      "title": "KreadoAI 인스턴트 아바타 복제를 선택하는 이유는 무엇입니까?",
-      "scenariosList": [
+    caseInfo: {
+      title: "KreadoAI 인스턴트 아바타 복제 예제",
+      type: "동영상",
+      videoRatio: "9:16",
+      caseBtnText: "지금 KreadoAI 인스턴트 아바타 복제를 사용해 보세요",
+      list: [
         {
-          "id": 1,
-          "title": "1분 안에 아바타를 복제하세요",
-          "desc": "한 번 업로드하면 오랜 훈련이나 복잡한 설정 없이 즉시 아바타를 만들 수 있습니다."
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/2602529543a046c5b6d35b8b52d3874e.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/ec387802d61840df904cd804a260d64e.mp4",
+          isPlaying: false,
+          id: 1,
         },
         {
-          "id": 2,
-          "title": "완벽한 립싱크 및 얼굴 정확도",
-          "desc": "고급 AI 아바타 복제로 정확한 입술 움직임, 얼굴 표정, 자연스러운 머리 움직임 제공"
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/eec00e12efbc4994ac1689305141cc28.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/0e464e91116b4a80aadd9b758966ea6e.mp4",
+          isPlaying: false,
+          id: 2,
         },
         {
-          "id": 3,
-          "title": "1:1 현실적인 인간 움직임",
-          "desc": "유사한 아바타 복제 도구를 훨씬 뛰어넘어 실제와 같은 제스처, 자세 및 표현을 구현합니다."
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/b13575e65f614f9a9060ead5d88c8459.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/04db56981e7444cda5719ba6627979e2.mp4",
+          isPlaying: false,
+          id: 3,
         },
         {
-          "id": 4,
-          "title": "140개 이상의 언어",
-          "desc": "하나의 AI 복제 아바타를 사용하여 한 번만 만들고 140개 이상의 언어로 비디오를 생성하세요. 이는 글로벌 비즈니스 및 교육에 이상적입니다."
-        }
-      ]
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/5c89d167e0034278a1c73aedaa2a0b9f.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/0ae77f50b3e548ddbaf619d444ebcf21.mp4",
+          isPlaying: false,
+          id: 4,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/dbf889d4e6c94467a1f1407c327528d9.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/f1d6ebfe5a3542808b24d121263484b8.mp4",
+          isPlaying: false,
+          id: 5,
+        },
+      ],
     },
-    "discoverMoreTools": {
-      "title": "더 많은 AI 아바타 및 디지털 휴먼 비디오 생성 솔루션 살펴보기",
-      "desc": "아바타부터 말하는 사진, 가상 발표자까지 비디오, 마케팅, 스토리텔링을 위한 실물과 같은 디지털 휴먼을 만드는 다양한 방법을 살펴보세요.",
-      "list": [
+    selectModel: {
+      title: "KreadoAI 인스턴트 아바타 복제를 선택하는 이유는 무엇입니까?",
+      scenariosList: [
         {
-          "name": "디지털 휴먼 아바타 비디오",
-          "path": "digital-avatar"
+          id: 1,
+          title: "1분 안에 아바타를 복제하세요",
+          desc: "한 번 업로드하면 오랜 훈련이나 복잡한 설정 없이 즉시 아바타를 만들 수 있습니다.",
         },
         {
-          "name": "영화 아바타 비디오",
-          "path": "movie-avatar"
+          id: 2,
+          title: "완벽한 립싱크 및 얼굴 정확도",
+          desc: "고급 AI 아바타 복제로 정확한 입술 움직임, 얼굴 표정, 자연스러운 머리 움직임 제공",
         },
         {
-          "name": "PPT/PDF 아바타 비디오",
-          "path": "digital-ppt-creation"
+          id: 3,
+          title: "1:1 현실적인 인간 움직임",
+          desc: "유사한 아바타 복제 도구를 훨씬 뛰어넘어 실제와 같은 제스처, 자세 및 표현을 구현합니다.",
         },
         {
-          "name": "말하는 사진 비디오",
-          "path": "talking-photo"
+          id: 4,
+          title: "140개 이상의 언어",
+          desc: "하나의 AI 복제 아바타를 사용하여 한 번만 만들고 140개 이상의 언어로 비디오를 생성하세요. 이는 글로벌 비즈니스 및 교육에 이상적입니다.",
         },
-        {
-          "name": "이미지를 아바타 비디오로",
-          "path": "image-to-avatar-video"
-        },
-        {
-          "name": "맞춤형 AI 아바타",
-          "path": "avatar-clone"
-        },
-        {
-          "name": "인스턴트 음성 복제",
-          "path": "voice-clone"
-        },
-        {
-          "name": "AI 아바타 라이브러리",
-          "path": "avatars"
-        },
-        {
-          "name": "AI 음성 라이브러리",
-          "path": "ai-voices"
-        },
-        {
-          "name": "TikTok/UGC 아바타 비디오",
-          "path": "tiktok-avatar"
-        }
-      ]
+      ],
     },
-    "faq": {
-      "title": "인스턴트 아바타 복제에 대해 자주 묻는 질문",
-      "questionList": [
+    discoverMoreTools: {
+      title: "더 많은 AI 아바타 및 디지털 휴먼 비디오 생성 솔루션 살펴보기",
+      desc: "아바타부터 말하는 사진, 가상 발표자까지 비디오, 마케팅, 스토리텔링을 위한 실물과 같은 디지털 휴먼을 만드는 다양한 방법을 살펴보세요.",
+      list: [
         {
-          "q": "KreadoAI에서 인스턴트 아바타 복제를 사용하는 방법은 무엇입니까?",
-          "a": "짧은 동영상(5초~10분)을 업로드하면 KreadoAI가 약 1분 안에 디지털 아바타를 복제합니다. 준비가 되면 아바타가 귀하의 계정에 저장되며 간단히 스크립트를 입력하여 말하는 비디오를 만드는 데 사용할 수 있습니다. 아바타가 당신처럼 들리기를 원한다면 KreadoAI Instant Voice Cloning과 쉽게 페어링하여 당신의 목소리를 복제하고 얼굴과 목소리를 모두 갖춘 완전한 AI 디지털 휴먼을 만들 수 있습니다."
+          name: "디지털 휴먼 아바타 비디오",
+          path: "digital-avatar",
         },
         {
-          "q": "KreadoAI 인스턴트 아바타 복제를 어디에 사용할 수 있나요?",
-          "a": "아바타 복제를 사업홍보, 교육훈련, 전자상거래 마케팅, 개인 콘텐츠 제작, AI 영상 제작 등에 활용하실 수 있습니다."
+          name: "영화 아바타 비디오",
+          path: "movie-avatar",
         },
         {
-          "q": "인스턴트 아바타 복제와 기타 유사한 도구의 차이점은 무엇입니까?",
-          "a": "KreadoAI 인스턴트 아바타 복제는 초고속 아바타 생성과 완전한 음성 및 비디오 워크플로우를 결합합니다. 아바타는 약 1분 만에 복제되고, 140개 이상의 언어로 비디오 생성을 지원하고, 40,000개 이상의 AI 음성에 대한 액세스를 제공하고, 즉각적인 음성 복제도 지원하므로 하나의 플랫폼에서 아바타, 음성, 비디오를 모두 갖춘 완전한 AI 디지털 휴먼을 만들 수 있습니다."
+          name: "PPT/PDF 아바타 비디오",
+          path: "digital-ppt-creation",
         },
         {
-          "q": "인스턴트 아바타 복제를 무료로 사용할 수 있나요?",
-          "a": "예! 신규 사용자는 AI Voice 무료 평가판에 액세스할 수 있으며, 업그레이드하면 더 많은 사용 크레딧과 고급 기능이 잠금 해제됩니다."
+          name: "말하는 사진 비디오",
+          path: "talking-photo",
         },
         {
-          "q": "내 동영상을 업로드할 때 내 데이터는 안전한가요?",
-          "a": "전적으로. KreadoAI는 안전과 윤리를 매우 중요하게 생각합니다. 귀하의 정보를 보호하기 위해 엄격한 표준을 따르고 최상위 서버를 사용하므로 데이터 손상에 대해 걱정할 필요가 없습니다."
-        }
-      ]
+          name: "이미지를 아바타 비디오로",
+          path: "image-to-avatar-video",
+        },
+        {
+          name: "맞춤형 AI 아바타",
+          path: "avatar-clone",
+        },
+        {
+          name: "인스턴트 음성 복제",
+          path: "voice-clone",
+        },
+        {
+          name: "AI 아바타 라이브러리",
+          path: "avatars",
+        },
+        {
+          name: "AI 음성 라이브러리",
+          path: "ai-voices",
+        },
+        {
+          name: "TikTok/UGC 아바타 비디오",
+          path: "tiktok-avatar",
+        },
+      ],
     },
-    "startSection": {
-      "title": "지금 즉시 아바타 복제를 시작하세요",
-      "desc": "몇 분 안에 맞춤형 AI 아바타를 만들고 비디오를 강화하세요!",
-      "btnText": "무료로 시작해보세요",
-      "btnUrl": "/ai/create?tab=clone"
-    }
-  },};
+    faq: {
+      title: "인스턴트 아바타 복제에 대해 자주 묻는 질문",
+      questionList: [
+        {
+          q: "KreadoAI에서 인스턴트 아바타 복제를 사용하는 방법은 무엇입니까?",
+          a: "짧은 동영상(5초~10분)을 업로드하면 KreadoAI가 약 1분 안에 디지털 아바타를 복제합니다. 준비가 되면 아바타가 귀하의 계정에 저장되며 간단히 스크립트를 입력하여 말하는 비디오를 만드는 데 사용할 수 있습니다. 아바타가 당신처럼 들리기를 원한다면 KreadoAI Instant Voice Cloning과 쉽게 페어링하여 당신의 목소리를 복제하고 얼굴과 목소리를 모두 갖춘 완전한 AI 디지털 휴먼을 만들 수 있습니다.",
+        },
+        {
+          q: "KreadoAI 인스턴트 아바타 복제를 어디에 사용할 수 있나요?",
+          a: "아바타 복제를 사업홍보, 교육훈련, 전자상거래 마케팅, 개인 콘텐츠 제작, AI 영상 제작 등에 활용하실 수 있습니다.",
+        },
+        {
+          q: "인스턴트 아바타 복제와 기타 유사한 도구의 차이점은 무엇입니까?",
+          a: "KreadoAI 인스턴트 아바타 복제는 초고속 아바타 생성과 완전한 음성 및 비디오 워크플로우를 결합합니다. 아바타는 약 1분 만에 복제되고, 140개 이상의 언어로 비디오 생성을 지원하고, 40,000개 이상의 AI 음성에 대한 액세스를 제공하고, 즉각적인 음성 복제도 지원하므로 하나의 플랫폼에서 아바타, 음성, 비디오를 모두 갖춘 완전한 AI 디지털 휴먼을 만들 수 있습니다.",
+        },
+        {
+          q: "인스턴트 아바타 복제를 무료로 사용할 수 있나요?",
+          a: "예! 신규 사용자는 AI Voice 무료 평가판에 액세스할 수 있으며, 업그레이드하면 더 많은 사용 크레딧과 고급 기능이 잠금 해제됩니다.",
+        },
+        {
+          q: "내 동영상을 업로드할 때 내 데이터는 안전한가요?",
+          a: "전적으로. KreadoAI는 안전과 윤리를 매우 중요하게 생각합니다. 귀하의 정보를 보호하기 위해 엄격한 표준을 따르고 최상위 서버를 사용하므로 데이터 손상에 대해 걱정할 필요가 없습니다.",
+        },
+      ],
+    },
+    startSection: {
+      title: "지금 즉시 아바타 복제를 시작하세요",
+      desc: "몇 분 안에 맞춤형 AI 아바타를 만들고 비디오를 강화하세요!",
+      btnText: "무료로 시작해보세요",
+      btnUrl: "/ai/create?tab=clone",
+    },
+  },
+  ar: {
+    meta: {
+      title: "استنساخ الصور الرمزية الفوري مجانًا - انسخ نفسك في دقائق",
+      description:
+        "استخدم الاستنساخ الفوري للصور الرمزية بالذكاء الاصطناعي لإنشاء صورة رمزية رقمية مخصصة في دقائق. مثالي لمقاطع الفيديو التجارية والتعليم وتسويق التجارة الإلكترونية والمبدعين",
+    },
+    pagePath: "/ai/create?tab=clone",
+    pageTitle: "استنساخ الصور الرمزية بالذكاء الاصطناعي الفوري في دقائق",
+    pageDesc:
+      "انسخ صورتك الرمزية الرقمية في أقل من دقيقة واحدة باستخدام KreadoAI Instant Avatar Cloning - سريع وواقعي وجاهز لإنشاء الفيديو",
+    pageBtnText: "حاول مجانا",
+    pageImageUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/0534ae4d780e41859e5f1a32140331f3.webp",
+    modelCanMake: {
+      title: "ماذا يمكنك أن تفعل مع الاستنساخ الفوري للصور الرمزية؟",
+      scenariosList: [
+        {
+          id: 1,
+          title: "ترويج الأعمال والشركات",
+          desc: "استخدم استنساخ الصورة الرمزية بتقنية الذكاء الاصطناعي لإنشاء متحدثين رقميين محترفين لمقاطع فيديو العلامة التجارية والعروض التقديمية وإطلاق المنتجات وحملات التسويق العالمية",
+        },
+        {
+          id: 2,
+          title: "فيديوهات التعليم والتدريب",
+          desc: "قم باستنساخ صورة رمزية مخصصة لتقديم محتوى تدريبي قابل للتطوير ودورات عبر الإنترنت وبرامج تعليمية ومقاطع فيديو تعليمية داخلية",
+        },
+        {
+          id: 3,
+          title: "التسويق والمبيعات للتجارة الإلكترونية",
+          desc: "أنشئ نسخًا من الصور الرمزية للعروض التوضيحية للمنتج، ومقاطع الفيديو بنمط البث المباشر، والمحتوى الترويجي - لتعزيز التفاعل والتحويل",
+        },
+        {
+          id: 4,
+          title: "الإبداع الشخصي ومنشئو المحتوى",
+          desc: "أنشئ صورة رمزية مخصصة لـ YouTube وTikTok ومقاطع الفيديو القصيرة باستخدام استنساخ الصورة الرمزية الفوري — دون الحاجة إلى كاميرا",
+        },
+      ],
+    },
+    steps: {
+      title: "كيف تستنسخ الصورة الرمزية لنفسك في 3 خطوات؟",
+      list: [
+        {
+          id: 1,
+          title: "الخطوة 1: أرسل الفيديو الخاص بك",
+          desc: "قم بتحميل مقطع فيديو تتراوح مدته بين 5 ثوانٍ و10 دقائق لبدء استنساخ الصور الرمزية بشكل فوري",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/64d8d1d4e61b4b10b1088f9dd9d69f67.webp",
+          path: "/ai/create?tab=clone",
+        },
+        {
+          id: 2,
+          title: "الخطوة 2: تدريب نموذج الصورة الرمزية للذكاء الاصطناعي",
+          desc: "يقوم KreadoAI تلقائيًا بتدريب نموذج استنساخ الصورة الرمزية الخاص بك. بعد المراجعة، تصبح الصورة الرمزية المستنسخة للذكاء الاصطناعي جاهزة خلال دقيقة واحدة تقريبًا",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/7b595d919294480f930196b619bb3b2a.webp",
+          path: "/ai/create?tab=clone",
+        },
+        {
+          id: 3,
+          title: "الخطوة 3: إنشاء وإدارة مقاطع الفيديو",
+          desc: "قم بمعاينة الصورة الرمزية الرقمية الخاصة بك وإدارتها وإنشاء مقاطع فيديو إبداعية على الفور باستخدام الصورة الرمزية المستنسخة الخاصة بك",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/f3009d6e24174ad886e1a8d09ef52dc5.webp",
+          path: "/ai/create?tab=clone",
+        },
+      ],
+      btnText: "ابدأ في استنساخ الصور الرمزية مجانًا",
+    },
+    caseInfo: {
+      title: "أمثلة لاستنساخ الصور الرمزية الفورية من KreadoAI",
+      type: "فيديو",
+      videoRatio: "9:16",
+      caseBtnText: "جرب استنساخ الصور الرمزية الفورية من KreadoAI الآن",
+      list: [
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/2602529543a046c5b6d35b8b52d3874e.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/ec387802d61840df904cd804a260d64e.mp4",
+          isPlaying: false,
+          id: 1,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/eec00e12efbc4994ac1689305141cc28.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/0e464e91116b4a80aadd9b758966ea6e.mp4",
+          isPlaying: false,
+          id: 2,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/b13575e65f614f9a9060ead5d88c8459.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/04db56981e7444cda5719ba6627979e2.mp4",
+          isPlaying: false,
+          id: 3,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/5c89d167e0034278a1c73aedaa2a0b9f.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/0ae77f50b3e548ddbaf619d444ebcf21.mp4",
+          isPlaying: false,
+          id: 4,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/dbf889d4e6c94467a1f1407c327528d9.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2025/12/f1d6ebfe5a3542808b24d121263484b8.mp4",
+          isPlaying: false,
+          id: 5,
+        },
+      ],
+    },
+    selectModel: {
+      title: "لماذا تختار KreadoAI الاستنساخ الفوري للصور الرمزية؟",
+      scenariosList: [
+        {
+          id: 1,
+          title: "استنساخ الصورة الرمزية الخاصة بك في 1 دقيقة",
+          desc: "قم بالتحميل مرة واحدة وإنشاء الصورة الرمزية الفورية الخاصة بك دون تدريب طويل أو إعداد معقد",
+        },
+        {
+          id: 2,
+          title: "مزامنة مثالية للشفاه ودقة الوجه",
+          desc: "يوفر استنساخ الصور الرمزية المدعم بالذكاء الاصطناعي حركة دقيقة للشفاه وتعبيرات الوجه وحركات الرأس الطبيعية",
+        },
+        {
+          id: 3,
+          title: "1:1 حركة إنسانية واقعية",
+          desc: "احصل على إيماءات ووضعيات وتعبيرات نابضة بالحياة — تتجاوز بكثير أدوات استنساخ الصور الرمزية المماثلة",
+        },
+        {
+          id: 4,
+          title: "140+ لغة",
+          desc: "أنشئ مرة واحدة وأنشئ مقاطع فيديو بأكثر من 140 لغة باستخدام صورة رمزية واحدة لاستنساخ الذكاء الاصطناعي، وهي مثالية للأعمال التجارية العالمية والتعليم",
+        },
+      ],
+    },
+    discoverMoreTools: {
+      title: "اكتشف المزيد من حلول AI Avatar وإنشاء الفيديو البشري الرقمي",
+      desc: "اكتشف المزيد من الطرق لإنشاء بشر رقميين نابضين بالحياة لمقاطع الفيديو والتسويق وسرد القصص - بدءًا من الصور الرمزية وحتى الصور الناطقة والمقدمين الافتراضيين",
+      list: [
+        {
+          name: "فيديو الصورة الرمزية البشرية الرقمية",
+          path: "digital-avatar",
+        },
+        {
+          name: "فيديو الصورة الرمزية للفيلم",
+          path: "movie-avatar",
+        },
+        {
+          name: "فيديو الصورة الرمزية PPT/PDF",
+          path: "digital-ppt-creation",
+        },
+        {
+          name: "الحديث صور فيديو",
+          path: "talking-photo",
+        },
+        {
+          name: "الصورة إلى الفيديو الرمزي",
+          path: "image-to-avatar-video",
+        },
+        {
+          name: "الصور الرمزية المخصصة للذكاء الاصطناعي",
+          path: "avatar-clone",
+        },
+        {
+          name: "استنساخ صوتي فوري",
+          path: "voice-clone",
+        },
+        {
+          name: "مكتبة الصور الرمزية لمنظمة العفو الدولية",
+          path: "avatars",
+        },
+        {
+          name: "مكتبة أصوات الذكاء الاصطناعي",
+          path: "ai-voices",
+        },
+        {
+          name: "فيديو الصورة الرمزية لـ TikTok/UGC",
+          path: "tiktok-avatar",
+        },
+      ],
+    },
+    faq: {
+      title: "الأسئلة المتداولة حول استنساخ الصور الرمزية الفورية",
+      questionList: [
+        {
+          q: "كيفية استخدام الاستنساخ الفوري للصور الرمزية على KreadoAI؟",
+          a: "قم بتحميل مقطع فيديو قصير (من 5 ثوانٍ إلى 10 دقائق)، وسيقوم KreadoAI باستنساخ الصورة الرمزية الرقمية الخاصة بك في حوالي دقيقة واحدة. بمجرد أن تصبح الصورة الرمزية جاهزة، يتم حفظها في حسابك ويمكن استخدامها لإنشاء مقاطع فيديو ناطقة بمجرد إدخال برنامج نصي. إذا كنت تريد أن تبدو الصورة الرمزية مثلك أيضًا، فيمكنك إقرانها بسهولة مع KreadoAI Instant Voice Cloning لاستنساخ صوتك وإنشاء إنسان رقمي كامل يعمل بالذكاء الاصطناعي بكل من وجهك وصوتك.",
+        },
+        {
+          q: "ما الذي يمكنني استخدامه لاستنساخ الصور الرمزية الفورية لـ KreadoAI؟",
+          a: "يمكنك استخدام استنساخ الصور الرمزية لترويج الأعمال والتدريب التعليمي وتسويق التجارة الإلكترونية وإنشاء المحتوى الشخصي وإنتاج فيديو الذكاء الاصطناعي.",
+        },
+        {
+          q: "ما الفرق بين الاستنساخ الفوري للصور الرمزية والأدوات المماثلة الأخرى؟",
+          a: "يجمع KreadoAI Instant Avatar Cloning بين إنشاء الصور الرمزية فائقة السرعة وسير العمل الكامل للصوت والفيديو. يتم استنساخ الصورة الرمزية الخاصة بك في دقيقة واحدة تقريبًا، وتدعم إنشاء الفيديو بأكثر من 140 لغة، وتوفر الوصول إلى أكثر من 40000 صوت من أصوات الذكاء الاصطناعي، كما تدعم أيضًا الاستنساخ الصوتي الفوري - حتى تتمكن من إنشاء إنسان رقمي كامل يعمل بالذكاء الاصطناعي باستخدام الصورة الرمزية والصوت والفيديو، كل ذلك في نظام أساسي واحد.",
+        },
+        {
+          q: "هل يمكنني استخدام الاستنساخ الفوري للصور الرمزية مجانًا؟",
+          a: "نعم! يمكن للمستخدمين الجدد الوصول إلى نسخة تجريبية مجانية من صوت AI، وتؤدي الترقية إلى فتح المزيد من أرصدة الاستخدام والميزات المتقدمة.",
+        },
+        {
+          q: "هل بياناتي آمنة عند تحميل مقاطع الفيديو الخاصة بي؟",
+          a: "قطعاً. تأخذ KreadoAI السلامة والأخلاق على محمل الجد. إنه يتبع معايير صارمة لحماية معلوماتك ويستخدم خوادم من الدرجة الأولى، لذلك لا داعي للقلق أبدًا بشأن تعرض بياناتك للخطر.",
+        },
+      ],
+    },
+    startSection: {
+      title: "ابدأ الاستنساخ الفوري للصور الرمزية الآن",
+      desc: "قم بإنشاء الصورة الرمزية المخصصة الخاصة بك بالذكاء الاصطناعي في دقائق وقم بتشغيل مقاطع الفيديو الخاصة بك!",
+      btnText: "ابدأ مجانًا",
+      btnUrl: "/ai/create?tab=clone",
+    },
+  },
+};
 
 export const quickSubtitleRemoverTemplateData = {
   zh: {
@@ -2617,438 +2872,708 @@ export const quickSubtitleRemoverTemplateData = {
     },
   },
 
-  "ja": {
-    "meta": {
-      "title": "無料のオンライン クイック字幕リムーバー | 短いビデオから字幕を一括削除",
-      "description": "AI 自動削除を使用して短いビデオ (30 秒以下) から字幕を削除します。 複数の動画を一度にバッチアップロードします。 プロ会員は無制限に使用可能"
+  ja: {
+    meta: {
+      title:
+        "無料のオンライン クイック字幕リムーバー | 短いビデオから字幕を一括削除",
+      description:
+        "AI 自動削除を使用して短いビデオ (30 秒以下) から字幕を削除します。 複数の動画を一度にバッチアップロードします。 プロ会員は無制限に使用可能",
     },
-    "pagePath": "/ai/tiktok-video-subtitle-remover",
-    "pageTitle": "AIクイック字幕リムーバーで字幕を即座に消去",
-    "pageDesc": "KreadoAI Quick Subtitle Remover は短いビデオ (30 秒以下) 向けに構築されており、バッチ処理による埋め込み字幕のワンクリックオンライン削除、HD 品質の保存、Pro メンバー向けの無制限の使用を可能にします。",
-    "pageBtnText": "無料でお試しください",
-    "pageImageUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/26f80e7fbc70430ea3da4842f13b4bbe.webp",
-    "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/bf229973b9f340e8a43429e6d3020b6e.mp4",
-    "modelCanMake": {
-      "title": "KreadoAI クイック字幕リムーバーでできること",
-      "scenariosList": [
+    pagePath: "/ai/tiktok-video-subtitle-remover",
+    pageTitle: "AIクイック字幕リムーバーで字幕を即座に消去",
+    pageDesc:
+      "KreadoAI Quick Subtitle Remover は短いビデオ (30 秒以下) 向けに構築されており、バッチ処理による埋め込み字幕のワンクリックオンライン削除、HD 品質の保存、Pro メンバー向けの無制限の使用を可能にします。",
+    pageBtnText: "無料でお試しください",
+    pageImageUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/26f80e7fbc70430ea3da4842f13b4bbe.webp",
+    videoUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/bf229973b9f340e8a43429e6d3020b6e.mp4",
+    modelCanMake: {
+      title: "KreadoAI クイック字幕リムーバーでできること",
+      scenariosList: [
         {
-          "id": 1,
-          "title": "ソーシャルメディアパブリッシング",
-          "desc": "TikTok、Instagram リール、YouTube ショートから不要な字幕を削除して、ブランドと一貫した洗練された動画を作成し、エンゲージメントを高めます。"
+          id: 1,
+          title: "ソーシャルメディアパブリッシング",
+          desc: "TikTok、Instagram リール、YouTube ショートから不要な字幕を削除して、ブランドと一貫した洗練された動画を作成し、エンゲージメントを高めます。",
         },
         {
-          "id": 2,
-          "title": "マーケティングと広告",
-          "desc": "プロモーション、デモ、製品クリップから埋め込み字幕を消去して、乱雑さを減らし、ブランドのインパクトを高めます。"
+          id: 2,
+          title: "マーケティングと広告",
+          desc: "プロモーション、デモ、製品クリップから埋め込み字幕を消去して、乱雑さを減らし、ブランドのインパクトを高めます。",
         },
         {
-          "id": 3,
-          "title": "ビデオ編集と再利用",
-          "desc": "元の字幕を削除して、新しいプロジェクトやクロスプラットフォーム コンテンツにシームレスに統合します。"
+          id: 3,
+          title: "ビデオ編集と再利用",
+          desc: "元の字幕を削除して、新しいプロジェクトやクロスプラットフォーム コンテンツにシームレスに統合します。",
         },
         {
-          "id": 4,
-          "title": "国境を越えたローカリゼーション",
-          "desc": "グローバルなソーシャルメディアや世界中の視聴者向けに地域固有のキャプションを追加する前に、既存の字幕を削除してください。"
-        }
-      ]
-    },
-    "steps": {
-      "title": "3ステップでビデオから字幕を削除する方法",
-      "list": [
-        {
-          "id": 1,
-          "title": "ステップ 1: 短いビデオをアップロードする",
-          "desc": "短いビデオ (30 秒以下) を KreadoAI Quick Subtitle Remover にアップロードします。 一度に最大 4 つのファイルのバッチアップロードをサポートします。 ソフトウェアのインストールは必要ありません。",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/d4499d3d217c453b8645c200a994aeab.webp",
-          "path": "/ai/tiktok-video-subtitle-remover"
+          id: 4,
+          title: "国境を越えたローカリゼーション",
+          desc: "グローバルなソーシャルメディアや世界中の視聴者向けに地域固有のキャプションを追加する前に、既存の字幕を削除してください。",
         },
-        {
-          "id": 2,
-          "title": "ステップ 2: スマートな字幕削除",
-          "desc": "AI が自動的に字幕を検出して削除し、オプションで手動字幕ボックスを使用して正確に編集できます。",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/d79337bb55f346feb3d986afde6b7d2f.webp",
-          "path": "/ai/tiktok-video-subtitle-remover"
-        },
-        {
-          "id": 3,
-          "title": "ステップ 3: プレビューとダウンロード",
-          "desc": "「送信を確認」をクリックして、AI にビデオを処理させます。 字幕なしの結果をプレビューし、すぐに HD ビデオをダウンロードします。",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/08d7c8a57b5f42a38ce4b6ff3f51ae06.webp",
-          "path": "/ai/tiktok-video-subtitle-remover"
-        }
       ],
-      "btnText": "字幕一括消去の開始"
     },
-    "caseInfo": {
-      "title": "簡単な字幕削除の例",
-      "type": "ビデオ",
-      "videoRatio": "9:16",
-      "caseBtnText": "今すぐ字幕を削除",
-      "list": [
+    steps: {
+      title: "3ステップでビデオから字幕を削除する方法",
+      list: [
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6d55285d4e884006a6041181ba4b166b.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/58e3560017d64dccb86a975557e7597f.mp4",
-          "isPlaying": false,
-          "id": 1
+          id: 1,
+          title: "ステップ 1: 短いビデオをアップロードする",
+          desc: "短いビデオ (30 秒以下) を KreadoAI Quick Subtitle Remover にアップロードします。 一度に最大 4 つのファイルのバッチアップロードをサポートします。 ソフトウェアのインストールは必要ありません。",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/d4499d3d217c453b8645c200a994aeab.webp",
+          path: "/ai/tiktok-video-subtitle-remover",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/9c7f57f8ae05422cb256cd7538fb9982.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/21f1258688dd48a5ac0935e95b06127d.mp4",
-          "isPlaying": false,
-          "id": 2
+          id: 2,
+          title: "ステップ 2: スマートな字幕削除",
+          desc: "AI が自動的に字幕を検出して削除し、オプションで手動字幕ボックスを使用して正確に編集できます。",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/d79337bb55f346feb3d986afde6b7d2f.webp",
+          path: "/ai/tiktok-video-subtitle-remover",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/aec66247b9c746bbadc9bf091c9091b3.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b78487f22d7e40fbae3070a7655582aa.mp4",
-          "isPlaying": false,
-          "id": 3
+          id: 3,
+          title: "ステップ 3: プレビューとダウンロード",
+          desc: "「送信を確認」をクリックして、AI にビデオを処理させます。 字幕なしの結果をプレビューし、すぐに HD ビデオをダウンロードします。",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/08d7c8a57b5f42a38ce4b6ff3f51ae06.webp",
+          path: "/ai/tiktok-video-subtitle-remover",
         },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/5ba01980d7c4448cbe25ae5d1157a9be.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/2906ea90170b4db4a3976ae8aae2edc8.mp4",
-          "isPlaying": false,
-          "id": 4
-        },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/ef7cdb51ae9d454a9bf2e81ae3163e25.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/0692bc2d3bad41d5af20004ed06bf4b2.mp4",
-          "isPlaying": false,
-          "id": 5
-        }
-      ]
+      ],
+      btnText: "字幕一括消去の開始",
     },
-    "selectModel": {
-      "title": "KreadoAI クイック字幕リムーバーを選ぶ理由?",
-      "scenariosList": [
+    caseInfo: {
+      title: "簡単な字幕削除の例",
+      type: "ビデオ",
+      videoRatio: "9:16",
+      caseBtnText: "今すぐ字幕を削除",
+      list: [
         {
-          "id": 1,
-          "title": "短いビデオ用に最適化",
-          "desc": "TikTok、Instagram Reels、YouTube Shorts の短いビデオ (30 秒以下) に最適で、字幕を迅速かつ正確に削除できます。"
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6d55285d4e884006a6041181ba4b166b.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/58e3560017d64dccb86a975557e7597f.mp4",
+          isPlaying: false,
+          id: 1,
         },
         {
-          "id": 2,
-          "title": "スマートな認識とバッチ処理",
-          "desc": "AI が字幕を自動的に検出して削除し、一度に最大 4 つのビデオをサポートして効率的なコンテンツ制作を実現します。"
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/9c7f57f8ae05422cb256cd7538fb9982.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/21f1258688dd48a5ac0935e95b06127d.mp4",
+          isPlaying: false,
+          id: 2,
         },
         {
-          "id": 3,
-          "title": "HD品質の保存",
-          "desc": "AI は字幕を削除した後にビデオの背景を再構築し、鮮明で自然な、ぼやけや歪みのないビジュアルを保ちます。"
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/aec66247b9c746bbadc9bf091c9091b3.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b78487f22d7e40fbae3070a7655582aa.mp4",
+          isPlaying: false,
+          id: 3,
         },
         {
-          "id": 4,
-          "title": "プロメンバー向けの無制限のアクセス",
-          "desc": "プロ メンバーは、短いビデオから無制限に字幕を削除できるため、高頻度のコンテンツ作成やチーム コラボレーションに最適です。"
-        }
-      ]
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/5ba01980d7c4448cbe25ae5d1157a9be.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/2906ea90170b4db4a3976ae8aae2edc8.mp4",
+          isPlaying: false,
+          id: 4,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/ef7cdb51ae9d454a9bf2e81ae3163e25.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/0692bc2d3bad41d5af20004ed06bf4b2.mp4",
+          isPlaying: false,
+          id: 5,
+        },
+      ],
     },
-    "discoverMoreTools": {
-      "title": "KreadoAI で AI クリエイティブ ツールをさらに探索する",
-      "desc": "複数の作成シナリオとコンテンツのニーズに合わせて設計された KreadoAI の強力な AI クリエイティブ ツールを発見してください",
-      "list": [
+    selectModel: {
+      title: "KreadoAI クイック字幕リムーバーを選ぶ理由?",
+      scenariosList: [
         {
-          "name": "TikTok / UGC 製品ビデオ",
-          "path": "product-marketing-video"
+          id: 1,
+          title: "短いビデオ用に最適化",
+          desc: "TikTok、Instagram Reels、YouTube Shorts の短いビデオ (30 秒以下) に最適で、字幕を迅速かつ正確に削除できます。",
         },
         {
-          "name": "動画広告ジェネレーターへの URL",
-          "path": "url-to-video"
+          id: 2,
+          title: "スマートな認識とバッチ処理",
+          desc: "AI が字幕を自動的に検出して削除し、一度に最大 4 つのビデオをサポートして効率的なコンテンツ制作を実現します。",
         },
         {
-          "name": "AIビデオフェイススワップ",
-          "path": "video-face-swap"
+          id: 3,
+          title: "HD品質の保存",
+          desc: "AI は字幕を削除した後にビデオの背景を再構築し、鮮明で自然な、ぼやけや歪みのないビジュアルを保ちます。",
         },
         {
-          "name": "AIビデオ翻訳",
-          "path": "video-translator"
+          id: 4,
+          title: "プロメンバー向けの無制限のアクセス",
+          desc: "プロ メンバーは、短いビデオから無制限に字幕を削除できるため、高頻度のコンテンツ作成やチーム コラボレーションに最適です。",
         },
-        {
-          "name": "背景の除去",
-          "path": "image-background-remover"
-        },
-        {
-          "name": "テキスト読み上げ",
-          "path": "text-to-speech"
-        },
-        {
-          "name": "AI スクリプト ジェネレーター",
-          "path": "ai-text-generator"
-        },
-        {
-          "name": "TikTokスクリプトジェネレーター",
-          "path": "script-generation"
-        },
-        {
-          "name": "ビデオ透かしと字幕除去ツール",
-          "path": "video-subtitle-remover"
-        },
-        {
-          "name": "TikTokウォーターマークリムーバー",
-          "path": "video-watermark-remover/tiktok"
-        },
-        {
-          "name": "Sora2 ウォーターマーク除去ツール",
-          "path": "video-watermark-remover/sora2"
-        },
-        {
-          "name": "Instagramウォーターマークリムーバー",
-          "path": "video-watermark-remover/instagram"
-        },
-        {
-          "name": "YouTube ウォーターマーク除去ツール",
-          "path": "video-watermark-remover/youtube"
-        }
-      ]
+      ],
     },
-    "faq": {
-      "title": "KreadoAI クイック字幕リムーバーに関するよくある質問",
-      "questionList": [
+    discoverMoreTools: {
+      title: "KreadoAI で AI クリエイティブ ツールをさらに探索する",
+      desc: "複数の作成シナリオとコンテンツのニーズに合わせて設計された KreadoAI の強力な AI クリエイティブ ツールを発見してください",
+      list: [
         {
-          "q": "KreadoAI クイック字幕リムーバーとは何ですか?",
-          "a": "KreadoAI Quick Subtitle Remover は、短いビデオ (30 秒以下) 用に設計された AI 搭載のオンライン ツールで、バッチ処理と HD 出力で埋め込まれた字幕を即座に削除できます。"
+          name: "TikTok / UGC 製品ビデオ",
+          path: "product-marketing-video",
         },
         {
-          "q": "Quick Subtitle Remover は同時に何本のビデオを処理できますか?",
-          "a": "同時に最大 4 つの短いビデオのバッチ処理をサポートし、AI が自動的に字幕を検出して消去します。手動作業は必要ありません。"
+          name: "動画広告ジェネレーターへの URL",
+          path: "url-to-video",
         },
         {
-          "q": "字幕を削除するとビデオの品質に影響しますか?",
-          "a": "いいえ、AI は単に字幕をぼかすのではなく、字幕の背後の背景を再構築するため、出力が鮮明で自然で、視覚的なアーティファクトのない状態が保たれます。"
+          name: "AIビデオフェイススワップ",
+          path: "video-face-swap",
         },
         {
-          "q": "ツールの使用回数に制限はありますか?",
-          "a": "無料ユーザーは 1 回の字幕削除トライアルを利用できます。 プロ会員は、短いビデオの字幕を無制限に削除できます。"
+          name: "AIビデオ翻訳",
+          path: "video-translator",
         },
         {
-          "q": "アップロードした動画データは安全ですか?",
-          "a": "絶対に。 すべてのビデオは処理中に暗号化され、完全なデータ セキュリティを確保するために厳格なプライバシー基準に基づいて処理されます。"
-        }
-      ]
+          name: "背景の除去",
+          path: "image-background-remover",
+        },
+        {
+          name: "テキスト読み上げ",
+          path: "text-to-speech",
+        },
+        {
+          name: "AI スクリプト ジェネレーター",
+          path: "ai-text-generator",
+        },
+        {
+          name: "TikTokスクリプトジェネレーター",
+          path: "script-generation",
+        },
+        {
+          name: "ビデオ透かしと字幕除去ツール",
+          path: "video-subtitle-remover",
+        },
+        {
+          name: "TikTokウォーターマークリムーバー",
+          path: "video-watermark-remover/tiktok",
+        },
+        {
+          name: "Sora2 ウォーターマーク除去ツール",
+          path: "video-watermark-remover/sora2",
+        },
+        {
+          name: "Instagramウォーターマークリムーバー",
+          path: "video-watermark-remover/instagram",
+        },
+        {
+          name: "YouTube ウォーターマーク除去ツール",
+          path: "video-watermark-remover/youtube",
+        },
+      ],
     },
-    "startSection": {
-      "title": "KreadoAI のショートビデオから字幕を今すぐ削除しましょう!",
-      "desc": "短いビデオ (≤30 秒) 向けに構築 — 埋め込まれた字幕をワンクリックで削除、バッチ処理をサポート、Pro メンバーは無制限",
-      "btnText": "字幕を即座に削除",
-      "btnUrl": "/ai/tiktok-video-subtitle-remover"
-    }
+    faq: {
+      title: "KreadoAI クイック字幕リムーバーに関するよくある質問",
+      questionList: [
+        {
+          q: "KreadoAI クイック字幕リムーバーとは何ですか?",
+          a: "KreadoAI Quick Subtitle Remover は、短いビデオ (30 秒以下) 用に設計された AI 搭載のオンライン ツールで、バッチ処理と HD 出力で埋め込まれた字幕を即座に削除できます。",
+        },
+        {
+          q: "Quick Subtitle Remover は同時に何本のビデオを処理できますか?",
+          a: "同時に最大 4 つの短いビデオのバッチ処理をサポートし、AI が自動的に字幕を検出して消去します。手動作業は必要ありません。",
+        },
+        {
+          q: "字幕を削除するとビデオの品質に影響しますか?",
+          a: "いいえ、AI は単に字幕をぼかすのではなく、字幕の背後の背景を再構築するため、出力が鮮明で自然で、視覚的なアーティファクトのない状態が保たれます。",
+        },
+        {
+          q: "ツールの使用回数に制限はありますか?",
+          a: "無料ユーザーは 1 回の字幕削除トライアルを利用できます。 プロ会員は、短いビデオの字幕を無制限に削除できます。",
+        },
+        {
+          q: "アップロードした動画データは安全ですか?",
+          a: "絶対に。 すべてのビデオは処理中に暗号化され、完全なデータ セキュリティを確保するために厳格なプライバシー基準に基づいて処理されます。",
+        },
+      ],
+    },
+    startSection: {
+      title: "KreadoAI のショートビデオから字幕を今すぐ削除しましょう!",
+      desc: "短いビデオ (≤30 秒) 向けに構築 — 埋め込まれた字幕をワンクリックで削除、バッチ処理をサポート、Pro メンバーは無制限",
+      btnText: "字幕を即座に削除",
+      btnUrl: "/ai/tiktok-video-subtitle-remover",
+    },
   },
-  "ko": {
-    "meta": {
-      "title": "무료 온라인 빠른 자막 제거제 | 짧은 동영상에서 자막 일괄 제거",
-      "description": "AI 자동 제거를 사용하여 짧은 동영상(30초 이하)에서 자막을 제거합니다. 여러 개의 동영상을 한 번에 일괄 업로드하세요. Pro 회원은 무제한 사용 가능"
+  ko: {
+    meta: {
+      title: "무료 온라인 빠른 자막 제거제 | 짧은 동영상에서 자막 일괄 제거",
+      description:
+        "AI 자동 제거를 사용하여 짧은 동영상(30초 이하)에서 자막을 제거합니다. 여러 개의 동영상을 한 번에 일괄 업로드하세요. Pro 회원은 무제한 사용 가능",
     },
-    "pagePath": "/ai/tiktok-video-subtitle-remover",
-    "pageTitle": "AI 빠른 자막 제거기로 즉시 자막 삭제",
-    "pageDesc": "KreadoAI Quick Subtitle Remover는 짧은 비디오(30초 이하)용으로 제작되었으며 일괄 처리, HD 품질 보존 및 Pro 회원에 대한 무제한 사용을 통해 포함된 자막을 한 번의 클릭으로 온라인으로 제거할 수 있습니다.",
-    "pageBtnText": "무료로 사용해 보세요",
-    "pageImageUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/26f80e7fbc70430ea3da4842f13b4bbe.webp",
-    "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/bf229973b9f340e8a43429e6d3020b6e.mp4",
-    "modelCanMake": {
-      "title": "KreadoAI 빠른 자막 리무버로 무엇을 할 수 있나요?",
-      "scenariosList": [
+    pagePath: "/ai/tiktok-video-subtitle-remover",
+    pageTitle: "AI 빠른 자막 제거기로 즉시 자막 삭제",
+    pageDesc:
+      "KreadoAI Quick Subtitle Remover는 짧은 비디오(30초 이하)용으로 제작되었으며 일괄 처리, HD 품질 보존 및 Pro 회원에 대한 무제한 사용을 통해 포함된 자막을 한 번의 클릭으로 온라인으로 제거할 수 있습니다.",
+    pageBtnText: "무료로 사용해 보세요",
+    pageImageUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/26f80e7fbc70430ea3da4842f13b4bbe.webp",
+    videoUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/bf229973b9f340e8a43429e6d3020b6e.mp4",
+    modelCanMake: {
+      title: "KreadoAI 빠른 자막 리무버로 무엇을 할 수 있나요?",
+      scenariosList: [
         {
-          "id": 1,
-          "title": "소셜 미디어 출판",
-          "desc": "TikTok, Instagram Reels 및 YouTube Shorts에서 원치 않는 자막을 제거하여 참여도를 높이는 세련되고 브랜드 일관적인 동영상을 만드세요."
+          id: 1,
+          title: "소셜 미디어 출판",
+          desc: "TikTok, Instagram Reels 및 YouTube Shorts에서 원치 않는 자막을 제거하여 참여도를 높이는 세련되고 브랜드 일관적인 동영상을 만드세요.",
         },
         {
-          "id": 2,
-          "title": "마케팅 및 광고",
-          "desc": "프로모션, 데모, 제품 클립에 포함된 자막을 삭제하여 혼란을 줄이고 브랜드 영향력을 강화하세요."
+          id: 2,
+          title: "마케팅 및 광고",
+          desc: "프로모션, 데모, 제품 클립에 포함된 자막을 삭제하여 혼란을 줄이고 브랜드 영향력을 강화하세요.",
         },
         {
-          "id": 3,
-          "title": "비디오 편집 및 용도 변경",
-          "desc": "새 프로젝트 또는 크로스 플랫폼 콘텐츠에 원활하게 통합하려면 원본 자막을 삭제하세요."
+          id: 3,
+          title: "비디오 편집 및 용도 변경",
+          desc: "새 프로젝트 또는 크로스 플랫폼 콘텐츠에 원활하게 통합하려면 원본 자막을 삭제하세요.",
         },
         {
-          "id": 4,
-          "title": "국경 간 현지화",
-          "desc": "글로벌 소셜 미디어 및 해외 시청자를 위해 지역별 캡션을 추가하기 전에 기존 자막을 제거하세요."
-        }
-      ]
-    },
-    "steps": {
-      "title": "3단계로 동영상에서 자막을 제거하는 방법",
-      "list": [
-        {
-          "id": 1,
-          "title": "1단계: 짧은 동영상 업로드",
-          "desc": "KreadoAI Quick Subtitle Remover에 짧은 동영상(30초 이하)을 업로드하세요. 한 번에 최대 4개 파일의 일괄 업로드를 지원합니다. 소프트웨어 설치가 필요하지 않습니다.",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/d4499d3d217c453b8645c200a994aeab.webp",
-          "path": "/ai/tiktok-video-subtitle-remover"
+          id: 4,
+          title: "국경 간 현지화",
+          desc: "글로벌 소셜 미디어 및 해외 시청자를 위해 지역별 캡션을 추가하기 전에 기존 자막을 제거하세요.",
         },
-        {
-          "id": 2,
-          "title": "2단계: 스마트 자막 제거",
-          "desc": "AI는 자막을 자동으로 감지하고 제거하며, 정확한 편집을 위한 수동 자막 상자 옵션도 제공됩니다.",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/d79337bb55f346feb3d986afde6b7d2f.webp",
-          "path": "/ai/tiktok-video-subtitle-remover"
-        },
-        {
-          "id": 3,
-          "title": "3단계: 미리보기 및 다운로드",
-          "desc": "\"제출 확인\"을 클릭하고 AI가 비디오를 처리하도록 하세요. 자막 없이 결과를 미리 본 후 HD 비디오를 즉시 다운로드하세요.",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/08d7c8a57b5f42a38ce4b6ff3f51ae06.webp",
-          "path": "/ai/tiktok-video-subtitle-remover"
-        }
       ],
-      "btnText": "일괄 자막 삭제 시작"
     },
-    "caseInfo": {
-      "title": "빠른 자막 제거기 예",
-      "type": "동영상",
-      "videoRatio": "9:16",
-      "caseBtnText": "지금 자막 제거",
-      "list": [
+    steps: {
+      title: "3단계로 동영상에서 자막을 제거하는 방법",
+      list: [
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6d55285d4e884006a6041181ba4b166b.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/58e3560017d64dccb86a975557e7597f.mp4",
-          "isPlaying": false,
-          "id": 1
+          id: 1,
+          title: "1단계: 짧은 동영상 업로드",
+          desc: "KreadoAI Quick Subtitle Remover에 짧은 동영상(30초 이하)을 업로드하세요. 한 번에 최대 4개 파일의 일괄 업로드를 지원합니다. 소프트웨어 설치가 필요하지 않습니다.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/d4499d3d217c453b8645c200a994aeab.webp",
+          path: "/ai/tiktok-video-subtitle-remover",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/9c7f57f8ae05422cb256cd7538fb9982.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/21f1258688dd48a5ac0935e95b06127d.mp4",
-          "isPlaying": false,
-          "id": 2
+          id: 2,
+          title: "2단계: 스마트 자막 제거",
+          desc: "AI는 자막을 자동으로 감지하고 제거하며, 정확한 편집을 위한 수동 자막 상자 옵션도 제공됩니다.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/d79337bb55f346feb3d986afde6b7d2f.webp",
+          path: "/ai/tiktok-video-subtitle-remover",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/aec66247b9c746bbadc9bf091c9091b3.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b78487f22d7e40fbae3070a7655582aa.mp4",
-          "isPlaying": false,
-          "id": 3
+          id: 3,
+          title: "3단계: 미리보기 및 다운로드",
+          desc: '"제출 확인"을 클릭하고 AI가 비디오를 처리하도록 하세요. 자막 없이 결과를 미리 본 후 HD 비디오를 즉시 다운로드하세요.',
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/08d7c8a57b5f42a38ce4b6ff3f51ae06.webp",
+          path: "/ai/tiktok-video-subtitle-remover",
         },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/5ba01980d7c4448cbe25ae5d1157a9be.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/2906ea90170b4db4a3976ae8aae2edc8.mp4",
-          "isPlaying": false,
-          "id": 4
-        },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/ef7cdb51ae9d454a9bf2e81ae3163e25.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/0692bc2d3bad41d5af20004ed06bf4b2.mp4",
-          "isPlaying": false,
-          "id": 5
-        }
-      ]
+      ],
+      btnText: "일괄 자막 삭제 시작",
     },
-    "selectModel": {
-      "title": "KreadoAI 빠른 자막 제거기를 선택하는 이유는 무엇입니까?",
-      "scenariosList": [
+    caseInfo: {
+      title: "빠른 자막 제거기 예",
+      type: "동영상",
+      videoRatio: "9:16",
+      caseBtnText: "지금 자막 제거",
+      list: [
         {
-          "id": 1,
-          "title": "짧은 동영상에 최적화됨",
-          "desc": "빠르고 정확한 자막 제거 기능을 통해 TikTok, Instagram Reels, YouTube Shorts의 짧은 동영상(30초 이하)에 완벽하게 적용됩니다."
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6d55285d4e884006a6041181ba4b166b.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/58e3560017d64dccb86a975557e7597f.mp4",
+          isPlaying: false,
+          id: 1,
         },
         {
-          "id": 2,
-          "title": "스마트 인식 및 일괄 처리",
-          "desc": "AI가 자동으로 자막을 감지하고 제거해 효율적인 콘텐츠 제작을 위해 한 번에 최대 4개의 영상을 지원합니다."
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/9c7f57f8ae05422cb256cd7538fb9982.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/21f1258688dd48a5ac0935e95b06127d.mp4",
+          isPlaying: false,
+          id: 2,
         },
         {
-          "id": 3,
-          "title": "HD 품질 보존",
-          "desc": "AI는 자막 제거 후 비디오 배경을 재구성하여 영상을 선명하고 자연스러우며 흐릿함이나 왜곡 없이 유지합니다."
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/aec66247b9c746bbadc9bf091c9091b3.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b78487f22d7e40fbae3070a7655582aa.mp4",
+          isPlaying: false,
+          id: 3,
         },
         {
-          "id": 4,
-          "title": "Pro 회원을 위한 무제한 액세스",
-          "desc": "Pro 회원은 제한 없이 짧은 동영상의 자막을 제거할 수 있어 빈도가 높은 콘텐츠 제작 및 팀 협업에 이상적입니다."
-        }
-      ]
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/5ba01980d7c4448cbe25ae5d1157a9be.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/2906ea90170b4db4a3976ae8aae2edc8.mp4",
+          isPlaying: false,
+          id: 4,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/ef7cdb51ae9d454a9bf2e81ae3163e25.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/0692bc2d3bad41d5af20004ed06bf4b2.mp4",
+          isPlaying: false,
+          id: 5,
+        },
+      ],
     },
-    "discoverMoreTools": {
-      "title": "KreadoAI에서 더 많은 AI 크리에이티브 도구를 살펴보세요",
-      "desc": "다양한 제작 시나리오와 콘텐츠 요구 사항에 맞춰 설계된 KreadoAI의 강력한 AI 크리에이티브 도구를 만나보세요.",
-      "list": [
+    selectModel: {
+      title: "KreadoAI 빠른 자막 제거기를 선택하는 이유는 무엇입니까?",
+      scenariosList: [
         {
-          "name": "TikTok / UGC 제품 비디오",
-          "path": "product-marketing-video"
+          id: 1,
+          title: "짧은 동영상에 최적화됨",
+          desc: "빠르고 정확한 자막 제거 기능을 통해 TikTok, Instagram Reels, YouTube Shorts의 짧은 동영상(30초 이하)에 완벽하게 적용됩니다.",
         },
         {
-          "name": "비디오 광고 생성기의 URL",
-          "path": "url-to-video"
+          id: 2,
+          title: "스마트 인식 및 일괄 처리",
+          desc: "AI가 자동으로 자막을 감지하고 제거해 효율적인 콘텐츠 제작을 위해 한 번에 최대 4개의 영상을 지원합니다.",
         },
         {
-          "name": "AI 비디오 얼굴 교환",
-          "path": "video-face-swap"
+          id: 3,
+          title: "HD 품질 보존",
+          desc: "AI는 자막 제거 후 비디오 배경을 재구성하여 영상을 선명하고 자연스러우며 흐릿함이나 왜곡 없이 유지합니다.",
         },
         {
-          "name": "AI 영상번역",
-          "path": "video-translator"
+          id: 4,
+          title: "Pro 회원을 위한 무제한 액세스",
+          desc: "Pro 회원은 제한 없이 짧은 동영상의 자막을 제거할 수 있어 빈도가 높은 콘텐츠 제작 및 팀 협업에 이상적입니다.",
         },
-        {
-          "name": "배경 제거",
-          "path": "image-background-remover"
-        },
-        {
-          "name": "텍스트 음성 변환",
-          "path": "text-to-speech"
-        },
-        {
-          "name": "AI 스크립트 생성기",
-          "path": "ai-text-generator"
-        },
-        {
-          "name": "TikTok 스크립트 생성기",
-          "path": "script-generation"
-        },
-        {
-          "name": "비디오 워터마크 및 자막 제거기",
-          "path": "video-subtitle-remover"
-        },
-        {
-          "name": "TikTok 워터마크 제거제",
-          "path": "video-watermark-remover/tiktok"
-        },
-        {
-          "name": "Sora2 워터마크 리무버",
-          "path": "video-watermark-remover/sora2"
-        },
-        {
-          "name": "인스타그램 워터마크 제거기",
-          "path": "video-watermark-remover/instagram"
-        },
-        {
-          "name": "YouTube 워터마크 제거기",
-          "path": "video-watermark-remover/youtube"
-        }
-      ]
+      ],
     },
-    "faq": {
-      "title": "KreadoAI 빠른 자막 리무버에 대해 자주 묻는 질문",
-      "questionList": [
+    discoverMoreTools: {
+      title: "KreadoAI에서 더 많은 AI 크리에이티브 도구를 살펴보세요",
+      desc: "다양한 제작 시나리오와 콘텐츠 요구 사항에 맞춰 설계된 KreadoAI의 강력한 AI 크리에이티브 도구를 만나보세요.",
+      list: [
         {
-          "q": "KreadoAI 빠른 자막 리무버란 무엇인가요?",
-          "a": "KreadoAI Quick Subtitle Remover는 짧은 비디오(30초 이하)용으로 설계된 AI 기반 온라인 도구로 일괄 처리 및 HD 출력을 통해 삽입된 자막을 즉시 제거할 수 있습니다."
+          name: "TikTok / UGC 제품 비디오",
+          path: "product-marketing-video",
         },
         {
-          "q": "Quick Subtitle Remover는 동시에 몇 개의 비디오를 처리할 수 있나요?",
-          "a": "동시에 최대 4개의 짧은 비디오에 대한 일괄 처리를 지원하며 AI가 자동으로 자막을 감지하고 삭제하므로 수동 작업이 필요하지 않습니다."
+          name: "비디오 광고 생성기의 URL",
+          path: "url-to-video",
         },
         {
-          "q": "자막을 제거하면 비디오 품질에 영향을 미치나요?",
-          "a": "아니요. AI는 단순히 자막을 흐리게 하는 것이 아니라 자막 뒤의 배경을 재구성하여 출력이 선명하고 자연스러우며 시각적 인공물이 없도록 보장합니다."
+          name: "AI 비디오 얼굴 교환",
+          path: "video-face-swap",
         },
         {
-          "q": "도구를 사용할 수 있는 횟수에 제한이 있나요?",
-          "a": "무료 사용자에게는 자막 제거 체험판이 1회 제공됩니다. Pro 회원은 짧은 동영상의 자막을 무제한으로 제거할 수 있습니다."
+          name: "AI 영상번역",
+          path: "video-translator",
         },
         {
-          "q": "내가 업로드한 동영상 데이터는 안전한가요?",
-          "a": "전적으로. 모든 비디오는 처리 중에 암호화되며 완벽한 데이터 보안을 보장하기 위해 엄격한 개인 정보 보호 표준에 따라 처리됩니다."
-        }
-      ]
+          name: "배경 제거",
+          path: "image-background-remover",
+        },
+        {
+          name: "텍스트 음성 변환",
+          path: "text-to-speech",
+        },
+        {
+          name: "AI 스크립트 생성기",
+          path: "ai-text-generator",
+        },
+        {
+          name: "TikTok 스크립트 생성기",
+          path: "script-generation",
+        },
+        {
+          name: "비디오 워터마크 및 자막 제거기",
+          path: "video-subtitle-remover",
+        },
+        {
+          name: "TikTok 워터마크 제거제",
+          path: "video-watermark-remover/tiktok",
+        },
+        {
+          name: "Sora2 워터마크 리무버",
+          path: "video-watermark-remover/sora2",
+        },
+        {
+          name: "인스타그램 워터마크 제거기",
+          path: "video-watermark-remover/instagram",
+        },
+        {
+          name: "YouTube 워터마크 제거기",
+          path: "video-watermark-remover/youtube",
+        },
+      ],
     },
-    "startSection": {
-      "title": "지금 KreadoAI의 짧은 동영상에서 자막을 제거하세요!",
-      "desc": "짧은 비디오(30초 이하)용으로 제작됨 - 한 번의 클릭으로 포함된 자막 제거, 일괄 처리 지원, Pro 회원의 경우 무제한",
-      "btnText": "즉시 자막 제거",
-      "btnUrl": "/ai/tiktok-video-subtitle-remover"
-    }
-  },};
+    faq: {
+      title: "KreadoAI 빠른 자막 리무버에 대해 자주 묻는 질문",
+      questionList: [
+        {
+          q: "KreadoAI 빠른 자막 리무버란 무엇인가요?",
+          a: "KreadoAI Quick Subtitle Remover는 짧은 비디오(30초 이하)용으로 설계된 AI 기반 온라인 도구로 일괄 처리 및 HD 출력을 통해 삽입된 자막을 즉시 제거할 수 있습니다.",
+        },
+        {
+          q: "Quick Subtitle Remover는 동시에 몇 개의 비디오를 처리할 수 있나요?",
+          a: "동시에 최대 4개의 짧은 비디오에 대한 일괄 처리를 지원하며 AI가 자동으로 자막을 감지하고 삭제하므로 수동 작업이 필요하지 않습니다.",
+        },
+        {
+          q: "자막을 제거하면 비디오 품질에 영향을 미치나요?",
+          a: "아니요. AI는 단순히 자막을 흐리게 하는 것이 아니라 자막 뒤의 배경을 재구성하여 출력이 선명하고 자연스러우며 시각적 인공물이 없도록 보장합니다.",
+        },
+        {
+          q: "도구를 사용할 수 있는 횟수에 제한이 있나요?",
+          a: "무료 사용자에게는 자막 제거 체험판이 1회 제공됩니다. Pro 회원은 짧은 동영상의 자막을 무제한으로 제거할 수 있습니다.",
+        },
+        {
+          q: "내가 업로드한 동영상 데이터는 안전한가요?",
+          a: "전적으로. 모든 비디오는 처리 중에 암호화되며 완벽한 데이터 보안을 보장하기 위해 엄격한 개인 정보 보호 표준에 따라 처리됩니다.",
+        },
+      ],
+    },
+    startSection: {
+      title: "지금 KreadoAI의 짧은 동영상에서 자막을 제거하세요!",
+      desc: "짧은 비디오(30초 이하)용으로 제작됨 - 한 번의 클릭으로 포함된 자막 제거, 일괄 처리 지원, Pro 회원의 경우 무제한",
+      btnText: "즉시 자막 제거",
+      btnUrl: "/ai/tiktok-video-subtitle-remover",
+    },
+  },
+  ar: {
+    meta: {
+      title:
+        "مزيل الترجمة السريع مجانًا على الإنترنت | دفعة إزالة الترجمة من مقاطع الفيديو القصيرة",
+      description:
+        "قم بإزالة الترجمات من مقاطع الفيديو القصيرة (أقل من 30 ثانية) باستخدام الإزالة التلقائية بالذكاء الاصطناعي. دفعة تحميل مقاطع فيديو متعددة في وقت واحد. استخدام غير محدود لأعضاء Pro",
+    },
+    pagePath: "/ai/tiktok-video-subtitle-remover",
+    pageTitle: "مسح الترجمات على الفور باستخدام AI Quick Subtitle Remover",
+    pageDesc:
+      "تم تصميم KreadoAI Quick Subtitle Remover لمقاطع الفيديو القصيرة (أقل من 30 ثانية)، مما يتيح إزالة الترجمات المضمنة عبر الإنترنت بنقرة واحدة مع معالجة الدفعات، والحفاظ على جودة HD، واستخدام غير محدود للأعضاء المحترفين.",
+    pageBtnText: "حاول مجانا",
+    pageImageUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/26f80e7fbc70430ea3da4842f13b4bbe.webp",
+    videoUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/bf229973b9f340e8a43429e6d3020b6e.mp4",
+    modelCanMake: {
+      title: "ماذا يمكنك أن تفعل مع مزيل الترجمة السريع KreadoAI",
+      scenariosList: [
+        {
+          id: 1,
+          title: "النشر عبر وسائل التواصل الاجتماعي",
+          desc: "قم بإزالة الترجمات غير المرغوب فيها من TikTok وInstagram Reels وYouTube Shorts لإنشاء مقاطع فيديو مصقولة ومتسقة مع العلامة التجارية تعزز التفاعل.",
+        },
+        {
+          id: 2,
+          title: "التسويق والإعلان",
+          desc: "قم بمسح الترجمات المضمنة من العروض الترويجية والعروض التوضيحية ومقاطع المنتج لتقليل الفوضى وتعزيز تأثير العلامة التجارية.",
+        },
+        {
+          id: 3,
+          title: "تحرير الفيديو وإعادة توظيفه",
+          desc: "احذف الترجمات الأصلية للتكامل السلس في المشاريع الجديدة أو المحتوى عبر الأنظمة الأساسية.",
+        },
+        {
+          id: 4,
+          title: "التوطين عبر الحدود",
+          desc: "قم بإزالة الترجمات المصاحبة الموجودة قبل إضافة التسميات التوضيحية الخاصة بالمنطقة لوسائل التواصل الاجتماعي العالمية والجماهير الدولية.",
+        },
+      ],
+    },
+    steps: {
+      title: "كيفية إزالة الترجمة من مقاطع الفيديو في 3 خطوات",
+      list: [
+        {
+          id: 1,
+          title: "الخطوة 1: تحميل مقاطع فيديو قصيرة",
+          desc: "قم بتحميل مقاطع فيديو قصيرة (أقل من 30 ثانية) إلى KreadoAI Quick Subtitle Remover. يدعم التحميل المجمع لما يصل إلى 4 ملفات في المرة الواحدة. لا يلزم تثبيت البرامج.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/d4499d3d217c453b8645c200a994aeab.webp",
+          path: "/ai/tiktok-video-subtitle-remover",
+        },
+        {
+          id: 2,
+          title: "الخطوة 2: إزالة الترجمة الذكية",
+          desc: "يكتشف الذكاء الاصطناعي الترجمات ويزيلها تلقائيًا، باستخدام مربعات الترجمة اليدوية الاختيارية للتحرير الدقيق.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/d79337bb55f346feb3d986afde6b7d2f.webp",
+          path: "/ai/tiktok-video-subtitle-remover",
+        },
+        {
+          id: 3,
+          title: "الخطوة 3: المعاينة والتنزيل",
+          desc: 'انقر على "تأكيد الإرسال" ودع الذكاء الاصطناعي يعالج مقاطع الفيديو الخاصة بك. قم بمعاينة النتيجة بدون ترجمة، ثم قم بتنزيل الفيديو عالي الدقة على الفور.',
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/08d7c8a57b5f42a38ce4b6ff3f51ae06.webp",
+          path: "/ai/tiktok-video-subtitle-remover",
+        },
+      ],
+      btnText: "بدء محو الترجمة دفعة واحدة",
+    },
+    caseInfo: {
+      title: "أمثلة سريعة لمزيل الترجمة",
+      type: "فيديو",
+      videoRatio: "9:16",
+      caseBtnText: "قم بإزالة الترجمة الآن",
+      list: [
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6d55285d4e884006a6041181ba4b166b.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/58e3560017d64dccb86a975557e7597f.mp4",
+          isPlaying: false,
+          id: 1,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/9c7f57f8ae05422cb256cd7538fb9982.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/21f1258688dd48a5ac0935e95b06127d.mp4",
+          isPlaying: false,
+          id: 2,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/aec66247b9c746bbadc9bf091c9091b3.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b78487f22d7e40fbae3070a7655582aa.mp4",
+          isPlaying: false,
+          id: 3,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/5ba01980d7c4448cbe25ae5d1157a9be.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/2906ea90170b4db4a3976ae8aae2edc8.mp4",
+          isPlaying: false,
+          id: 4,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/ef7cdb51ae9d454a9bf2e81ae3163e25.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/0692bc2d3bad41d5af20004ed06bf4b2.mp4",
+          isPlaying: false,
+          id: 5,
+        },
+      ],
+    },
+    selectModel: {
+      title: "لماذا تختار KreadoAI Quick Subtitle Remover؟",
+      scenariosList: [
+        {
+          id: 1,
+          title: "الأمثل لمقاطع الفيديو القصيرة",
+          desc: "تم تكييفه بشكل مثالي لمقاطع الفيديو القصيرة (أقل من 30 ثانية) على TikTok وInstagram Reels وYouTube Shorts، مع إزالة الترجمة السريعة والدقيقة.",
+        },
+        {
+          id: 2,
+          title: "التعرف الذكي ومعالجة الدفعات",
+          desc: "يكتشف الذكاء الاصطناعي الترجمات ويزيلها تلقائيًا، ويدعم ما يصل إلى 4 مقاطع فيديو في وقت واحد لإنتاج محتوى فعال.",
+        },
+        {
+          id: 3,
+          title: "حفظ جودة HD",
+          desc: "يقوم الذكاء الاصطناعي بإعادة بناء خلفيات الفيديو بعد إزالة الترجمة، مما يحافظ على الصور واضحة وطبيعية وخالية من الضبابية أو التشويه.",
+        },
+        {
+          id: 4,
+          title: "وصول غير محدود للأعضاء المحترفين",
+          desc: "يمكن للأعضاء المحترفين إزالة الترجمات من مقاطع الفيديو القصيرة بلا حدود، وهو مثالي لإنشاء محتوى عالي التردد والتعاون الجماعي.",
+        },
+      ],
+    },
+    discoverMoreTools: {
+      title: "اكتشف المزيد من أدوات الذكاء الاصطناعي الإبداعية على KreadoAI",
+      desc: "اكتشف أدوات الذكاء الاصطناعي الإبداعية القوية على KreadoAI المصممة لسيناريوهات الإنشاء المتعددة واحتياجات المحتوى",
+      list: [
+        {
+          name: "فيديو منتج TikTok / UGC",
+          path: "product-marketing-video",
+        },
+        {
+          name: "عنوان URL لمولد إعلانات الفيديو",
+          path: "url-to-video",
+        },
+        {
+          name: "AI فيديو الوجه مبادلة",
+          path: "video-face-swap",
+        },
+        {
+          name: "ترجمة الفيديو بالذكاء الاصطناعي",
+          path: "video-translator",
+        },
+        {
+          name: "إزالة الخلفية",
+          path: "image-background-remover",
+        },
+        {
+          name: "تحويل النص إلى كلام",
+          path: "text-to-speech",
+        },
+        {
+          name: "مولد البرنامج النصي لمنظمة العفو الدولية",
+          path: "ai-text-generator",
+        },
+        {
+          name: "TikTok مولد النص",
+          path: "script-generation",
+        },
+        {
+          name: "مزيل العلامة المائية والترجمة للفيديو",
+          path: "video-subtitle-remover",
+        },
+        {
+          name: "مزيل العلامات المائية من تيك توك",
+          path: "video-watermark-remover/tiktok",
+        },
+        {
+          name: "مزيل العلامة المائية Sora2",
+          path: "video-watermark-remover/sora2",
+        },
+        {
+          name: "مزيل العلامات المائية في الانستقرام",
+          path: "video-watermark-remover/instagram",
+        },
+        {
+          name: "يوتيوب مزيل العلامة المائية",
+          path: "video-watermark-remover/youtube",
+        },
+      ],
+    },
+    faq: {
+      title: "الأسئلة المتداولة حول KreadoAI Quick Subtitle Remover",
+      questionList: [
+        {
+          q: "ما هو KreadoAI Quick Subtitle Remover؟",
+          a: "KreadoAI Quick Subtitle Remover هي أداة عبر الإنترنت مدعومة بالذكاء الاصطناعي مصممة لمقاطع الفيديو القصيرة (أقل من 30 ثانية)، مما يتيح الإزالة الفورية للترجمات المضمنة من خلال معالجة الدفعات والإخراج عالي الدقة.",
+        },
+        {
+          q: "كم عدد مقاطع الفيديو التي يمكن لـ Quick Subtitle Remover معالجتها في نفس الوقت؟",
+          a: "وهو يدعم المعالجة المجمعة لما يصل إلى 4 مقاطع فيديو قصيرة في نفس الوقت، مع اكتشاف الذكاء الاصطناعي للترجمات ومسحها تلقائيًا - دون الحاجة إلى عمل يدوي.",
+        },
+        {
+          q: "هل ستؤثر إزالة الترجمة على جودة الفيديو؟",
+          a: "لا. يقوم الذكاء الاصطناعي بإعادة بناء الخلفية خلف الترجمات المصاحبة بدلاً من مجرد تعتيمها، مما يضمن أن يظل الإخراج واضحًا وطبيعيًا وخاليًا من المؤثرات البصرية.",
+        },
+        {
+          q: "هل هناك حد لعدد المرات التي يمكنني فيها استخدام الأداة؟",
+          a: "يحصل المستخدمون المجانيون على نسخة تجريبية واحدة لإزالة الترجمة. يتمتع الأعضاء المحترفون بإزالة غير محدودة للترجمة لمقاطع الفيديو القصيرة.",
+        },
+        {
+          q: "هل بيانات الفيديو التي قمت بتحميلها آمنة؟",
+          a: "قطعاً. يتم تشفير جميع مقاطع الفيديو أثناء المعالجة ويتم التعامل معها وفقًا لمعايير الخصوصية الصارمة لضمان الأمان الكامل للبيانات.",
+        },
+      ],
+    },
+    startSection: {
+      title: "قم بإزالة الترجمة من مقاطع الفيديو القصيرة على KreadoAI الآن!",
+      desc: "مصمم لمقاطع الفيديو القصيرة (أقل من 30 ثانية) - قم بإزالة الترجمات المضمنة بنقرة واحدة، ودعم معالجة الدفعات، وغير محدود للأعضاء المحترفين",
+      btnText: "إزالة الترجمة على الفور",
+      btnUrl: "/ai/tiktok-video-subtitle-remover",
+    },
+  },
+};
 export const virtualTryOnVideoTemplateData = {
   zh: {
     meta: {
@@ -4136,444 +4661,716 @@ export const virtualTryOnVideoTemplateData = {
     },
   },
 
-  "ja": {
-    "meta": {
-      "title": "製品説明ビデオジェネレーター | AI アバターを使用したカスタムビデオ",
-      "description": "KreadoAI アバターを使用して、コンバージョン率の高い製品説明ビデオを作成します。マルチシーン、ワンクリック、電子商取引、広告、グローバル市場向けの多言語ナレーション付きです。"
+  ja: {
+    meta: {
+      title:
+        "製品説明ビデオジェネレーター | AI アバターを使用したカスタムビデオ",
+      description:
+        "KreadoAI アバターを使用して、コンバージョン率の高い製品説明ビデオを作成します。マルチシーン、ワンクリック、電子商取引、広告、グローバル市場向けの多言語ナレーション付きです。",
     },
-    "pagePath": "/ai/aivideogen",
-    "pageTitle": "KreadoAI でコンバージョン率の高い AI 製品説明ビデオを作成する",
-    "pageDesc": "AI モデルを使用して、コンバージョン率の高い仮想試着ビデオを作成します。 電子商取引、広告、製品ページ用の仮想メガネ、髪の色、メイクアップ、指輪、アパレルの試着ビデオを生成します。撮影は必要ありません。",
-    "pageBtnText": "バーチャル試着ビデオの作成",
-    "pageImageUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/75796c5e7da444d5b4420c577c93b094.webp",
-    "modelCanMake": {
-      "title": "KreadoAI 仮想試着ビデオ ジェネレーターでできること",
-      "scenariosList": [
+    pagePath: "/ai/aivideogen",
+    pageTitle: "KreadoAI でコンバージョン率の高い AI 製品説明ビデオを作成する",
+    pageDesc:
+      "AI モデルを使用して、コンバージョン率の高い仮想試着ビデオを作成します。 電子商取引、広告、製品ページ用の仮想メガネ、髪の色、メイクアップ、指輪、アパレルの試着ビデオを生成します。撮影は必要ありません。",
+    pageBtnText: "バーチャル試着ビデオの作成",
+    pageImageUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/75796c5e7da444d5b4420c577c93b094.webp",
+    modelCanMake: {
+      title: "KreadoAI 仮想試着ビデオ ジェネレーターでできること",
+      scenariosList: [
         {
-          "id": 1,
-          "title": "Eコマースの可視化",
-          "desc": "メガネ、指輪、ウィッグ、アパレルなどの高忠実度の仮想試着ビデオ。 信頼性を高め、返品を減らし、コンバージョンを促進します。"
+          id: 1,
+          title: "Eコマースの可視化",
+          desc: "メガネ、指輪、ウィッグ、アパレルなどの高忠実度の仮想試着ビデオ。 信頼性を高め、返品を減らし、コンバージョンを促進します。",
         },
         {
-          "id": 2,
-          "title": "ソーシャルメディアマーケティング",
-          "desc": "Instagram、TikTok などの UGC スタイルの試着ビデオ。 低コストでエンゲージメントの高いコンテンツ - インフルエンサーは必要ありません。"
+          id: 2,
+          title: "ソーシャルメディアマーケティング",
+          desc: "Instagram、TikTok などの UGC スタイルの試着ビデオ。 低コストでエンゲージメントの高いコンテンツ - インフルエンサーは必要ありません。",
         },
         {
-          "id": 3,
-          "title": "製品デモ",
-          "desc": "AI アバターは主要な機能を紹介し、現実世界の撮影を置き換え、ビデオ制作をスピードアップします。"
+          id: 3,
+          title: "製品デモ",
+          desc: "AI アバターは主要な機能を紹介し、現実世界の撮影を置き換え、ビデオ制作をスピードアップします。",
         },
         {
-          "id": 4,
-          "title": "オムニチャネル対応",
-          "desc": "商品ページ、広告、ライブ ストリームなどの複数のフォーマット (16:9 / 9:16)。 1 つの資産、複数のプラットフォーム。"
-        }
-      ]
-    },
-    "steps": {
-      "title": "3 つの簡単なステップで仮想試着ビデオを作成する方法",
-      "list": [
-        {
-          "id": 1,
-          "title": "ステップ 1: URL を入力してコンテンツを収集する",
-          "desc": "製品ページの URL を貼り付けます。 システムはタイトル、説明、画像、ビデオを自動的に取得して、AI ビデオ作成の準備をします。",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/15f419ad31e44a21b63d0562bd28d773.webp",
-          "path": "/ai/aivideogen"
+          id: 4,
+          title: "オムニチャネル対応",
+          desc: "商品ページ、広告、ライブ ストリームなどの複数のフォーマット (16:9 / 9:16)。 1 つの資産、複数のプラットフォーム。",
         },
-        {
-          "id": 2,
-          "title": "ステップ 2: コンテンツと設定を編集する",
-          "desc": "画像を確認して調整し、コピーします。 次に、ビデオの長さ、形式、言語、視聴者のキーワードを設定し、複数の AI 音声スクリプトから選択します。",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/53ffc561b96246eb94ec368c88c39c80.webp",
-          "path": "/ai/aivideogen"
-        },
-        {
-          "id": 3,
-          "title": "ステップ 3: ビデオの生成とプレビュー",
-          "desc": "アイウェア、ウィッグ、美容、ジュエリー、アパレルの AI 仮想試着ビデオを作成し、すぐにプレビュー、ダウンロード、共有します。",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/ff2645d584894b4480f98d2105dfe60e.webp",
-          "path": "/ai/aivideogen"
-        }
       ],
-      "btnText": "仮想試着ビデオの生成"
     },
-    "caseInfo": {
-      "title": "KreadoAI バーチャル試着ビデオの例",
-      "type": "ビデオ",
-      "videoRatio": "9:16",
-      "caseBtnText": "製品ショーケースを開始する",
-      "list": [
+    steps: {
+      title: "3 つの簡単なステップで仮想試着ビデオを作成する方法",
+      list: [
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/fbdcb2633c504bf2b42daba67a53fff8.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/e3305338bc944875b047be341d854779.mp4",
-          "isPlaying": false,
-          "id": 1
+          id: 1,
+          title: "ステップ 1: URL を入力してコンテンツを収集する",
+          desc: "製品ページの URL を貼り付けます。 システムはタイトル、説明、画像、ビデオを自動的に取得して、AI ビデオ作成の準備をします。",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/15f419ad31e44a21b63d0562bd28d773.webp",
+          path: "/ai/aivideogen",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/207c00f231724e799269c508979fdec9.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/354fa9636cf14cd09b96c0b50f68357f.mp4",
-          "isPlaying": false,
-          "id": 2
+          id: 2,
+          title: "ステップ 2: コンテンツと設定を編集する",
+          desc: "画像を確認して調整し、コピーします。 次に、ビデオの長さ、形式、言語、視聴者のキーワードを設定し、複数の AI 音声スクリプトから選択します。",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/53ffc561b96246eb94ec368c88c39c80.webp",
+          path: "/ai/aivideogen",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b1ebe2a0946b40bbab53f74da1819446.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/44c71951c55846ea89287703aa43e79d.mp4",
-          "isPlaying": false,
-          "id": 3
+          id: 3,
+          title: "ステップ 3: ビデオの生成とプレビュー",
+          desc: "アイウェア、ウィッグ、美容、ジュエリー、アパレルの AI 仮想試着ビデオを作成し、すぐにプレビュー、ダウンロード、共有します。",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/ff2645d584894b4480f98d2105dfe60e.webp",
+          path: "/ai/aivideogen",
         },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/be8fca0c376244ae97a48da14e4a96dc.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6017f65838144469942681f414f10b88.mp4",
-          "isPlaying": false,
-          "id": 4
-        },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/1d598d6289b648789088dcfe71d88b08.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/911befac2dce4a9387bee4b4374419d7.mp4",
-          "isPlaying": false,
-          "id": 5
-        }
-      ]
+      ],
+      btnText: "仮想試着ビデオの生成",
     },
-    "selectModel": {
-      "title": "KreadoAI 仮想試着ビデオ ジェネレーターを選ぶ理由?",
-      "scenariosList": [
+    caseInfo: {
+      title: "KreadoAI バーチャル試着ビデオの例",
+      type: "ビデオ",
+      videoRatio: "9:16",
+      caseBtnText: "製品ショーケースを開始する",
+      list: [
         {
-          "id": 1,
-          "title": "リアルな製品の視覚化",
-          "desc": "AI はアイウェア、ウィッグ、美容製品、アパレルの仮想試着を生成し、詳細とフィット感を正確に表示します。手動による修正は必要ありません。"
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/fbdcb2633c504bf2b42daba67a53fff8.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/e3305338bc944875b047be341d854779.mp4",
+          isPlaying: false,
+          id: 1,
         },
         {
-          "id": 2,
-          "title": "グローバルな多言語サポート",
-          "desc": "AI ナレーションと試着スクリプトを複数の言語で生成して、世界中の視聴者に簡単に届けることができます。"
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/207c00f231724e799269c508979fdec9.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/354fa9636cf14cd09b96c0b50f68357f.mp4",
+          isPlaying: false,
+          id: 2,
         },
         {
-          "id": 3,
-          "title": "コスト効率と拡張性が高い",
-          "desc": "制作コストを最大 90% 削減し、カテゴリやシーンを超えた高品質の仮想試着ビデオを一括作成します。"
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b1ebe2a0946b40bbab53f74da1819446.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/44c71951c55846ea89287703aa43e79d.mp4",
+          isPlaying: false,
+          id: 3,
         },
         {
-          "id": 4,
-          "title": "AI に最適化されたマーケティング スクリプト",
-          "desc": "主要な製品機能を自動的に強調表示し、広告、ソーシャル メディア、電子商取引の製品ページに合わせたスクリプトを生成します。"
-        }
-      ]
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/be8fca0c376244ae97a48da14e4a96dc.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6017f65838144469942681f414f10b88.mp4",
+          isPlaying: false,
+          id: 4,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/1d598d6289b648789088dcfe71d88b08.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/911befac2dce4a9387bee4b4374419d7.mp4",
+          isPlaying: false,
+          id: 5,
+        },
+      ],
     },
-    "discoverMoreTools": {
-      "title": "KreadoAI で AI クリエイティブ ツールをさらに探索する",
-      "desc": "AI を活用した広告クリエイティブの画像とビデオの生成により、高品質のマーケティング資産を迅速かつスケーラブルに制作できます。",
-      "list": [
+    selectModel: {
+      title: "KreadoAI 仮想試着ビデオ ジェネレーターを選ぶ理由?",
+      scenariosList: [
         {
-          "name": "TikTok / UGC 製品ビデオ",
-          "path": "product-marketing-video"
+          id: 1,
+          title: "リアルな製品の視覚化",
+          desc: "AI はアイウェア、ウィッグ、美容製品、アパレルの仮想試着を生成し、詳細とフィット感を正確に表示します。手動による修正は必要ありません。",
         },
         {
-          "name": "製品保持ビデオ",
-          "path": "product-holding-video"
+          id: 2,
+          title: "グローバルな多言語サポート",
+          desc: "AI ナレーションと試着スクリプトを複数の言語で生成して、世界中の視聴者に簡単に届けることができます。",
         },
         {
-          "name": "製品説明ビデオ",
-          "path": "product-explainer-video"
+          id: 3,
+          title: "コスト効率と拡張性が高い",
+          desc: "制作コストを最大 90% 削減し、カテゴリやシーンを超えた高品質の仮想試着ビデオを一括作成します。",
         },
         {
-          "name": "AIビデオフェイススワップ",
-          "path": "video-face-swap"
+          id: 4,
+          title: "AI に最適化されたマーケティング スクリプト",
+          desc: "主要な製品機能を自動的に強調表示し、広告、ソーシャル メディア、電子商取引の製品ページに合わせたスクリプトを生成します。",
         },
-        {
-          "name": "AIビデオ翻訳",
-          "path": "video-translator"
-        },
-        {
-          "name": "イメージアップスケーラー",
-          "path": "ai-image/image-upscaler"
-        },
-        {
-          "name": "マルチサイズ広告画像ジェネレーター",
-          "path": "ai-image/ad-image-generator"
-        },
-        {
-          "name": "着替え",
-          "path": "ai-image/clothes-changer"
-        },
-        {
-          "name": "画像テキストエディタ",
-          "path": "ai-image/text-editor"
-        },
-        {
-          "name": "画像翻訳者",
-          "path": "ai-image/image-translator"
-        },
-        {
-          "name": "画像の修復",
-          "path": "ai-image/inpainting"
-        },
-        {
-          "name": "背景の除去",
-          "path": "image-background-remover"
-        },
-        {
-          "name": "画像のアウトペインティング",
-          "path": "ai-image/outpainting"
-        },
-        {
-          "name": "動画広告ジェネレーターへの URL",
-          "path": "url-to-video"
-        }
-      ]
+      ],
     },
-    "faq": {
-      "title": "KreadoAI 仮想試着ビデオ ジェネレーターに関するよくある質問",
-      "questionList": [
+    discoverMoreTools: {
+      title: "KreadoAI で AI クリエイティブ ツールをさらに探索する",
+      desc: "AI を活用した広告クリエイティブの画像とビデオの生成により、高品質のマーケティング資産を迅速かつスケーラブルに制作できます。",
+      list: [
         {
-          "q": "KreadoAI 仮想試着ビデオ ジェネレーターとは何ですか?",
-          "a": "KreadoAI Virtual Try-On Video Generator は、AI アバターを使用して、アイウェア、アパレル、美容製品などの非常にリアルな試着ビデオを迅速に作成する AI ツールです。撮影や俳優は必要ありません。"
+          name: "TikTok / UGC 製品ビデオ",
+          path: "product-marketing-video",
         },
         {
-          "q": "仮想試着ビデオとして作成できるのはどの製品カテゴリですか?",
-          "a": "アイウェア（メガネ、サングラス、フレーム）、ヘア＆ビューティー（スタイル、ウィッグ、メイクアップ）、ジュエリー（リング、ネックレス、ブレスレット）、アパレルなど。"
+          name: "製品保持ビデオ",
+          path: "product-holding-video",
         },
         {
-          "q": "KreadoAI はどのようにして現実的な試着効果を保証しますか?",
-          "a": "KreadoAI は、高度な AI ポーズ インタラクションと時間的一貫性を使用して、照明、素材、フィット感を一致させます。 動きは体や顔の動作と同期し、非常にリアルな体験を実現します。"
+          name: "製品説明ビデオ",
+          path: "product-explainer-video",
         },
         {
-          "q": "KreadoAI は複数の言語とグローバル ブランドの国際的な使用をサポートしていますか?",
-          "a": "はい。 AI ナレーションとスクリプトを複数の言語で生成し、ブランドが世界中の視聴者に自然かつ効率的にリーチできるようにします。"
+          name: "AIビデオフェイススワップ",
+          path: "video-face-swap",
         },
         {
-          "q": "AI 仮想試着ビデオは、パーソナライズされたスクリプトやナレーションを使用してカスタマイズできますか?",
-          "a": "はい。 AI が生成した複数のスクリプトを選択または編集し、テキスト、音声スタイル、アクション プロンプトを調整して、パーソナライズされたマーケティング ビデオを作成します。"
-        }
-      ]
+          name: "AIビデオ翻訳",
+          path: "video-translator",
+        },
+        {
+          name: "イメージアップスケーラー",
+          path: "ai-image/image-upscaler",
+        },
+        {
+          name: "マルチサイズ広告画像ジェネレーター",
+          path: "ai-image/ad-image-generator",
+        },
+        {
+          name: "着替え",
+          path: "ai-image/clothes-changer",
+        },
+        {
+          name: "画像テキストエディタ",
+          path: "ai-image/text-editor",
+        },
+        {
+          name: "画像翻訳者",
+          path: "ai-image/image-translator",
+        },
+        {
+          name: "画像の修復",
+          path: "ai-image/inpainting",
+        },
+        {
+          name: "背景の除去",
+          path: "image-background-remover",
+        },
+        {
+          name: "画像のアウトペインティング",
+          path: "ai-image/outpainting",
+        },
+        {
+          name: "動画広告ジェネレーターへの URL",
+          path: "url-to-video",
+        },
+      ],
     },
-    "startSection": {
-      "title": "KreadoAI 仮想試着ビデオ ジェネレーターを今すぐお試しください!",
-      "desc": "ワンクリックでコンバージョン率の高い仮想試着ビデオを生成し、簡単に売上とブランドへの影響力を高めます",
-      "btnText": "今すぐビデオを生成しましょう",
-      "btnUrl": "/ai/aivideogen"
-    }
+    faq: {
+      title: "KreadoAI 仮想試着ビデオ ジェネレーターに関するよくある質問",
+      questionList: [
+        {
+          q: "KreadoAI 仮想試着ビデオ ジェネレーターとは何ですか?",
+          a: "KreadoAI Virtual Try-On Video Generator は、AI アバターを使用して、アイウェア、アパレル、美容製品などの非常にリアルな試着ビデオを迅速に作成する AI ツールです。撮影や俳優は必要ありません。",
+        },
+        {
+          q: "仮想試着ビデオとして作成できるのはどの製品カテゴリですか?",
+          a: "アイウェア（メガネ、サングラス、フレーム）、ヘア＆ビューティー（スタイル、ウィッグ、メイクアップ）、ジュエリー（リング、ネックレス、ブレスレット）、アパレルなど。",
+        },
+        {
+          q: "KreadoAI はどのようにして現実的な試着効果を保証しますか?",
+          a: "KreadoAI は、高度な AI ポーズ インタラクションと時間的一貫性を使用して、照明、素材、フィット感を一致させます。 動きは体や顔の動作と同期し、非常にリアルな体験を実現します。",
+        },
+        {
+          q: "KreadoAI は複数の言語とグローバル ブランドの国際的な使用をサポートしていますか?",
+          a: "はい。 AI ナレーションとスクリプトを複数の言語で生成し、ブランドが世界中の視聴者に自然かつ効率的にリーチできるようにします。",
+        },
+        {
+          q: "AI 仮想試着ビデオは、パーソナライズされたスクリプトやナレーションを使用してカスタマイズできますか?",
+          a: "はい。 AI が生成した複数のスクリプトを選択または編集し、テキスト、音声スタイル、アクション プロンプトを調整して、パーソナライズされたマーケティング ビデオを作成します。",
+        },
+      ],
+    },
+    startSection: {
+      title: "KreadoAI 仮想試着ビデオ ジェネレーターを今すぐお試しください!",
+      desc: "ワンクリックでコンバージョン率の高い仮想試着ビデオを生成し、簡単に売上とブランドへの影響力を高めます",
+      btnText: "今すぐビデオを生成しましょう",
+      btnUrl: "/ai/aivideogen",
+    },
   },
-  "ko": {
-    "meta": {
-      "title": "제품 설명 비디오 생성기 | AI 아바타가 포함된 맞춤형 비디오",
-      "description": "전자 상거래, 광고 및 글로벌 시장을 위한 다국어 음성 해설이 포함된 다중 장면, 원클릭 지원 KreadoAI 아바타로 전환율이 높은 제품 설명 동영상을 제작하세요."
+  ko: {
+    meta: {
+      title: "제품 설명 비디오 생성기 | AI 아바타가 포함된 맞춤형 비디오",
+      description:
+        "전자 상거래, 광고 및 글로벌 시장을 위한 다국어 음성 해설이 포함된 다중 장면, 원클릭 지원 KreadoAI 아바타로 전환율이 높은 제품 설명 동영상을 제작하세요.",
     },
-    "pagePath": "/ai/aivideogen",
-    "pageTitle": "KreadoAI로 전환율이 높은 AI 제품 설명 동영상 제작",
-    "pageDesc": "AI 모델을 사용하여 전환율이 높은 가상 체험 동영상을 제작하세요. 전자상거래, 광고, 제품 페이지용 가상 안경, 헤어 컬러, 메이크업, 반지, 의류 시착 동영상을 생성하세요. 촬영이 필요하지 않습니다.",
-    "pageBtnText": "가상 시착 영상 제작",
-    "pageImageUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/75796c5e7da444d5b4420c577c93b094.webp",
-    "modelCanMake": {
-      "title": "KreadoAI 가상 체험 영상 생성기로 무엇을 할 수 있나요?",
-      "scenariosList": [
+    pagePath: "/ai/aivideogen",
+    pageTitle: "KreadoAI로 전환율이 높은 AI 제품 설명 동영상 제작",
+    pageDesc:
+      "AI 모델을 사용하여 전환율이 높은 가상 체험 동영상을 제작하세요. 전자상거래, 광고, 제품 페이지용 가상 안경, 헤어 컬러, 메이크업, 반지, 의류 시착 동영상을 생성하세요. 촬영이 필요하지 않습니다.",
+    pageBtnText: "가상 시착 영상 제작",
+    pageImageUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/75796c5e7da444d5b4420c577c93b094.webp",
+    modelCanMake: {
+      title: "KreadoAI 가상 체험 영상 생성기로 무엇을 할 수 있나요?",
+      scenariosList: [
         {
-          "id": 1,
-          "title": "전자상거래 시각화",
-          "desc": "안경, 반지, 가발, 의류 등에 대한 고화질 가상 체험 동영상입니다. 자신감을 높이고 반품을 줄이며 전환을 유도하세요."
+          id: 1,
+          title: "전자상거래 시각화",
+          desc: "안경, 반지, 가발, 의류 등에 대한 고화질 가상 체험 동영상입니다. 자신감을 높이고 반품을 줄이며 전환을 유도하세요.",
         },
         {
-          "id": 2,
-          "title": "소셜 미디어 마케팅",
-          "desc": "Instagram, TikTok 등을 위한 UGC 스타일 체험 동영상입니다. 저비용, 참여도 높은 콘텐츠 – 영향력 있는 사람이 필요하지 않습니다."
+          id: 2,
+          title: "소셜 미디어 마케팅",
+          desc: "Instagram, TikTok 등을 위한 UGC 스타일 체험 동영상입니다. 저비용, 참여도 높은 콘텐츠 – 영향력 있는 사람이 필요하지 않습니다.",
         },
         {
-          "id": 3,
-          "title": "제품 데모",
-          "desc": "AI 아바타는 실제 촬영을 대체하고 비디오 제작 속도를 높이는 주요 기능을 선보입니다."
+          id: 3,
+          title: "제품 데모",
+          desc: "AI 아바타는 실제 촬영을 대체하고 비디오 제작 속도를 높이는 주요 기능을 선보입니다.",
         },
         {
-          "id": 4,
-          "title": "옴니채널 준비",
-          "desc": "제품 페이지, 광고, 실시간 스트림 등을 위한 다양한 형식(16:9 / 9:16). 하나의 자산, 다양한 플랫폼."
-        }
-      ]
-    },
-    "steps": {
-      "title": "간단한 3단계로 가상 체험 비디오를 만드는 방법",
-      "list": [
-        {
-          "id": 1,
-          "title": "1단계: URL 입력 및 콘텐츠 수집",
-          "desc": "제품 페이지 URL을 붙여넣으세요. 시스템은 AI 비디오 제작을 준비하기 위해 자동으로 제목, 설명, 이미지 및 비디오를 가져옵니다.",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/15f419ad31e44a21b63d0562bd28d773.webp",
-          "path": "/ai/aivideogen"
+          id: 4,
+          title: "옴니채널 준비",
+          desc: "제품 페이지, 광고, 실시간 스트림 등을 위한 다양한 형식(16:9 / 9:16). 하나의 자산, 다양한 플랫폼.",
         },
-        {
-          "id": 2,
-          "title": "2단계: 콘텐츠 및 설정 편집",
-          "desc": "이미지를 검토 및 조정하고 복사합니다. 그런 다음 비디오 길이, 형식, 언어 및 청중 키워드를 설정하고 여러 AI 음성 스크립트 중에서 선택하십시오.",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/53ffc561b96246eb94ec368c88c39c80.webp",
-          "path": "/ai/aivideogen"
-        },
-        {
-          "id": 3,
-          "title": "3단계: 비디오 생성 및 미리보기",
-          "desc": "안경, 가발, 뷰티, 주얼리, 의류에 대한 AI 가상 체험 비디오를 만든 후 즉시 미리 보고, 다운로드하고, 공유하세요.",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/ff2645d584894b4480f98d2105dfe60e.webp",
-          "path": "/ai/aivideogen"
-        }
       ],
-      "btnText": "가상 시착 비디오 생성"
     },
-    "caseInfo": {
-      "title": "KreadoAI 가상 체험 영상 예시",
-      "type": "동영상",
-      "videoRatio": "9:16",
-      "caseBtnText": "제품 쇼케이스 시작",
-      "list": [
+    steps: {
+      title: "간단한 3단계로 가상 체험 비디오를 만드는 방법",
+      list: [
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/fbdcb2633c504bf2b42daba67a53fff8.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/e3305338bc944875b047be341d854779.mp4",
-          "isPlaying": false,
-          "id": 1
+          id: 1,
+          title: "1단계: URL 입력 및 콘텐츠 수집",
+          desc: "제품 페이지 URL을 붙여넣으세요. 시스템은 AI 비디오 제작을 준비하기 위해 자동으로 제목, 설명, 이미지 및 비디오를 가져옵니다.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/15f419ad31e44a21b63d0562bd28d773.webp",
+          path: "/ai/aivideogen",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/207c00f231724e799269c508979fdec9.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/354fa9636cf14cd09b96c0b50f68357f.mp4",
-          "isPlaying": false,
-          "id": 2
+          id: 2,
+          title: "2단계: 콘텐츠 및 설정 편집",
+          desc: "이미지를 검토 및 조정하고 복사합니다. 그런 다음 비디오 길이, 형식, 언어 및 청중 키워드를 설정하고 여러 AI 음성 스크립트 중에서 선택하십시오.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/53ffc561b96246eb94ec368c88c39c80.webp",
+          path: "/ai/aivideogen",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b1ebe2a0946b40bbab53f74da1819446.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/44c71951c55846ea89287703aa43e79d.mp4",
-          "isPlaying": false,
-          "id": 3
+          id: 3,
+          title: "3단계: 비디오 생성 및 미리보기",
+          desc: "안경, 가발, 뷰티, 주얼리, 의류에 대한 AI 가상 체험 비디오를 만든 후 즉시 미리 보고, 다운로드하고, 공유하세요.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/ff2645d584894b4480f98d2105dfe60e.webp",
+          path: "/ai/aivideogen",
         },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/be8fca0c376244ae97a48da14e4a96dc.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6017f65838144469942681f414f10b88.mp4",
-          "isPlaying": false,
-          "id": 4
-        },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/1d598d6289b648789088dcfe71d88b08.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/911befac2dce4a9387bee4b4374419d7.mp4",
-          "isPlaying": false,
-          "id": 5
-        }
-      ]
+      ],
+      btnText: "가상 시착 비디오 생성",
     },
-    "selectModel": {
-      "title": "KreadoAI 가상 체험 영상 생성기를 선택하는 이유는 무엇입니까?",
-      "scenariosList": [
+    caseInfo: {
+      title: "KreadoAI 가상 체험 영상 예시",
+      type: "동영상",
+      videoRatio: "9:16",
+      caseBtnText: "제품 쇼케이스 시작",
+      list: [
         {
-          "id": 1,
-          "title": "현실적인 제품 시각화",
-          "desc": "AI는 안경, 가발, 미용 제품, 의류에 대한 가상 시착을 생성하여 세부 사항과 핏을 정확하게 표시하며 수동 리터칭이 필요하지 않습니다."
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/fbdcb2633c504bf2b42daba67a53fff8.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/e3305338bc944875b047be341d854779.mp4",
+          isPlaying: false,
+          id: 1,
         },
         {
-          "id": 2,
-          "title": "글로벌 다국어 지원",
-          "desc": "AI 음성 해설과 체험 스크립트를 여러 언어로 생성하여 해외 청중에게 쉽게 다가갈 수 있습니다."
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/207c00f231724e799269c508979fdec9.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/354fa9636cf14cd09b96c0b50f68357f.mp4",
+          isPlaying: false,
+          id: 2,
         },
         {
-          "id": 3,
-          "title": "비용 효율성 및 확장성",
-          "desc": "제작 비용을 최대 90% 절감하고 카테고리와 장면 전반에 걸쳐 고품질 가상 체험 동영상을 일괄 제작하세요."
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b1ebe2a0946b40bbab53f74da1819446.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/44c71951c55846ea89287703aa43e79d.mp4",
+          isPlaying: false,
+          id: 3,
         },
         {
-          "id": 4,
-          "title": "AI 최적화 마케팅 스크립트",
-          "desc": "주요 제품 기능을 자동으로 강조하고 광고, 소셜 미디어 및 전자상거래 제품 페이지를 위한 맞춤형 스크립트를 생성합니다."
-        }
-      ]
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/be8fca0c376244ae97a48da14e4a96dc.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6017f65838144469942681f414f10b88.mp4",
+          isPlaying: false,
+          id: 4,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/1d598d6289b648789088dcfe71d88b08.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/911befac2dce4a9387bee4b4374419d7.mp4",
+          isPlaying: false,
+          id: 5,
+        },
+      ],
     },
-    "discoverMoreTools": {
-      "title": "KreadoAI에서 더 많은 AI 크리에이티브 도구를 살펴보세요",
-      "desc": "AI 기반 광고 크리에이티브 이미지 및 비디오 생성을 통해 고품질 마케팅 자산을 빠르고 확장 가능하게 제작할 수 있습니다.",
-      "list": [
+    selectModel: {
+      title: "KreadoAI 가상 체험 영상 생성기를 선택하는 이유는 무엇입니까?",
+      scenariosList: [
         {
-          "name": "TikTok / UGC 제품 비디오",
-          "path": "product-marketing-video"
+          id: 1,
+          title: "현실적인 제품 시각화",
+          desc: "AI는 안경, 가발, 미용 제품, 의류에 대한 가상 시착을 생성하여 세부 사항과 핏을 정확하게 표시하며 수동 리터칭이 필요하지 않습니다.",
         },
         {
-          "name": "제품 보유 영상",
-          "path": "product-holding-video"
+          id: 2,
+          title: "글로벌 다국어 지원",
+          desc: "AI 음성 해설과 체험 스크립트를 여러 언어로 생성하여 해외 청중에게 쉽게 다가갈 수 있습니다.",
         },
         {
-          "name": "제품 설명 동영상",
-          "path": "product-explainer-video"
+          id: 3,
+          title: "비용 효율성 및 확장성",
+          desc: "제작 비용을 최대 90% 절감하고 카테고리와 장면 전반에 걸쳐 고품질 가상 체험 동영상을 일괄 제작하세요.",
         },
         {
-          "name": "AI 비디오 얼굴 교환",
-          "path": "video-face-swap"
+          id: 4,
+          title: "AI 최적화 마케팅 스크립트",
+          desc: "주요 제품 기능을 자동으로 강조하고 광고, 소셜 미디어 및 전자상거래 제품 페이지를 위한 맞춤형 스크립트를 생성합니다.",
         },
-        {
-          "name": "AI 영상번역",
-          "path": "video-translator"
-        },
-        {
-          "name": "이미지 업스케일러",
-          "path": "ai-image/image-upscaler"
-        },
-        {
-          "name": "다양한 크기의 광고 이미지 생성기",
-          "path": "ai-image/ad-image-generator"
-        },
-        {
-          "name": "옷 갈아입기",
-          "path": "ai-image/clothes-changer"
-        },
-        {
-          "name": "이미지 텍스트 편집기",
-          "path": "ai-image/text-editor"
-        },
-        {
-          "name": "이미지 번역기",
-          "path": "ai-image/image-translator"
-        },
-        {
-          "name": "이미지 인페인팅",
-          "path": "ai-image/inpainting"
-        },
-        {
-          "name": "배경 제거",
-          "path": "image-background-remover"
-        },
-        {
-          "name": "이미지 아웃페인팅",
-          "path": "ai-image/outpainting"
-        },
-        {
-          "name": "비디오 광고 생성기의 URL",
-          "path": "url-to-video"
-        }
-      ]
+      ],
     },
-    "faq": {
-      "title": "KreadoAI 가상 체험 비디오 생성기에 대해 자주 묻는 질문",
-      "questionList": [
+    discoverMoreTools: {
+      title: "KreadoAI에서 더 많은 AI 크리에이티브 도구를 살펴보세요",
+      desc: "AI 기반 광고 크리에이티브 이미지 및 비디오 생성을 통해 고품질 마케팅 자산을 빠르고 확장 가능하게 제작할 수 있습니다.",
+      list: [
         {
-          "q": "KreadoAI 가상 체험 영상 생성기란 무엇인가요?",
-          "a": "KreadoAI Virtual Try-On Video Generator는 촬영이나 배우가 필요 없이 AI 아바타를 사용하여 안경, 의류, 미용 제품 등에 대한 매우 사실적인 시착 비디오를 빠르게 생성하는 AI 도구입니다."
+          name: "TikTok / UGC 제품 비디오",
+          path: "product-marketing-video",
         },
         {
-          "q": "가상 체험 동영상으로 제작할 수 있는 제품 카테고리는 무엇인가요?",
-          "a": "안경(안경, 선글라스, 안경테), 헤어 & 뷰티(스타일, 가발, 메이크업), 주얼리(반지, 목걸이, 팔찌), 의류 등."
+          name: "제품 보유 영상",
+          path: "product-holding-video",
         },
         {
-          "q": "KreadoAI는 어떻게 현실적인 시착 효과를 보장하나요?",
-          "a": "KreadoAI는 고급 AI 포즈 상호 작용과 시간적 일관성을 사용하여 조명, 재질 및 핏을 일치시킵니다. 움직임은 신체 및 얼굴 동작과 동기화되어 매우 사실적인 경험을 제공합니다."
+          name: "제품 설명 동영상",
+          path: "product-explainer-video",
         },
         {
-          "q": "KreadoAI는 글로벌 브랜드에 대해 다국어 및 국제 사용을 지원합니까?",
-          "a": "예. 여러 언어로 AI 음성 해설 및 스크립트를 생성하여 브랜드가 자연스럽고 효율적으로 전 세계 고객에게 다가갈 수 있도록 합니다."
+          name: "AI 비디오 얼굴 교환",
+          path: "video-face-swap",
         },
         {
-          "q": "AI 가상 시착 동영상을 맞춤형 스크립트와 음성 해설로 맞춤 설정할 수 있나요?",
-          "a": "예. AI가 생성한 여러 스크립트를 선택하거나 편집하고 텍스트, 음성 스타일 및 개인화된 마케팅 비디오를 위한 작업 프롬프트를 조정합니다."
-        }
-      ]
+          name: "AI 영상번역",
+          path: "video-translator",
+        },
+        {
+          name: "이미지 업스케일러",
+          path: "ai-image/image-upscaler",
+        },
+        {
+          name: "다양한 크기의 광고 이미지 생성기",
+          path: "ai-image/ad-image-generator",
+        },
+        {
+          name: "옷 갈아입기",
+          path: "ai-image/clothes-changer",
+        },
+        {
+          name: "이미지 텍스트 편집기",
+          path: "ai-image/text-editor",
+        },
+        {
+          name: "이미지 번역기",
+          path: "ai-image/image-translator",
+        },
+        {
+          name: "이미지 인페인팅",
+          path: "ai-image/inpainting",
+        },
+        {
+          name: "배경 제거",
+          path: "image-background-remover",
+        },
+        {
+          name: "이미지 아웃페인팅",
+          path: "ai-image/outpainting",
+        },
+        {
+          name: "비디오 광고 생성기의 URL",
+          path: "url-to-video",
+        },
+      ],
     },
-    "startSection": {
-      "title": "지금 KreadoAI 가상 체험 비디오 생성기를 사용해 보세요!",
-      "desc": "클릭 한 번으로 전환율이 높은 가상 체험 동영상을 생성하고 매출과 브랜드 영향력을 쉽게 높일 수 있습니다.",
-      "btnText": "지금 비디오를 생성하세요",
-      "btnUrl": "/ai/aivideogen"
-    }
-  },};
+    faq: {
+      title: "KreadoAI 가상 체험 비디오 생성기에 대해 자주 묻는 질문",
+      questionList: [
+        {
+          q: "KreadoAI 가상 체험 영상 생성기란 무엇인가요?",
+          a: "KreadoAI Virtual Try-On Video Generator는 촬영이나 배우가 필요 없이 AI 아바타를 사용하여 안경, 의류, 미용 제품 등에 대한 매우 사실적인 시착 비디오를 빠르게 생성하는 AI 도구입니다.",
+        },
+        {
+          q: "가상 체험 동영상으로 제작할 수 있는 제품 카테고리는 무엇인가요?",
+          a: "안경(안경, 선글라스, 안경테), 헤어 & 뷰티(스타일, 가발, 메이크업), 주얼리(반지, 목걸이, 팔찌), 의류 등.",
+        },
+        {
+          q: "KreadoAI는 어떻게 현실적인 시착 효과를 보장하나요?",
+          a: "KreadoAI는 고급 AI 포즈 상호 작용과 시간적 일관성을 사용하여 조명, 재질 및 핏을 일치시킵니다. 움직임은 신체 및 얼굴 동작과 동기화되어 매우 사실적인 경험을 제공합니다.",
+        },
+        {
+          q: "KreadoAI는 글로벌 브랜드에 대해 다국어 및 국제 사용을 지원합니까?",
+          a: "예. 여러 언어로 AI 음성 해설 및 스크립트를 생성하여 브랜드가 자연스럽고 효율적으로 전 세계 고객에게 다가갈 수 있도록 합니다.",
+        },
+        {
+          q: "AI 가상 시착 동영상을 맞춤형 스크립트와 음성 해설로 맞춤 설정할 수 있나요?",
+          a: "예. AI가 생성한 여러 스크립트를 선택하거나 편집하고 텍스트, 음성 스타일 및 개인화된 마케팅 비디오를 위한 작업 프롬프트를 조정합니다.",
+        },
+      ],
+    },
+    startSection: {
+      title: "지금 KreadoAI 가상 체험 비디오 생성기를 사용해 보세요!",
+      desc: "클릭 한 번으로 전환율이 높은 가상 체험 동영상을 생성하고 매출과 브랜드 영향력을 쉽게 높일 수 있습니다.",
+      btnText: "지금 비디오를 생성하세요",
+      btnUrl: "/ai/aivideogen",
+    },
+  },
+  ar: {
+    meta: {
+      title:
+        "مولد فيديو شرح المنتج | مقاطع فيديو مخصصة باستخدام الصور الرمزية للذكاء الاصطناعي",
+      description:
+        "أنشئ مقاطع فيديو توضيحية للمنتجات عالية التحويل باستخدام الصور الرمزية لـ KreadoAI — مشاهد متعددة، بنقرة واحدة، مع تعليقات صوتية متعددة اللغات للتجارة الإلكترونية، والإعلانات، والأسواق العالمية",
+    },
+    pagePath: "/ai/aivideogen",
+    pageTitle:
+      "أنشئ مقاطع فيديو توضيحية لمنتج الذكاء الاصطناعي عالية التحويل باستخدام KreadoAI",
+    pageDesc:
+      "قم بإنشاء مقاطع فيديو تجريبية افتراضية عالية التحويل باستخدام نماذج الذكاء الاصطناعي. قم بإنشاء مقاطع فيديو افتراضية للنظارات ولون الشعر والمكياج والخواتم والملابس للتجارة الإلكترونية والإعلانات وصفحات المنتجات - دون الحاجة إلى تصوير.",
+    pageBtnText: "قم بعمل فيديو تجريبي افتراضي",
+    pageImageUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/75796c5e7da444d5b4420c577c93b094.webp",
+    modelCanMake: {
+      title: "ماذا يمكنك أن تفعل مع مولد الفيديو التجريبي الافتراضي KreadoAI",
+      scenariosList: [
+        {
+          id: 1,
+          title: "تصور التجارة الإلكترونية",
+          desc: "مقاطع فيديو افتراضية عالية الدقة للتجربة للنظارات والخواتم والشعر المستعار والملابس والمزيد. تعزيز الثقة، وتقليل العائدات، وزيادة التحويلات.",
+        },
+        {
+          id: 2,
+          title: "التسويق عبر وسائل التواصل الاجتماعي",
+          desc: "مقاطع فيديو تجريبية بأسلوب UGC لـ Instagram وTikTok وغيرهما. محتوى منخفض التكلفة وعالي التفاعل - لا حاجة إلى مؤثرين.",
+        },
+        {
+          id: 3,
+          title: "العروض التوضيحية للمنتج",
+          desc: "تعرض الصور الرمزية للذكاء الاصطناعي الميزات الرئيسية، لتحل محل لقطات العالم الحقيقي وتسريع إنتاج الفيديو.",
+        },
+        {
+          id: 4,
+          title: "قناة شاملة جاهزة",
+          desc: "تنسيقات متعددة (16:9 / 9:16) لصفحات المنتج والإعلانات والبث المباشر والمزيد. أصل واحد ومنصات متعددة.",
+        },
+      ],
+    },
+    steps: {
+      title: "كيفية إنشاء فيديو تجريبي افتراضي في 3 خطوات بسيطة",
+      list: [
+        {
+          id: 1,
+          title: "الخطوة 1: أدخل عنوان URL واجمع المحتوى",
+          desc: "الصق عنوان URL لصفحة منتجك؛ يقوم النظام تلقائيًا بسحب العناوين والأوصاف والصور ومقاطع الفيديو للتحضير لإنشاء فيديو بتقنية الذكاء الاصطناعي.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/15f419ad31e44a21b63d0562bd28d773.webp",
+          path: "/ai/aivideogen",
+        },
+        {
+          id: 2,
+          title: "الخطوة 2: تحرير المحتوى والإعدادات",
+          desc: "مراجعة وضبط الصور ونسخها. ثم قم بتعيين طول الفيديو، وتنسيقه، ولغته، والكلمات الرئيسية للجمهور، واختر من بين النصوص الصوتية المتعددة التي تعمل بتقنية الذكاء الاصطناعي.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/53ffc561b96246eb94ec368c88c39c80.webp",
+          path: "/ai/aivideogen",
+        },
+        {
+          id: 3,
+          title: "الخطوة 3: إنشاء ومعاينة الفيديو",
+          desc: "أنشئ مقاطع فيديو تجريبية افتراضية مدعمة بالذكاء الاصطناعي للنظارات والشعر المستعار ومستحضرات التجميل والمجوهرات والملابس، ثم قم بمعاينتها وتنزيلها ومشاركتها على الفور.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/ff2645d584894b4480f98d2105dfe60e.webp",
+          path: "/ai/aivideogen",
+        },
+      ],
+      btnText: "إنشاء فيديو تجريبي افتراضي",
+    },
+    caseInfo: {
+      title: "أمثلة فيديو للتجربة الافتراضية لـ KreadoAI",
+      type: "فيديو",
+      videoRatio: "9:16",
+      caseBtnText: "ابدأ عرض المنتجات",
+      list: [
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/fbdcb2633c504bf2b42daba67a53fff8.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/e3305338bc944875b047be341d854779.mp4",
+          isPlaying: false,
+          id: 1,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/207c00f231724e799269c508979fdec9.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/354fa9636cf14cd09b96c0b50f68357f.mp4",
+          isPlaying: false,
+          id: 2,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b1ebe2a0946b40bbab53f74da1819446.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/44c71951c55846ea89287703aa43e79d.mp4",
+          isPlaying: false,
+          id: 3,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/be8fca0c376244ae97a48da14e4a96dc.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6017f65838144469942681f414f10b88.mp4",
+          isPlaying: false,
+          id: 4,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/1d598d6289b648789088dcfe71d88b08.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/911befac2dce4a9387bee4b4374419d7.mp4",
+          isPlaying: false,
+          id: 5,
+        },
+      ],
+    },
+    selectModel: {
+      title: "لماذا تختار KreadoAI Virtual Try-On Video Generator؟",
+      scenariosList: [
+        {
+          id: 1,
+          title: "تصور واقعي للمنتج",
+          desc: "يُنشئ الذكاء الاصطناعي تجارب افتراضية للنظارات والشعر المستعار ومنتجات التجميل والملابس، ويعرض التفاصيل والملاءمة بدقة - دون الحاجة إلى تنقيح يدوي.",
+        },
+        {
+          id: 2,
+          title: "دعم عالمي متعدد اللغات",
+          desc: "قم بإنشاء تعليقات صوتية بتقنية الذكاء الاصطناعي ونصوص تجريبية بلغات متعددة للوصول إلى الجماهير العالمية بسهولة.",
+        },
+        {
+          id: 3,
+          title: "فعالة من حيث التكلفة وقابلة للتطوير",
+          desc: "يمكنك خفض تكاليف الإنتاج بما يصل إلى 90% وإنشاء مقاطع فيديو تجريبية افتراضية عالية الجودة على دفعات عبر الفئات والمشاهد.",
+        },
+        {
+          id: 4,
+          title: "نصوص تسويقية محسنة بالذكاء الاصطناعي",
+          desc: "قم بتسليط الضوء تلقائيًا على ميزات المنتج الرئيسية وإنشاء نصوص برمجية مخصصة للإعلانات ووسائل التواصل الاجتماعي وصفحات منتجات التجارة الإلكترونية.",
+        },
+      ],
+    },
+    discoverMoreTools: {
+      title: "اكتشف المزيد من أدوات الذكاء الاصطناعي الإبداعية على KreadoAI",
+      desc: "يتيح إنشاء الصور والفيديوهات الإبداعية للإعلانات المستندة إلى الذكاء الاصطناعي إنتاجًا سريعًا وقابلاً للتطوير لأصول تسويقية عالية الجودة",
+      list: [
+        {
+          name: "فيديو منتج TikTok / UGC",
+          path: "product-marketing-video",
+        },
+        {
+          name: "فيديو عقد المنتج",
+          path: "product-holding-video",
+        },
+        {
+          name: "فيديو توضيحي للمنتج",
+          path: "product-explainer-video",
+        },
+        {
+          name: "AI فيديو الوجه مبادلة",
+          path: "video-face-swap",
+        },
+        {
+          name: "ترجمة الفيديو بالذكاء الاصطناعي",
+          path: "video-translator",
+        },
+        {
+          name: "ترقية الصورة",
+          path: "ai-image/image-upscaler",
+        },
+        {
+          name: "مولد صور إعلان متعدد الأحجام",
+          path: "ai-image/ad-image-generator",
+        },
+        {
+          name: "تغيير الملابس",
+          path: "ai-image/clothes-changer",
+        },
+        {
+          name: "محرر نص الصورة",
+          path: "ai-image/text-editor",
+        },
+        {
+          name: "مترجم الصور",
+          path: "ai-image/image-translator",
+        },
+        {
+          name: "صورة إنبينتينج",
+          path: "ai-image/inpainting",
+        },
+        {
+          name: "إزالة الخلفية",
+          path: "image-background-remover",
+        },
+        {
+          name: "الرسم الخارجي للصورة",
+          path: "ai-image/outpainting",
+        },
+        {
+          name: "عنوان URL لمولد إعلانات الفيديو",
+          path: "url-to-video",
+        },
+      ],
+    },
+    faq: {
+      title:
+        "الأسئلة المتداولة حول أداة إنشاء مقاطع الفيديو التجريبية الافتراضية لـ KreadoAI",
+      questionList: [
+        {
+          q: "ما هو مولد الفيديو التجريبي الافتراضي KreadoAI؟",
+          a: "KreadoAI Virtual Try-On Video Generator هي أداة ذكاء اصطناعي تنشئ بسرعة مقاطع فيديو تجريبية واقعية للغاية للنظارات والملابس ومنتجات التجميل والمزيد - باستخدام الصور الرمزية للذكاء الاصطناعي، دون الحاجة إلى تصوير أو ممثلين.",
+        },
+        {
+          q: "ما فئات المنتجات التي يمكن إنشاؤها كمقاطع فيديو تجريبية افتراضية؟",
+          a: "النظارات (النظارات، النظارات الشمسية، الإطارات)، الشعر والجمال (التصفيفات، الشعر المستعار، الماكياج)، المجوهرات (الخواتم، القلائد، الأساور)، الملابس، والمزيد.",
+        },
+        {
+          q: "كيف يضمن KreadoAI تأثيرات واقعية للتجربة؟",
+          a: "يستخدم KreadoAI تفاعل وضع الذكاء الاصطناعي المتقدم والاتساق الزمني لمطابقة الإضاءة والمواد والملاءمة. تتزامن الحركات مع حركات الجسم والوجه للحصول على تجربة واقعية للغاية.",
+        },
+        {
+          q: "هل يدعم KreadoAI لغات متعددة والاستخدام الدولي للعلامات التجارية العالمية؟",
+          a: "نعم. أنشئ تعليقات صوتية ونصوصًا برمجية مدعومة بالذكاء الاصطناعي بلغات متعددة، مما يمكّن العلامات التجارية من الوصول إلى الجماهير العالمية بشكل طبيعي وفعال.",
+        },
+        {
+          q: "هل يمكن تخصيص مقاطع فيديو تجريبية افتراضية تعمل بالذكاء الاصطناعي باستخدام نصوص وتعليقات صوتية مخصصة؟",
+          a: "نعم. اختر أو قم بتحرير العديد من البرامج النصية التي تم إنشاؤها بواسطة الذكاء الاصطناعي، وضبط النص ونمط الصوت ومطالبات الإجراء لمقاطع الفيديو التسويقية المخصصة.",
+        },
+      ],
+    },
+    startSection: {
+      title: "جرب مولد فيديو KreadoAI الافتراضي للتجربة اليوم!",
+      desc: "أنشئ مقاطع فيديو تجريبية افتراضية عالية التحويل بنقرة واحدة وعزز المبيعات وتأثير العلامة التجارية دون عناء",
+      btnText: "قم بإنشاء الفيديو الخاص بك الآن",
+      btnUrl: "/ai/aivideogen",
+    },
+  },
+};
 export const productHoldingVideoTemplateData = {
   zh: {
     meta: {
@@ -5666,446 +6463,722 @@ export const productHoldingVideoTemplateData = {
     },
   },
 
-  "ja": {
-    "meta": {
-      "title": "AI製品保有ビデオジェネレーター | アバターを使用した UGC 製品ビデオの作成",
-      "description": "AI アバターを使用して製品を保持するビデオを作成します。 eコマースおよびDTCブランドのURLからUGC広告と製品デモビデオを即座に生成"
+  ja: {
+    meta: {
+      title:
+        "AI製品保有ビデオジェネレーター | アバターを使用した UGC 製品ビデオの作成",
+      description:
+        "AI アバターを使用して製品を保持するビデオを作成します。 eコマースおよびDTCブランドのURLからUGC広告と製品デモビデオを即座に生成",
     },
-    "pagePath": "/ai/aivideogen",
-    "pageTitle": "KreadoAI を使用してコンバージョン率の高い AI 製品保持ビデオを作成する",
-    "pageDesc": "AI アバターを使用して、本物で自然な商品保持ビデオ、UGC 広告、デモビデオを生成します。撮影や俳優は不要で、即座に制作できます。",
-    "pageBtnText": "製品ビデオの作成",
-    "pageImageUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/75fb85e42ddf4098856ece7f0e91cabb.webp",
-    "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/3b7fb434ae764f0e8f09b8a05c769120.mp4",
-    "modelCanMake": {
-      "title": "KreadoAIプロダクトホールディングビデオジェネレーターでできること",
-      "scenariosList": [
+    pagePath: "/ai/aivideogen",
+    pageTitle:
+      "KreadoAI を使用してコンバージョン率の高い AI 製品保持ビデオを作成する",
+    pageDesc:
+      "AI アバターを使用して、本物で自然な商品保持ビデオ、UGC 広告、デモビデオを生成します。撮影や俳優は不要で、即座に制作できます。",
+    pageBtnText: "製品ビデオの作成",
+    pageImageUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/75fb85e42ddf4098856ece7f0e91cabb.webp",
+    videoUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/3b7fb434ae764f0e8f09b8a05c769120.mp4",
+    modelCanMake: {
+      title: "KreadoAIプロダクトホールディングビデオジェネレーターでできること",
+      scenariosList: [
         {
-          "id": 1,
-          "title": "EコマースDTCプロモーション",
-          "desc": "製品を自然に持ち、製品の詳細、グリップ感、使用シナリオを示す AI アバターを生成します。これは、コンバージョンを促進するための Amazon、Shopify、製品ページに最適です。"
+          id: 1,
+          title: "EコマースDTCプロモーション",
+          desc: "製品を自然に持ち、製品の詳細、グリップ感、使用シナリオを示す AI アバターを生成します。これは、コンバージョンを促進するための Amazon、Shopify、製品ページに最適です。",
         },
         {
-          "id": 2,
-          "title": "ソーシャルメディア広告",
-          "desc": "TikTok、Instagram などの UGC スタイルのハンドヘルド製品ビデオをすばやく作成し、ブランド認知度を高め、低コストでエンゲージメントを高めます。"
+          id: 2,
+          title: "ソーシャルメディア広告",
+          desc: "TikTok、Instagram などの UGC スタイルのハンドヘルド製品ビデオをすばやく作成し、ブランド認知度を高め、低コストでエンゲージメントを高めます。",
         },
         {
-          "id": 3,
-          "title": "製品デモ",
-          "desc": "主要な機能を説明するバーチャル プレゼンターによるプロフェッショナルなデモ ビデオを作成し、従来の撮影を置き換えてマーケティング コストを削減します。"
+          id: 3,
+          title: "製品デモ",
+          desc: "主要な機能を説明するバーチャル プレゼンターによるプロフェッショナルなデモ ビデオを作成し、従来の撮影を置き換えてマーケティング コストを削減します。",
         },
         {
-          "id": 4,
-          "title": "オムニチャネルマーケティング",
-          "desc": "広告、ライブストリーム クリップ、または短いビデオを 16:9 または 9:16 でエクスポートし、DTC ブランドのマーケティング ファネル全体をカバーします。"
-        }
-      ]
-    },
-    "steps": {
-      "title": "3 つの簡単なステップで製品保持ビデオを作成する方法",
-      "list": [
-        {
-          "id": 1,
-          "title": "ステップ 1: URL を入力してコンテンツを収集する",
-          "desc": "製品ページの URL を貼り付けます。 システムはタイトル、説明、画像、ビデオを自動的に取得して、AI ビデオ作成の準備をします。",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/73cdc5cc63d14bff83645d52ea810712.webp",
-          "path": "/ai/aivideogen"
+          id: 4,
+          title: "オムニチャネルマーケティング",
+          desc: "広告、ライブストリーム クリップ、または短いビデオを 16:9 または 9:16 でエクスポートし、DTC ブランドのマーケティング ファネル全体をカバーします。",
         },
-        {
-          "id": 2,
-          "title": "ステップ 2: コンテンツと設定を編集する",
-          "desc": "画像を確認して調整し、コピーします。 次に、ビデオの長さ、形式、言語、視聴者のキーワードを設定し、複数の AI 音声スクリプトから選択します。",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/78d569f171c04d1a962991d596ea95c6.webp",
-          "path": "/ai/aivideogen"
-        },
-        {
-          "id": 3,
-          "title": "ステップ 3: ビデオの生成とプレビュー",
-          "desc": "製品保持、UGC 広告、またはデモビデオを即座に作成します。 プレビュー、ダウンロードし、広告や Web サイトで直接使用できます。",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/a10b2d3daecd4b1a810a7aa66f171ff7.webp",
-          "path": "/ai/aivideogen"
-        }
       ],
-      "btnText": "ビデオを開始する"
     },
-    "caseInfo": {
-      "title": "KreadoAI 製品保持ビデオの例",
-      "type": "ビデオ",
-      "videoRatio": "9:16",
-      "caseBtnText": "製品ショーケースを開始する",
-      "list": [
+    steps: {
+      title: "3 つの簡単なステップで製品保持ビデオを作成する方法",
+      list: [
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b090d2ad3bd84c5a83ba62f75313512c.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6418f87a857d410e93e0adc809c42f7f.mp4",
-          "isPlaying": false,
-          "id": 1
+          id: 1,
+          title: "ステップ 1: URL を入力してコンテンツを収集する",
+          desc: "製品ページの URL を貼り付けます。 システムはタイトル、説明、画像、ビデオを自動的に取得して、AI ビデオ作成の準備をします。",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/73cdc5cc63d14bff83645d52ea810712.webp",
+          path: "/ai/aivideogen",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/7b35281884ef482aaa49537e15515df6.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/aa14bb083ad847b5ab3e182c2df0c0c5.mp4",
-          "isPlaying": false,
-          "id": 2
+          id: 2,
+          title: "ステップ 2: コンテンツと設定を編集する",
+          desc: "画像を確認して調整し、コピーします。 次に、ビデオの長さ、形式、言語、視聴者のキーワードを設定し、複数の AI 音声スクリプトから選択します。",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/78d569f171c04d1a962991d596ea95c6.webp",
+          path: "/ai/aivideogen",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/8151a98c96ca4356a571f3dd19fb9487.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/79e4cdb4172a4b75b690319b0591ff54.mp4",
-          "isPlaying": false,
-          "id": 3
+          id: 3,
+          title: "ステップ 3: ビデオの生成とプレビュー",
+          desc: "製品保持、UGC 広告、またはデモビデオを即座に作成します。 プレビュー、ダウンロードし、広告や Web サイトで直接使用できます。",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/a10b2d3daecd4b1a810a7aa66f171ff7.webp",
+          path: "/ai/aivideogen",
         },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/df8608a1628842a2bec341a8cb21eecd.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/aefeefa481f44a91a76c40c61fa8b11c.mp4",
-          "isPlaying": false,
-          "id": 4
-        },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/8f6f1bd18a61473ab086a283c17917b2.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/60ddc0b791274f3cb3381225371c71c4.mp4",
-          "isPlaying": false,
-          "id": 5
-        }
-      ]
+      ],
+      btnText: "ビデオを開始する",
     },
-    "selectModel": {
-      "title": "KreadoAI Product Holding Video Generator を選ぶ理由",
-      "scenariosList": [
+    caseInfo: {
+      title: "KreadoAI 製品保持ビデオの例",
+      type: "ビデオ",
+      videoRatio: "9:16",
+      caseBtnText: "製品ショーケースを開始する",
+      list: [
         {
-          "id": 1,
-          "title": "正確なスタイルマッチング",
-          "desc": "AI は製品カテゴリ (美容、エレクトロニクス、ホーム) に適応して、シームレスな色と照明を備えた自然な手持ちビデオを作成します。編集は必要ありません。"
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b090d2ad3bd84c5a83ba62f75313512c.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6418f87a857d410e93e0adc809c42f7f.mp4",
+          isPlaying: false,
+          id: 1,
         },
         {
-          "id": 2,
-          "title": "多言語のグローバル展開",
-          "desc": "DTC ブランド向けに、視聴者に合わせた自然な音声で AI 音声スクリプトを複数の言語で生成します。"
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/7b35281884ef482aaa49537e15515df6.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/aa14bb083ad847b5ab3e182c2df0c0c5.mp4",
+          isPlaying: false,
+          id: 2,
         },
         {
-          "id": 3,
-          "title": "低コスト、大量生産",
-          "desc": "撮影とセットを置き換えて、従来の 10 分の 1 以下のコストで複数の手持ちビデオや UGC ビデオを作成し、納期を短縮します。"
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/8151a98c96ca4356a571f3dd19fb9487.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/79e4cdb4172a4b75b690319b0591ff54.mp4",
+          isPlaying: false,
+          id: 3,
         },
         {
-          "id": 4,
-          "title": "AI スクリプトの最適化",
-          "desc": "AI を活用して、主要な製品機能をすぐに使用できるスクリプトに抽出し、プロ意識とマーケティング効果の両方を考慮して編集できます。"
-        }
-      ]
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/df8608a1628842a2bec341a8cb21eecd.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/aefeefa481f44a91a76c40c61fa8b11c.mp4",
+          isPlaying: false,
+          id: 4,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/8f6f1bd18a61473ab086a283c17917b2.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/60ddc0b791274f3cb3381225371c71c4.mp4",
+          isPlaying: false,
+          id: 5,
+        },
+      ],
     },
-    "discoverMoreTools": {
-      "title": "KreadoAI で AI クリエイティブ ツールをさらに探索する",
-      "desc": "AI を活用した広告クリエイティブの画像とビデオの生成により、高品質のマーケティング資産を迅速かつスケーラブルに制作できます。",
-      "list": [
+    selectModel: {
+      title: "KreadoAI Product Holding Video Generator を選ぶ理由",
+      scenariosList: [
         {
-          "name": "TikTok / UGC 製品ビデオ",
-          "path": "product-marketing-video"
+          id: 1,
+          title: "正確なスタイルマッチング",
+          desc: "AI は製品カテゴリ (美容、エレクトロニクス、ホーム) に適応して、シームレスな色と照明を備えた自然な手持ちビデオを作成します。編集は必要ありません。",
         },
         {
-          "name": "バーチャル試着ビデオ",
-          "path": "virtual-try-on-video"
+          id: 2,
+          title: "多言語のグローバル展開",
+          desc: "DTC ブランド向けに、視聴者に合わせた自然な音声で AI 音声スクリプトを複数の言語で生成します。",
         },
         {
-          "name": "製品説明ビデオ",
-          "path": "product-explainer-video"
+          id: 3,
+          title: "低コスト、大量生産",
+          desc: "撮影とセットを置き換えて、従来の 10 分の 1 以下のコストで複数の手持ちビデオや UGC ビデオを作成し、納期を短縮します。",
         },
         {
-          "name": "AIビデオフェイススワップ",
-          "path": "video-face-swap"
+          id: 4,
+          title: "AI スクリプトの最適化",
+          desc: "AI を活用して、主要な製品機能をすぐに使用できるスクリプトに抽出し、プロ意識とマーケティング効果の両方を考慮して編集できます。",
         },
-        {
-          "name": "AIビデオ翻訳",
-          "path": "video-translator"
-        },
-        {
-          "name": "イメージアップスケーラー",
-          "path": "ai-image/image-upscaler"
-        },
-        {
-          "name": "マルチサイズ広告画像ジェネレーター",
-          "path": "ai-image/ad-image-generator"
-        },
-        {
-          "name": "着替え",
-          "path": "ai-image/clothes-changer"
-        },
-        {
-          "name": "画像テキストエディタ",
-          "path": "ai-image/text-editor"
-        },
-        {
-          "name": "画像翻訳者",
-          "path": "ai-image/image-translator"
-        },
-        {
-          "name": "画像の修復",
-          "path": "ai-image/inpainting"
-        },
-        {
-          "name": "背景の除去",
-          "path": "image-background-remover"
-        },
-        {
-          "name": "画像のアウトペインティング",
-          "path": "ai-image/outpainting"
-        },
-        {
-          "name": "動画広告ジェネレーターへの URL",
-          "path": "url-to-video"
-        }
-      ]
+      ],
     },
-    "faq": {
-      "title": "製品ホールディングビデオジェネレーターに関するよくある質問",
-      "questionList": [
+    discoverMoreTools: {
+      title: "KreadoAI で AI クリエイティブ ツールをさらに探索する",
+      desc: "AI を活用した広告クリエイティブの画像とビデオの生成により、高品質のマーケティング資産を迅速かつスケーラブルに制作できます。",
+      list: [
         {
-          "q": "KreadoAI Product Holding Video Generatorとは何ですか?",
-          "a": "KreadoAI を使用すると、製品 URL だけを使用して、AI アバターが製品を保持するビデオを作成できます。 製品デモ、UGC 広告、手持ちビデオを生成します。俳優や複雑な編集は必要ありません。"
+          name: "TikTok / UGC 製品ビデオ",
+          path: "product-marketing-video",
         },
         {
-          "q": "製品保持ビデオを作成するにはどのような種類の製品を使用できますか?",
-          "a": "美容（口紅、スキンケア）、電子機器（イヤホン、充電器）、家庭用品、アクセサリーなどに使用でき、さまざまなサイズや素材を正確にレンダリングできます。"
+          name: "バーチャル試着ビデオ",
+          path: "virtual-try-on-video",
         },
         {
-          "q": "生成された製品紹介ビデオは複数の言語をサポートしていますか?",
-          "a": "はい。 KreadoAI は、AI ナレーションとスクリプトを使用した多言語ビデオを生成できるため、世界中の視聴者向けのコンテンツを簡単に作成できます。"
+          name: "製品説明ビデオ",
+          path: "product-explainer-video",
         },
         {
-          "q": "生成された商品保持ビデオをそのまま広告に使用できますか?",
-          "a": "絶対に。 ビデオは標準的な比率と解像度に最適化されており、TikTok、Instagram、Facebook、その他のプラットフォームに対応しており、広告や Web サイトの製品ショーケースに最適です。"
+          name: "AIビデオフェイススワップ",
+          path: "video-face-swap",
         },
         {
-          "q": "KreadoAI Product Holding Video Generator には他のツールと比べてどのような利点がありますか?",
-          "a": "KreadoAI は、商品を持ったリアルな AI アバターを作成し、ワンクリックのマルチシーンビデオ作成と高速ダウンロードをサポートし、e コマースと広告シナリオに合わせて調整されており、コストの削減、効率の向上、コンバージョン率の向上を実現します。"
-        }
-      ]
+          name: "AIビデオ翻訳",
+          path: "video-translator",
+        },
+        {
+          name: "イメージアップスケーラー",
+          path: "ai-image/image-upscaler",
+        },
+        {
+          name: "マルチサイズ広告画像ジェネレーター",
+          path: "ai-image/ad-image-generator",
+        },
+        {
+          name: "着替え",
+          path: "ai-image/clothes-changer",
+        },
+        {
+          name: "画像テキストエディタ",
+          path: "ai-image/text-editor",
+        },
+        {
+          name: "画像翻訳者",
+          path: "ai-image/image-translator",
+        },
+        {
+          name: "画像の修復",
+          path: "ai-image/inpainting",
+        },
+        {
+          name: "背景の除去",
+          path: "image-background-remover",
+        },
+        {
+          name: "画像のアウトペインティング",
+          path: "ai-image/outpainting",
+        },
+        {
+          name: "動画広告ジェネレーターへの URL",
+          path: "url-to-video",
+        },
+      ],
     },
-    "startSection": {
-      "title": "KreadoAI Product Holding Video Generator を今すぐお試しください!",
-      "desc": "コンバージョン率の高い AI ハンドヘルド製品ビデオを数分で作成します。俳優も撮影も不要で、広告、デモ、ソーシャル メディアにすぐに使用できます。",
-      "btnText": "今すぐビデオを生成しましょう",
-      "btnUrl": "/ai/aivideogen"
-    }
+    faq: {
+      title: "製品ホールディングビデオジェネレーターに関するよくある質問",
+      questionList: [
+        {
+          q: "KreadoAI Product Holding Video Generatorとは何ですか?",
+          a: "KreadoAI を使用すると、製品 URL だけを使用して、AI アバターが製品を保持するビデオを作成できます。 製品デモ、UGC 広告、手持ちビデオを生成します。俳優や複雑な編集は必要ありません。",
+        },
+        {
+          q: "製品保持ビデオを作成するにはどのような種類の製品を使用できますか?",
+          a: "美容（口紅、スキンケア）、電子機器（イヤホン、充電器）、家庭用品、アクセサリーなどに使用でき、さまざまなサイズや素材を正確にレンダリングできます。",
+        },
+        {
+          q: "生成された製品紹介ビデオは複数の言語をサポートしていますか?",
+          a: "はい。 KreadoAI は、AI ナレーションとスクリプトを使用した多言語ビデオを生成できるため、世界中の視聴者向けのコンテンツを簡単に作成できます。",
+        },
+        {
+          q: "生成された商品保持ビデオをそのまま広告に使用できますか?",
+          a: "絶対に。 ビデオは標準的な比率と解像度に最適化されており、TikTok、Instagram、Facebook、その他のプラットフォームに対応しており、広告や Web サイトの製品ショーケースに最適です。",
+        },
+        {
+          q: "KreadoAI Product Holding Video Generator には他のツールと比べてどのような利点がありますか?",
+          a: "KreadoAI は、商品を持ったリアルな AI アバターを作成し、ワンクリックのマルチシーンビデオ作成と高速ダウンロードをサポートし、e コマースと広告シナリオに合わせて調整されており、コストの削減、効率の向上、コンバージョン率の向上を実現します。",
+        },
+      ],
+    },
+    startSection: {
+      title: "KreadoAI Product Holding Video Generator を今すぐお試しください!",
+      desc: "コンバージョン率の高い AI ハンドヘルド製品ビデオを数分で作成します。俳優も撮影も不要で、広告、デモ、ソーシャル メディアにすぐに使用できます。",
+      btnText: "今すぐビデオを生成しましょう",
+      btnUrl: "/ai/aivideogen",
+    },
   },
-  "ko": {
-    "meta": {
-      "title": "AI 제품 보유 영상 생성기 | 아바타로 UGC 제품 비디오 만들기",
-      "description": "AI 아바타로 제품 보유 영상을 제작해보세요. 전자상거래 및 DTC 브랜드의 URL에서 UGC 광고 및 제품 데모 비디오를 즉시 생성합니다."
+  ko: {
+    meta: {
+      title: "AI 제품 보유 영상 생성기 | 아바타로 UGC 제품 비디오 만들기",
+      description:
+        "AI 아바타로 제품 보유 영상을 제작해보세요. 전자상거래 및 DTC 브랜드의 URL에서 UGC 광고 및 제품 데모 비디오를 즉시 생성합니다.",
     },
-    "pagePath": "/ai/aivideogen",
-    "pageTitle": "KreadoAI로 전환율이 높은 AI 제품 보유 동영상 제작",
-    "pageDesc": "AI 아바타를 사용하여 실제적이고 자연스러운 제품 보유 동영상, UGC 광고 및 데모 동영상을 생성합니다. 촬영이나 배우가 필요 없어 즉시 제작이 가능합니다.",
-    "pageBtnText": "제품 비디오 제작",
-    "pageImageUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/75fb85e42ddf4098856ece7f0e91cabb.webp",
-    "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/3b7fb434ae764f0e8f09b8a05c769120.mp4",
-    "modelCanMake": {
-      "title": "KreadoAI 제품 보유 영상 생성기로 할 수 있는 일",
-      "scenariosList": [
+    pagePath: "/ai/aivideogen",
+    pageTitle: "KreadoAI로 전환율이 높은 AI 제품 보유 동영상 제작",
+    pageDesc:
+      "AI 아바타를 사용하여 실제적이고 자연스러운 제품 보유 동영상, UGC 광고 및 데모 동영상을 생성합니다. 촬영이나 배우가 필요 없어 즉시 제작이 가능합니다.",
+    pageBtnText: "제품 비디오 제작",
+    pageImageUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/75fb85e42ddf4098856ece7f0e91cabb.webp",
+    videoUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/3b7fb434ae764f0e8f09b8a05c769120.mp4",
+    modelCanMake: {
+      title: "KreadoAI 제품 보유 영상 생성기로 할 수 있는 일",
+      scenariosList: [
         {
-          "id": 1,
-          "title": "전자상거래 DTC 프로모션",
-          "desc": "제품을 자연스럽게 고정하고 제품 세부 정보, 그립감, 사용 시나리오를 보여주는 AI 아바타를 생성하세요. Amazon, Shopify 및 제품 페이지에 적합하여 전환율을 높일 수 있습니다."
+          id: 1,
+          title: "전자상거래 DTC 프로모션",
+          desc: "제품을 자연스럽게 고정하고 제품 세부 정보, 그립감, 사용 시나리오를 보여주는 AI 아바타를 생성하세요. Amazon, Shopify 및 제품 페이지에 적합하여 전환율을 높일 수 있습니다.",
         },
         {
-          "id": 2,
-          "title": "소셜 미디어 광고",
-          "desc": "TikTok, Instagram 등을 위한 UGC 스타일 휴대용 제품 비디오를 빠르게 제작하여 브랜드 인지도와 저렴한 비용으로 참여를 유도하세요."
+          id: 2,
+          title: "소셜 미디어 광고",
+          desc: "TikTok, Instagram 등을 위한 UGC 스타일 휴대용 제품 비디오를 빠르게 제작하여 브랜드 인지도와 저렴한 비용으로 참여를 유도하세요.",
         },
         {
-          "id": 3,
-          "title": "제품 데모",
-          "desc": "주요 기능을 설명하는 가상 발표자와 함께 전문적인 데모 비디오를 제작하여 기존 촬영 방식을 대체하고 마케팅 비용을 절감하세요."
+          id: 3,
+          title: "제품 데모",
+          desc: "주요 기능을 설명하는 가상 발표자와 함께 전문적인 데모 비디오를 제작하여 기존 촬영 방식을 대체하고 마케팅 비용을 절감하세요.",
         },
         {
-          "id": 4,
-          "title": "옴니채널 마케팅",
-          "desc": "전체 DTC 브랜드 마케팅 퍼널을 포괄하는 광고, 라이브 스트리밍 클립 또는 짧은 비디오를 16:9 또는 9:16으로 내보냅니다."
-        }
-      ]
-    },
-    "steps": {
-      "title": "간단한 3단계로 제품 고정 동영상을 만드는 방법",
-      "list": [
-        {
-          "id": 1,
-          "title": "1단계: URL 입력 및 콘텐츠 수집",
-          "desc": "제품 페이지 URL을 붙여넣으세요. 시스템은 AI 비디오 제작을 준비하기 위해 자동으로 제목, 설명, 이미지 및 비디오를 가져옵니다.",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/73cdc5cc63d14bff83645d52ea810712.webp",
-          "path": "/ai/aivideogen"
+          id: 4,
+          title: "옴니채널 마케팅",
+          desc: "전체 DTC 브랜드 마케팅 퍼널을 포괄하는 광고, 라이브 스트리밍 클립 또는 짧은 비디오를 16:9 또는 9:16으로 내보냅니다.",
         },
-        {
-          "id": 2,
-          "title": "2단계: 콘텐츠 및 설정 편집",
-          "desc": "이미지를 검토 및 조정하고 복사합니다. 그런 다음 비디오 길이, 형식, 언어 및 청중 키워드를 설정하고 여러 AI 음성 스크립트 중에서 선택하십시오.",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/78d569f171c04d1a962991d596ea95c6.webp",
-          "path": "/ai/aivideogen"
-        },
-        {
-          "id": 3,
-          "title": "3단계: 비디오 생성 및 미리보기",
-          "desc": "제품 보유, UGC 광고 또는 데모 비디오를 즉시 생성합니다. 광고나 웹사이트에서 직접 미리 보고, 다운로드하고, 사용할 수 있습니다.",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/a10b2d3daecd4b1a810a7aa66f171ff7.webp",
-          "path": "/ai/aivideogen"
-        }
       ],
-      "btnText": "비디오 시작"
     },
-    "caseInfo": {
-      "title": "KreadoAI 제품 보유 영상 예시",
-      "type": "동영상",
-      "videoRatio": "9:16",
-      "caseBtnText": "제품 쇼케이스 시작",
-      "list": [
+    steps: {
+      title: "간단한 3단계로 제품 고정 동영상을 만드는 방법",
+      list: [
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b090d2ad3bd84c5a83ba62f75313512c.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6418f87a857d410e93e0adc809c42f7f.mp4",
-          "isPlaying": false,
-          "id": 1
+          id: 1,
+          title: "1단계: URL 입력 및 콘텐츠 수집",
+          desc: "제품 페이지 URL을 붙여넣으세요. 시스템은 AI 비디오 제작을 준비하기 위해 자동으로 제목, 설명, 이미지 및 비디오를 가져옵니다.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/73cdc5cc63d14bff83645d52ea810712.webp",
+          path: "/ai/aivideogen",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/7b35281884ef482aaa49537e15515df6.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/aa14bb083ad847b5ab3e182c2df0c0c5.mp4",
-          "isPlaying": false,
-          "id": 2
+          id: 2,
+          title: "2단계: 콘텐츠 및 설정 편집",
+          desc: "이미지를 검토 및 조정하고 복사합니다. 그런 다음 비디오 길이, 형식, 언어 및 청중 키워드를 설정하고 여러 AI 음성 스크립트 중에서 선택하십시오.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/78d569f171c04d1a962991d596ea95c6.webp",
+          path: "/ai/aivideogen",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/8151a98c96ca4356a571f3dd19fb9487.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/79e4cdb4172a4b75b690319b0591ff54.mp4",
-          "isPlaying": false,
-          "id": 3
+          id: 3,
+          title: "3단계: 비디오 생성 및 미리보기",
+          desc: "제품 보유, UGC 광고 또는 데모 비디오를 즉시 생성합니다. 광고나 웹사이트에서 직접 미리 보고, 다운로드하고, 사용할 수 있습니다.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/a10b2d3daecd4b1a810a7aa66f171ff7.webp",
+          path: "/ai/aivideogen",
         },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/df8608a1628842a2bec341a8cb21eecd.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/aefeefa481f44a91a76c40c61fa8b11c.mp4",
-          "isPlaying": false,
-          "id": 4
-        },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/8f6f1bd18a61473ab086a283c17917b2.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/60ddc0b791274f3cb3381225371c71c4.mp4",
-          "isPlaying": false,
-          "id": 5
-        }
-      ]
+      ],
+      btnText: "비디오 시작",
     },
-    "selectModel": {
-      "title": "KreadoAI 제품 보유 비디오 생성기를 선택하는 이유는 무엇입니까?",
-      "scenariosList": [
+    caseInfo: {
+      title: "KreadoAI 제품 보유 영상 예시",
+      type: "동영상",
+      videoRatio: "9:16",
+      caseBtnText: "제품 쇼케이스 시작",
+      list: [
         {
-          "id": 1,
-          "title": "정확한 스타일 매칭",
-          "desc": "AI는 제품 카테고리(뷰티, 전자제품, 홈)에 맞춰 편집이 필요 없는 완벽한 색상과 조명으로 자연스러운 핸드헬드 비디오를 제작합니다."
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b090d2ad3bd84c5a83ba62f75313512c.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6418f87a857d410e93e0adc809c42f7f.mp4",
+          isPlaying: false,
+          id: 1,
         },
         {
-          "id": 2,
-          "title": "다국어 글로벌 접근",
-          "desc": "청중에게 맞춘 자연스러운 음성으로 DTC 브랜드를 위한 여러 언어로 AI 음성 스크립트를 생성하세요."
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/7b35281884ef482aaa49537e15515df6.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/aa14bb083ad847b5ab3e182c2df0c0c5.mp4",
+          isPlaying: false,
+          id: 2,
         },
         {
-          "id": 3,
-          "title": "저비용, 대량 생산",
-          "desc": "촬영 및 세트를 대체하여 기존 비용의 1/10 미만의 비용으로 여러 개의 핸드헬드 또는 UGC 비디오를 더 빠르게 제작할 수 있습니다."
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/8151a98c96ca4356a571f3dd19fb9487.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/79e4cdb4172a4b75b690319b0591ff54.mp4",
+          isPlaying: false,
+          id: 3,
         },
         {
-          "id": 4,
-          "title": "AI 스크립트 최적화",
-          "desc": "AI를 활용하여 주요 제품 기능을 바로 사용할 수 있는 스크립트로 추출하고 전문성과 마케팅 효과 모두에 맞게 편집할 수 있습니다."
-        }
-      ]
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/df8608a1628842a2bec341a8cb21eecd.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/aefeefa481f44a91a76c40c61fa8b11c.mp4",
+          isPlaying: false,
+          id: 4,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/8f6f1bd18a61473ab086a283c17917b2.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/60ddc0b791274f3cb3381225371c71c4.mp4",
+          isPlaying: false,
+          id: 5,
+        },
+      ],
     },
-    "discoverMoreTools": {
-      "title": "KreadoAI에서 더 많은 AI 크리에이티브 도구를 살펴보세요",
-      "desc": "AI 기반 광고 크리에이티브 이미지 및 비디오 생성을 통해 고품질 마케팅 자산을 빠르고 확장 가능하게 제작할 수 있습니다.",
-      "list": [
+    selectModel: {
+      title: "KreadoAI 제품 보유 비디오 생성기를 선택하는 이유는 무엇입니까?",
+      scenariosList: [
         {
-          "name": "TikTok / UGC 제품 비디오",
-          "path": "product-marketing-video"
+          id: 1,
+          title: "정확한 스타일 매칭",
+          desc: "AI는 제품 카테고리(뷰티, 전자제품, 홈)에 맞춰 편집이 필요 없는 완벽한 색상과 조명으로 자연스러운 핸드헬드 비디오를 제작합니다.",
         },
         {
-          "name": "가상 시착 영상",
-          "path": "virtual-try-on-video"
+          id: 2,
+          title: "다국어 글로벌 접근",
+          desc: "청중에게 맞춘 자연스러운 음성으로 DTC 브랜드를 위한 여러 언어로 AI 음성 스크립트를 생성하세요.",
         },
         {
-          "name": "제품 설명 동영상",
-          "path": "product-explainer-video"
+          id: 3,
+          title: "저비용, 대량 생산",
+          desc: "촬영 및 세트를 대체하여 기존 비용의 1/10 미만의 비용으로 여러 개의 핸드헬드 또는 UGC 비디오를 더 빠르게 제작할 수 있습니다.",
         },
         {
-          "name": "AI 비디오 얼굴 교환",
-          "path": "video-face-swap"
+          id: 4,
+          title: "AI 스크립트 최적화",
+          desc: "AI를 활용하여 주요 제품 기능을 바로 사용할 수 있는 스크립트로 추출하고 전문성과 마케팅 효과 모두에 맞게 편집할 수 있습니다.",
         },
-        {
-          "name": "AI 영상번역",
-          "path": "video-translator"
-        },
-        {
-          "name": "이미지 업스케일러",
-          "path": "ai-image/image-upscaler"
-        },
-        {
-          "name": "다양한 크기의 광고 이미지 생성기",
-          "path": "ai-image/ad-image-generator"
-        },
-        {
-          "name": "옷 갈아입기",
-          "path": "ai-image/clothes-changer"
-        },
-        {
-          "name": "이미지 텍스트 편집기",
-          "path": "ai-image/text-editor"
-        },
-        {
-          "name": "이미지 번역기",
-          "path": "ai-image/image-translator"
-        },
-        {
-          "name": "이미지 인페인팅",
-          "path": "ai-image/inpainting"
-        },
-        {
-          "name": "배경 제거",
-          "path": "image-background-remover"
-        },
-        {
-          "name": "이미지 아웃페인팅",
-          "path": "ai-image/outpainting"
-        },
-        {
-          "name": "비디오 광고 생성기의 URL",
-          "path": "url-to-video"
-        }
-      ]
+      ],
     },
-    "faq": {
-      "title": "비디오 생성기를 보유한 제품에 대해 자주 묻는 질문",
-      "questionList": [
+    discoverMoreTools: {
+      title: "KreadoAI에서 더 많은 AI 크리에이티브 도구를 살펴보세요",
+      desc: "AI 기반 광고 크리에이티브 이미지 및 비디오 생성을 통해 고품질 마케팅 자산을 빠르고 확장 가능하게 제작할 수 있습니다.",
+      list: [
         {
-          "q": "KreadoAI 제품 보유 영상 생성기란?",
-          "a": "KreadoAI를 사용하면 제품 URL만 사용하여 제품을 들고 있는 AI 아바타의 비디오를 만들 수 있습니다. 제품 데모, UGC 광고, 휴대용 비디오를 생성하세요. 배우나 복잡한 편집이 필요하지 않습니다."
+          name: "TikTok / UGC 제품 비디오",
+          path: "product-marketing-video",
         },
         {
-          "q": "제품 홀딩 영상을 제작하는데 어떤 유형의 제품을 사용할 수 있나요?",
-          "a": "다양한 크기와 재질에 대한 정확한 렌더링을 통해 뷰티(립스틱, 스킨케어), 전자제품(이어폰, 충전기), 가정용품, 액세서리 등에 적합합니다."
+          name: "가상 시착 영상",
+          path: "virtual-try-on-video",
         },
         {
-          "q": "생성된 제품 보유 영상이 다국어를 지원하나요?",
-          "a": "예. KreadoAI는 AI 음성 해설 및 스크립트를 사용하여 다국어 비디오를 생성할 수 있으므로 전 세계 시청자를 위한 콘텐츠를 쉽게 만들 수 있습니다."
+          name: "제품 설명 동영상",
+          path: "product-explainer-video",
         },
         {
-          "q": "생성된 제품 보유 영상을 바로 광고에 활용할 수 있나요?",
-          "a": "전적으로. 비디오는 표준 비율과 해상도에 최적화되어 TikTok, Instagram, Facebook 및 기타 플랫폼에 적합하므로 광고나 웹사이트 제품 쇼케이스에 적합합니다."
+          name: "AI 비디오 얼굴 교환",
+          path: "video-face-swap",
         },
         {
-          "q": "KreadoAI 제품 보유 영상 생성기는 다른 도구에 비해 어떤 장점이 있나요?",
-          "a": "KreadoAI는 제품을 보유한 현실적인 AI 아바타를 생성하고, 원클릭 다중 장면 비디오 생성 및 빠른 다운로드를 지원하며, 전자상거래 및 광고 시나리오에 맞게 맞춤화되어 더 낮은 비용, 더 높은 효율성 및 더 나은 전환율을 제공합니다."
-        }
-      ]
+          name: "AI 영상번역",
+          path: "video-translator",
+        },
+        {
+          name: "이미지 업스케일러",
+          path: "ai-image/image-upscaler",
+        },
+        {
+          name: "다양한 크기의 광고 이미지 생성기",
+          path: "ai-image/ad-image-generator",
+        },
+        {
+          name: "옷 갈아입기",
+          path: "ai-image/clothes-changer",
+        },
+        {
+          name: "이미지 텍스트 편집기",
+          path: "ai-image/text-editor",
+        },
+        {
+          name: "이미지 번역기",
+          path: "ai-image/image-translator",
+        },
+        {
+          name: "이미지 인페인팅",
+          path: "ai-image/inpainting",
+        },
+        {
+          name: "배경 제거",
+          path: "image-background-remover",
+        },
+        {
+          name: "이미지 아웃페인팅",
+          path: "ai-image/outpainting",
+        },
+        {
+          name: "비디오 광고 생성기의 URL",
+          path: "url-to-video",
+        },
+      ],
     },
-    "startSection": {
-      "title": "오늘 KreadoAI 제품 보유 비디오 생성기를 사용해 보세요!",
-      "desc": "배우, 촬영 없이 광고, 데모 및 소셜 미디어에 바로 사용할 수 있는 전환율이 높은 AI 휴대용 제품 비디오를 몇 분 만에 제작하세요.",
-      "btnText": "지금 비디오를 생성하세요",
-      "btnUrl": "/ai/aivideogen"
-    }
-  },};
+    faq: {
+      title: "비디오 생성기를 보유한 제품에 대해 자주 묻는 질문",
+      questionList: [
+        {
+          q: "KreadoAI 제품 보유 영상 생성기란?",
+          a: "KreadoAI를 사용하면 제품 URL만 사용하여 제품을 들고 있는 AI 아바타의 비디오를 만들 수 있습니다. 제품 데모, UGC 광고, 휴대용 비디오를 생성하세요. 배우나 복잡한 편집이 필요하지 않습니다.",
+        },
+        {
+          q: "제품 홀딩 영상을 제작하는데 어떤 유형의 제품을 사용할 수 있나요?",
+          a: "다양한 크기와 재질에 대한 정확한 렌더링을 통해 뷰티(립스틱, 스킨케어), 전자제품(이어폰, 충전기), 가정용품, 액세서리 등에 적합합니다.",
+        },
+        {
+          q: "생성된 제품 보유 영상이 다국어를 지원하나요?",
+          a: "예. KreadoAI는 AI 음성 해설 및 스크립트를 사용하여 다국어 비디오를 생성할 수 있으므로 전 세계 시청자를 위한 콘텐츠를 쉽게 만들 수 있습니다.",
+        },
+        {
+          q: "생성된 제품 보유 영상을 바로 광고에 활용할 수 있나요?",
+          a: "전적으로. 비디오는 표준 비율과 해상도에 최적화되어 TikTok, Instagram, Facebook 및 기타 플랫폼에 적합하므로 광고나 웹사이트 제품 쇼케이스에 적합합니다.",
+        },
+        {
+          q: "KreadoAI 제품 보유 영상 생성기는 다른 도구에 비해 어떤 장점이 있나요?",
+          a: "KreadoAI는 제품을 보유한 현실적인 AI 아바타를 생성하고, 원클릭 다중 장면 비디오 생성 및 빠른 다운로드를 지원하며, 전자상거래 및 광고 시나리오에 맞게 맞춤화되어 더 낮은 비용, 더 높은 효율성 및 더 나은 전환율을 제공합니다.",
+        },
+      ],
+    },
+    startSection: {
+      title: "오늘 KreadoAI 제품 보유 비디오 생성기를 사용해 보세요!",
+      desc: "배우, 촬영 없이 광고, 데모 및 소셜 미디어에 바로 사용할 수 있는 전환율이 높은 AI 휴대용 제품 비디오를 몇 분 만에 제작하세요.",
+      btnText: "지금 비디오를 생성하세요",
+      btnUrl: "/ai/aivideogen",
+    },
+  },
+  ar: {
+    meta: {
+      title:
+        "منتج الذكاء الاصطناعي يحمل مولد الفيديو | أنشئ مقاطع فيديو لمنتج ينشئه المستخدمون باستخدام الصور الرمزية",
+      description:
+        "قم بإنشاء مقاطع فيديو تحتوي على منتج باستخدام الصور الرمزية للذكاء الاصطناعي. أنشئ على الفور إعلانات ينشئها المستخدمون ومقاطع فيديو توضيحية للمنتج من عنوان URL للعلامات التجارية للتجارة الإلكترونية وDTC",
+    },
+    pagePath: "/ai/aivideogen",
+    pageTitle:
+      "قم بإنشاء مقاطع فيديو عالية التحويل لمنتج الذكاء الاصطناعي باستخدام KreadoAI",
+    pageDesc:
+      "أنشئ مقاطع فيديو أصلية وطبيعية تحتوي على منتجات، وإعلانات ينشئها المستخدمون، ومقاطع فيديو تجريبية باستخدام الصور الرمزية للذكاء الاصطناعي - بدون تصوير أو ممثلين، للإنتاج الفوري.",
+    pageBtnText: "إنشاء فيديو المنتج",
+    pageImageUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/75fb85e42ddf4098856ece7f0e91cabb.webp",
+    videoUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/3b7fb434ae764f0e8f09b8a05c769120.mp4",
+    modelCanMake: {
+      title: "ما يمكنك فعله باستخدام مولد الفيديو KreadoAI Product Holding",
+      scenariosList: [
+        {
+          id: 1,
+          title: "ترويج DTC للتجارة الإلكترونية",
+          desc: "قم بإنشاء صور رمزية للذكاء الاصطناعي تحمل منتجاتك بشكل طبيعي، وتعرض تفاصيل المنتج، والشعور بالإمساك، وسيناريوهات الاستخدام - مثالية لـ Amazon وShopify وصفحات المنتج لتعزيز التحويلات.",
+        },
+        {
+          id: 2,
+          title: "إعلانات وسائل التواصل الاجتماعي",
+          desc: "أنشئ مقاطع فيديو محمولة للمنتج على غرار المحتوى الذي ينشئه المستخدمون بسرعة لـ TikTok وInstagram والمزيد، مما يؤدي إلى زيادة الوعي بالعلامة التجارية والمشاركة منخفضة التكلفة.",
+        },
+        {
+          id: 3,
+          title: "العروض التوضيحية للمنتج",
+          desc: "قم بإنتاج مقاطع فيديو تجريبية احترافية مع مقدمين افتراضيين يشرحون الميزات الرئيسية، ويستبدلون التصوير التقليدي ويخفضون تكاليف التسويق.",
+        },
+        {
+          id: 4,
+          title: "تسويق متعدد القنوات",
+          desc: "قم بالتصدير بنسبة 16:9 أو 9:16 للإعلانات أو مقاطع البث المباشر أو مقاطع الفيديو القصيرة، مما يغطي مسار تسويق العلامة التجارية DTC بالكامل.",
+        },
+      ],
+    },
+    steps: {
+      title: "كيفية إنشاء مقاطع فيديو لعقد المنتج في 3 خطوات بسيطة",
+      list: [
+        {
+          id: 1,
+          title: "الخطوة 1: أدخل عنوان URL واجمع المحتوى",
+          desc: "الصق عنوان URL لصفحة منتجك؛ يقوم النظام تلقائيًا بسحب العناوين والأوصاف والصور ومقاطع الفيديو للتحضير لإنشاء فيديو بتقنية الذكاء الاصطناعي.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/73cdc5cc63d14bff83645d52ea810712.webp",
+          path: "/ai/aivideogen",
+        },
+        {
+          id: 2,
+          title: "الخطوة 2: تحرير المحتوى والإعدادات",
+          desc: "مراجعة وضبط الصور ونسخها. ثم قم بتعيين طول الفيديو، وتنسيقه، ولغته، والكلمات الرئيسية للجمهور، واختر من بين النصوص الصوتية المتعددة التي تعمل بتقنية الذكاء الاصطناعي.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/78d569f171c04d1a962991d596ea95c6.webp",
+          path: "/ai/aivideogen",
+        },
+        {
+          id: 3,
+          title: "الخطوة 3: إنشاء ومعاينة الفيديو",
+          desc: "أنشئ على الفور عقدًا للمنتج، أو إعلانًا ينشئه المستخدمون، أو مقاطع فيديو تجريبية؛ معاينة وتنزيل واستخدام مباشرة في الإعلانات أو على موقع الويب الخاص بك.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/a10b2d3daecd4b1a810a7aa66f171ff7.webp",
+          path: "/ai/aivideogen",
+        },
+      ],
+      btnText: "ابدأ الفيديو الخاص بك",
+    },
+    caseInfo: {
+      title: "أمثلة فيديو لمنتج KreadoAI",
+      type: "فيديو",
+      videoRatio: "9:16",
+      caseBtnText: "ابدأ عرض المنتجات",
+      list: [
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b090d2ad3bd84c5a83ba62f75313512c.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6418f87a857d410e93e0adc809c42f7f.mp4",
+          isPlaying: false,
+          id: 1,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/7b35281884ef482aaa49537e15515df6.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/aa14bb083ad847b5ab3e182c2df0c0c5.mp4",
+          isPlaying: false,
+          id: 2,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/8151a98c96ca4356a571f3dd19fb9487.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/79e4cdb4172a4b75b690319b0591ff54.mp4",
+          isPlaying: false,
+          id: 3,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/df8608a1628842a2bec341a8cb21eecd.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/aefeefa481f44a91a76c40c61fa8b11c.mp4",
+          isPlaying: false,
+          id: 4,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/8f6f1bd18a61473ab086a283c17917b2.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/60ddc0b791274f3cb3381225371c71c4.mp4",
+          isPlaying: false,
+          id: 5,
+        },
+      ],
+    },
+    selectModel: {
+      title: "لماذا تختار KreadoAI Product Holding Video Generator؟",
+      scenariosList: [
+        {
+          id: 1,
+          title: "مطابقة دقيقة للأسلوب",
+          desc: "يتكيف الذكاء الاصطناعي مع فئات المنتجات (الجمال، والإلكترونيات، والمنزل) لإنشاء مقاطع فيديو طبيعية محمولة بألوان وإضاءة سلسة - دون الحاجة إلى التحرير.",
+        },
+        {
+          id: 2,
+          title: "الوصول العالمي متعدد اللغات",
+          desc: "قم بإنشاء نصوص صوتية مدعمة بالذكاء الاصطناعي بلغات متعددة لعلامات DTC التجارية، مع كلام طبيعي مصمم خصيصًا لجمهورك.",
+        },
+        {
+          id: 3,
+          title: "إنتاج منخفض التكلفة وكبير الحجم",
+          desc: "استبدل التصوير والمجموعات - أنشئ مقاطع فيديو متعددة محمولة باليد أو مقاطع فيديو ينشئها المستخدمون بأقل من 1/10 من التكلفة التقليدية، مع إنجاز أسرع.",
+        },
+        {
+          id: 4,
+          title: "تحسين البرنامج النصي بالذكاء الاصطناعي",
+          desc: "استفد من الذكاء الاصطناعي لاستخراج ميزات المنتج الرئيسية في نصوص برمجية جاهزة للاستخدام، قابلة للتحرير لكل من الاحترافية والتأثير التسويقي.",
+        },
+      ],
+    },
+    discoverMoreTools: {
+      title: "اكتشف المزيد من أدوات الذكاء الاصطناعي الإبداعية على KreadoAI",
+      desc: "يتيح إنشاء الصور والفيديوهات الإبداعية للإعلانات المستندة إلى الذكاء الاصطناعي إنتاجًا سريعًا وقابلاً للتطوير لأصول تسويقية عالية الجودة",
+      list: [
+        {
+          name: "فيديو منتج TikTok / UGC",
+          path: "product-marketing-video",
+        },
+        {
+          name: "فيديو تجريبي افتراضي",
+          path: "virtual-try-on-video",
+        },
+        {
+          name: "فيديو توضيحي للمنتج",
+          path: "product-explainer-video",
+        },
+        {
+          name: "AI فيديو الوجه مبادلة",
+          path: "video-face-swap",
+        },
+        {
+          name: "ترجمة الفيديو بالذكاء الاصطناعي",
+          path: "video-translator",
+        },
+        {
+          name: "ترقية الصورة",
+          path: "ai-image/image-upscaler",
+        },
+        {
+          name: "مولد صور إعلان متعدد الأحجام",
+          path: "ai-image/ad-image-generator",
+        },
+        {
+          name: "تغيير الملابس",
+          path: "ai-image/clothes-changer",
+        },
+        {
+          name: "محرر نص الصورة",
+          path: "ai-image/text-editor",
+        },
+        {
+          name: "مترجم الصور",
+          path: "ai-image/image-translator",
+        },
+        {
+          name: "صورة إنبينتينج",
+          path: "ai-image/inpainting",
+        },
+        {
+          name: "إزالة الخلفية",
+          path: "image-background-remover",
+        },
+        {
+          name: "الرسم الخارجي للصورة",
+          path: "ai-image/outpainting",
+        },
+        {
+          name: "عنوان URL لمولد إعلانات الفيديو",
+          path: "url-to-video",
+        },
+      ],
+    },
+    faq: {
+      title: "الأسئلة المتداولة حول منتج إنشاء الفيديو",
+      questionList: [
+        {
+          q: "ما هو مولد الفيديو KreadoAI Product Holding؟",
+          a: "يتيح لك KreadoAI إنشاء مقاطع فيديو للصور الرمزية للذكاء الاصطناعي التي تحمل منتجاتك باستخدام عنوان URL للمنتج فقط. أنشئ عروضًا توضيحية للمنتج، وإعلانات ينشئها المستخدمون، ومقاطع فيديو محمولة باليد - دون الحاجة إلى ممثلين أو تحرير معقد.",
+        },
+        {
+          q: "ما أنواع المنتجات التي يمكن استخدامها لإنشاء مقاطع فيديو للمنتج؟",
+          a: "إنه مناسب لمستحضرات التجميل (أحمر الشفاه والعناية بالبشرة)، والإلكترونيات (سماعات الأذن، والشواحن)، والسلع المنزلية، والإكسسوارات، والمزيد، مع عرض دقيق لأحجام ومواد مختلفة.",
+        },
+        {
+          q: "هل يدعم المنتج الذي يحتوي على مقاطع فيديو عدة لغات؟",
+          a: "نعم. يمكن لـ KreadoAI إنشاء مقاطع فيديو متعددة اللغات باستخدام تعليقات صوتية ونصوص برمجية مدعومة بالذكاء الاصطناعي، مما يجعل من السهل إنشاء محتوى للجماهير العالمية.",
+        },
+        {
+          q: "هل يمكن استخدام مقاطع فيديو المنتج الذي تم إنشاؤه مباشرة للإعلان؟",
+          a: "قطعاً. تم تحسين مقاطع الفيديو للنسب والدقة القياسية، وهي جاهزة لـ TikTok وInstagram وFacebook وغيرها من الأنظمة الأساسية - مثالية للإعلانات أو عروض منتجات موقع الويب.",
+        },
+        {
+          q: "ما هي المزايا التي يتمتع بها KreadoAI Product Holding Video Generator مقارنة بالأدوات الأخرى؟",
+          a: "يقوم KreadoAI بإنشاء صور رمزية واقعية للذكاء الاصطناعي تحتوي على المنتجات، ويدعم إنشاء مقاطع فيديو متعددة المشاهد بنقرة واحدة وتنزيلات سريعة، وهو مصمم خصيصًا للتجارة الإلكترونية وسيناريوهات الإعلانات - مما يوفر تكاليف أقل وكفاءة أعلى ومعدلات تحويل أفضل.",
+        },
+      ],
+    },
+    startSection: {
+      title: "جرب KreadoAI Product Holding Video Generator اليوم!",
+      desc: "قم بإنشاء مقاطع فيديو للمنتج محمولة بتقنية الذكاء الاصطناعي عالية التحويل في دقائق - بدون ممثلين، بدون تصوير، جاهزة للإعلانات والعروض التوضيحية ووسائل التواصل الاجتماعي",
+      btnText: "قم بإنشاء الفيديو الخاص بك الآن",
+      btnUrl: "/ai/aivideogen",
+    },
+  },
+};
 export const productExplainerVideoTemplateData = {
   zh: {
     meta: {
@@ -7192,441 +8265,712 @@ export const productExplainerVideoTemplateData = {
     },
   },
 
-  "ja": {
-    "meta": {
-      "title": "製品説明ビデオジェネレーター | AI アバターを使用したカスタムビデオ",
-      "description": "KreadoAI アバターを使用して、コンバージョン率の高い製品説明ビデオを作成します。マルチシーン、ワンクリック、電子商取引、広告、グローバル市場向けの多言語ナレーション付きです。"
+  ja: {
+    meta: {
+      title:
+        "製品説明ビデオジェネレーター | AI アバターを使用したカスタムビデオ",
+      description:
+        "KreadoAI アバターを使用して、コンバージョン率の高い製品説明ビデオを作成します。マルチシーン、ワンクリック、電子商取引、広告、グローバル市場向けの多言語ナレーション付きです。",
     },
-    "pagePath": "/ai/aivideogen",
-    "pageTitle": "KreadoAI でコンバージョン率の高い AI 製品説明ビデオを作成する",
-    "pageDesc": "AI アバターを使用して、一貫したデジタル プレゼンターによるプロフェッショナルな製品説明ビデオを作成します。 脚本をマルチシーンの解説ビデオに変換します。撮影や俳優、編集スキルは必要ありません。",
-    "pageBtnText": "製品ビデオの作成",
-    "pageImageUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6358c9b2459c4abb98d85c4aba5781b3.webp",
-    "modelCanMake": {
-      "title": "KreadoAI 製品説明ビデオジェネレーターでできること",
-      "scenariosList": [
+    pagePath: "/ai/aivideogen",
+    pageTitle: "KreadoAI でコンバージョン率の高い AI 製品説明ビデオを作成する",
+    pageDesc:
+      "AI アバターを使用して、一貫したデジタル プレゼンターによるプロフェッショナルな製品説明ビデオを作成します。 脚本をマルチシーンの解説ビデオに変換します。撮影や俳優、編集スキルは必要ありません。",
+    pageBtnText: "製品ビデオの作成",
+    pageImageUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6358c9b2459c4abb98d85c4aba5781b3.webp",
+    modelCanMake: {
+      title: "KreadoAI 製品説明ビデオジェネレーターでできること",
+      scenariosList: [
         {
-          "id": 1,
-          "title": "新製品の発売を効率化する",
-          "desc": "説明ビデオを発売、プレスリリース、Web サイトのバナーのキービジュアルとして使用して、製品のポジショニングとイノベーションをすばやく伝えます。"
+          id: 1,
+          title: "新製品の発売を効率化する",
+          desc: "説明ビデオを発売、プレスリリース、Web サイトのバナーのキービジュアルとして使用して、製品のポジショニングとイノベーションをすばやく伝えます。",
         },
         {
-          "id": 2,
-          "title": "顧客のオンボーディングとサポートを簡素化",
-          "desc": "購入後のガイダンス、FAQ、チャットボットの説明を標準化して、サポートコストを削減し、ユーザーエクスペリエンスを向上させます。"
+          id: 2,
+          title: "顧客のオンボーディングとサポートを簡素化",
+          desc: "購入後のガイダンス、FAQ、チャットボットの説明を標準化して、サポートコストを削減し、ユーザーエクスペリエンスを向上させます。",
         },
         {
-          "id": 3,
-          "title": "世界的な市場範囲を拡大する",
-          "desc": "スケーラブルな国際コンテンツ向けに、ネイティブのナレーションとローカライズされた字幕を備えた多言語ビデオを作成します。"
+          id: 3,
+          title: "世界的な市場範囲を拡大する",
+          desc: "スケーラブルな国際コンテンツ向けに、ネイティブのナレーションとローカライズされた字幕を備えた多言語ビデオを作成します。",
         },
         {
-          "id": 4,
-          "title": "長期的なブランド資産の構築",
-          "desc": "ブランド アイデンティティと核となる価値観を動画に統合して、認知度を強化し、プロフェッショナルなイメージを確立します。"
-        }
-      ]
-    },
-    "steps": {
-      "title": "3 つの簡単なステップで製品説明ビデオを作成する方法",
-      "list": [
-        {
-          "id": 1,
-          "title": "ステップ 1: URL を入力してコンテンツを収集する",
-          "desc": "製品ページの URL を貼り付けます。 システムはタイトル、説明、画像、ビデオを自動的に取得して、AI ビデオ作成の準備をします。",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/20f269aba2744c7681d12353b5e59362.webp",
-          "path": "/ai/aivideogen"
+          id: 4,
+          title: "長期的なブランド資産の構築",
+          desc: "ブランド アイデンティティと核となる価値観を動画に統合して、認知度を強化し、プロフェッショナルなイメージを確立します。",
         },
-        {
-          "id": 2,
-          "title": "ステップ 2: コンテンツと設定を編集する",
-          "desc": "画像を確認して調整し、コピーします。 次に、ビデオの長さ、形式、言語、視聴者のキーワードを設定し、複数の AI 音声スクリプトから選択します。",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/5b6067cb0030443abeb329db5df006c9.webp",
-          "path": "/ai/aivideogen"
-        },
-        {
-          "id": 3,
-          "title": "ステップ 3: ビデオの生成とプレビュー",
-          "desc": "AI が生成した説明ビデオを、Web サイト、広告、ソーシャル メディアに最適化された形式で即座にプレビュー、編集、エクスポートします。",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6ee99aacaad84daebb6a1db6053dca5e.webp",
-          "path": "/ai/aivideogen"
-        }
       ],
-      "btnText": "ビデオを開始する"
     },
-    "caseInfo": {
-      "title": "KreadoAI 製品説明ビデオの例",
-      "type": "ビデオ",
-      "videoRatio": "9:16",
-      "caseBtnText": "製品ショーケースを開始する",
-      "list": [
+    steps: {
+      title: "3 つの簡単なステップで製品説明ビデオを作成する方法",
+      list: [
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/ba471a7f457a410898fc2cce0875958d.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/30ed4896a3dd4a9399b60c6b3a77c2ee.mp4",
-          "isPlaying": false,
-          "id": 1
+          id: 1,
+          title: "ステップ 1: URL を入力してコンテンツを収集する",
+          desc: "製品ページの URL を貼り付けます。 システムはタイトル、説明、画像、ビデオを自動的に取得して、AI ビデオ作成の準備をします。",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/20f269aba2744c7681d12353b5e59362.webp",
+          path: "/ai/aivideogen",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b7eb34e850bf41919513b778bf571e0d.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/14cbdc817daf41cba9cb58193779776d.mp4",
-          "isPlaying": false,
-          "id": 2
+          id: 2,
+          title: "ステップ 2: コンテンツと設定を編集する",
+          desc: "画像を確認して調整し、コピーします。 次に、ビデオの長さ、形式、言語、視聴者のキーワードを設定し、複数の AI 音声スクリプトから選択します。",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/5b6067cb0030443abeb329db5df006c9.webp",
+          path: "/ai/aivideogen",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/820ff868d3884143abfe2c5a00c24eb4.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/28fa9858e3774bd7adc830790cee1714.mp4",
-          "isPlaying": false,
-          "id": 3
+          id: 3,
+          title: "ステップ 3: ビデオの生成とプレビュー",
+          desc: "AI が生成した説明ビデオを、Web サイト、広告、ソーシャル メディアに最適化された形式で即座にプレビュー、編集、エクスポートします。",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6ee99aacaad84daebb6a1db6053dca5e.webp",
+          path: "/ai/aivideogen",
         },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/bdab8018a6944892bc170de199f9dadd.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/3dfda008b19a4a3abb4df99a7a525796.mp4",
-          "isPlaying": false,
-          "id": 4
-        },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/dc845f6536c642cd83f6b1c229868d69.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/57bf68368bbc49f0bdc2df178023a54a.mp4",
-          "isPlaying": false,
-          "id": 5
-        }
-      ]
+      ],
+      btnText: "ビデオを開始する",
     },
-    "selectModel": {
-      "title": "KreadoAI 製品説明ビデオ ジェネレーターを選ぶ理由?",
-      "scenariosList": [
+    caseInfo: {
+      title: "KreadoAI 製品説明ビデオの例",
+      type: "ビデオ",
+      videoRatio: "9:16",
+      caseBtnText: "製品ショーケースを開始する",
+      list: [
         {
-          "id": 1,
-          "title": "シーン全体で一貫した AI アバター",
-          "desc": "従来のアニメーション説明ビデオとは異なり、KreadoAI は説明ビデオ全体に同じ AI プレゼンターが表示されることを保証し、信頼とブランド認知を構築します。"
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/ba471a7f457a410898fc2cce0875958d.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/30ed4896a3dd4a9399b60c6b3a77c2ee.mp4",
+          isPlaying: false,
+          id: 1,
         },
         {
-          "id": 2,
-          "title": "最適化された AI 解説ビデオ スクリプト",
-          "desc": "AI は、製品の機能を説得力のある説明スクリプトに自動的に変換し、マーケティングや教育用に完全に編集できます。"
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b7eb34e850bf41919513b778bf571e0d.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/14cbdc817daf41cba9cb58193779776d.mp4",
+          isPlaying: false,
+          id: 2,
         },
         {
-          "id": 3,
-          "title": "低コスト、大量生産",
-          "desc": "代理店や高価な説明ビデオ サービスを置き換えます。 費用対効果の高い、プロ品質の説明ビデオを大規模に作成します。"
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/820ff868d3884143abfe2c5a00c24eb4.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/28fa9858e3774bd7adc830790cee1714.mp4",
+          isPlaying: false,
+          id: 3,
         },
         {
-          "id": 4,
-          "title": "製品およびビジネスのユースケース向けに構築",
-          "desc": "マーケティング、製品発売、オンボーディング、Web サイトの説明ビデオ作成のための説明ビデオに最適です。"
-        }
-      ]
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/bdab8018a6944892bc170de199f9dadd.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/3dfda008b19a4a3abb4df99a7a525796.mp4",
+          isPlaying: false,
+          id: 4,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/dc845f6536c642cd83f6b1c229868d69.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/57bf68368bbc49f0bdc2df178023a54a.mp4",
+          isPlaying: false,
+          id: 5,
+        },
+      ],
     },
-    "discoverMoreTools": {
-      "title": "KreadoAI で AI クリエイティブ ツールをさらに探索する",
-      "desc": "AI を活用した広告クリエイティブの画像とビデオの生成により、高品質のマーケティング資産を迅速かつスケーラブルに制作できます。",
-      "list": [
+    selectModel: {
+      title: "KreadoAI 製品説明ビデオ ジェネレーターを選ぶ理由?",
+      scenariosList: [
         {
-          "name": "TikTok / UGC 製品ビデオ",
-          "path": "product-marketing-video"
+          id: 1,
+          title: "シーン全体で一貫した AI アバター",
+          desc: "従来のアニメーション説明ビデオとは異なり、KreadoAI は説明ビデオ全体に同じ AI プレゼンターが表示されることを保証し、信頼とブランド認知を構築します。",
         },
         {
-          "name": "バーチャル試着ビデオ",
-          "path": "virtual-try-on-video"
+          id: 2,
+          title: "最適化された AI 解説ビデオ スクリプト",
+          desc: "AI は、製品の機能を説得力のある説明スクリプトに自動的に変換し、マーケティングや教育用に完全に編集できます。",
         },
         {
-          "name": "製品保持ビデオ",
-          "path": "product-holding-video"
+          id: 3,
+          title: "低コスト、大量生産",
+          desc: "代理店や高価な説明ビデオ サービスを置き換えます。 費用対効果の高い、プロ品質の説明ビデオを大規模に作成します。",
         },
         {
-          "name": "AIビデオフェイススワップ",
-          "path": "video-face-swap"
+          id: 4,
+          title: "製品およびビジネスのユースケース向けに構築",
+          desc: "マーケティング、製品発売、オンボーディング、Web サイトの説明ビデオ作成のための説明ビデオに最適です。",
         },
-        {
-          "name": "AIビデオ翻訳",
-          "path": "video-translator"
-        },
-        {
-          "name": "イメージアップスケーラー",
-          "path": "ai-image/image-upscaler"
-        },
-        {
-          "name": "マルチサイズ広告画像ジェネレーター",
-          "path": "ai-image/ad-image-generator"
-        },
-        {
-          "name": "着替え",
-          "path": "ai-image/clothes-changer"
-        },
-        {
-          "name": "画像テキストエディタ",
-          "path": "ai-image/text-editor"
-        },
-        {
-          "name": "画像翻訳者",
-          "path": "ai-image/image-translator"
-        },
-        {
-          "name": "画像の修復",
-          "path": "ai-image/inpainting"
-        },
-        {
-          "name": "背景の除去",
-          "path": "image-background-remover"
-        },
-        {
-          "name": "画像のアウトペインティング",
-          "path": "ai-image/outpainting"
-        },
-        {
-          "name": "動画広告ジェネレーターへの URL",
-          "path": "url-to-video"
-        }
-      ]
+      ],
     },
-    "faq": {
-      "title": "KreadoAI 製品説明ビデオ ジェネレーターに関するよくある質問",
-      "questionList": [
+    discoverMoreTools: {
+      title: "KreadoAI で AI クリエイティブ ツールをさらに探索する",
+      desc: "AI を活用した広告クリエイティブの画像とビデオの生成により、高品質のマーケティング資産を迅速かつスケーラブルに制作できます。",
+      list: [
         {
-          "q": "KreadoAI 製品説明ビデオ ジェネレーターとは何ですか?",
-          "a": "KreadoAI Product Explainer Video Generator は、機能、使用法、主な利点を紹介する短くて明確な製品ビデオを迅速に作成する AI ツールです。撮影、俳優、編集スキルは必要ありません。"
+          name: "TikTok / UGC 製品ビデオ",
+          path: "product-marketing-video",
         },
         {
-          "q": "KreadoAI は従来の説明ビデオ ソフトウェアとどう違うのですか?",
-          "a": "KreadoAI は、スクリプト、AI ナレーション、ビデオを 1 つのツールに組み合わせて、一貫したデジタル プレゼンターを使用してマルチシーンの説明ビデオを作成し、従来のソフトウェアよりも高速かつ安価に作成します。"
+          name: "バーチャル試着ビデオ",
+          path: "virtual-try-on-video",
         },
         {
-          "q": "複数の製品または言語の説明ビデオを作成できますか?",
-          "a": "はい。 KreadoAI は多言語の AI 説明ビデオをサポートしており、同じ AI アバターを使用して複数のカスタム ビデオをすばやく作成できます。"
+          name: "製品保持ビデオ",
+          path: "product-holding-video",
         },
         {
-          "q": "これらの説明ビデオはマーケティングや広告に適していますか?",
-          "a": "はい。 短い UGC スタイルのビデオから詳細なマルチシーンのデモまで、広告、ソーシャル メディア、ランディング ページ、製品ページ用に最適化されています。"
+          name: "AIビデオフェイススワップ",
+          path: "video-face-swap",
         },
         {
-          "q": "説明ビデオを作成するにはビデオ編集のスキルが必要ですか?",
-          "a": "いいえ。スクリプトまたは URL を指定し、AI プレゼンターと音声を選択すると、KreadoAI がすぐに使用できるビデオを生成し、プレビュー、調整、またはエクスポートできます。"
-        }
-      ]
+          name: "AIビデオ翻訳",
+          path: "video-translator",
+        },
+        {
+          name: "イメージアップスケーラー",
+          path: "ai-image/image-upscaler",
+        },
+        {
+          name: "マルチサイズ広告画像ジェネレーター",
+          path: "ai-image/ad-image-generator",
+        },
+        {
+          name: "着替え",
+          path: "ai-image/clothes-changer",
+        },
+        {
+          name: "画像テキストエディタ",
+          path: "ai-image/text-editor",
+        },
+        {
+          name: "画像翻訳者",
+          path: "ai-image/image-translator",
+        },
+        {
+          name: "画像の修復",
+          path: "ai-image/inpainting",
+        },
+        {
+          name: "背景の除去",
+          path: "image-background-remover",
+        },
+        {
+          name: "画像のアウトペインティング",
+          path: "ai-image/outpainting",
+        },
+        {
+          name: "動画広告ジェネレーターへの URL",
+          path: "url-to-video",
+        },
+      ],
     },
-    "startSection": {
-      "title": "今すぐ KreadoAI を使用して製品説明ビデオを作成してください!",
-      "desc": "AI アバター、一貫したナレーション、変換可能な出力を備えた製品を、数分で明確で説得力のある説明ビデオに変換します。",
-      "btnText": "今すぐビデオを生成しましょう",
-      "btnUrl": "/ai/aivideogen"
-    }
+    faq: {
+      title: "KreadoAI 製品説明ビデオ ジェネレーターに関するよくある質問",
+      questionList: [
+        {
+          q: "KreadoAI 製品説明ビデオ ジェネレーターとは何ですか?",
+          a: "KreadoAI Product Explainer Video Generator は、機能、使用法、主な利点を紹介する短くて明確な製品ビデオを迅速に作成する AI ツールです。撮影、俳優、編集スキルは必要ありません。",
+        },
+        {
+          q: "KreadoAI は従来の説明ビデオ ソフトウェアとどう違うのですか?",
+          a: "KreadoAI は、スクリプト、AI ナレーション、ビデオを 1 つのツールに組み合わせて、一貫したデジタル プレゼンターを使用してマルチシーンの説明ビデオを作成し、従来のソフトウェアよりも高速かつ安価に作成します。",
+        },
+        {
+          q: "複数の製品または言語の説明ビデオを作成できますか?",
+          a: "はい。 KreadoAI は多言語の AI 説明ビデオをサポートしており、同じ AI アバターを使用して複数のカスタム ビデオをすばやく作成できます。",
+        },
+        {
+          q: "これらの説明ビデオはマーケティングや広告に適していますか?",
+          a: "はい。 短い UGC スタイルのビデオから詳細なマルチシーンのデモまで、広告、ソーシャル メディア、ランディング ページ、製品ページ用に最適化されています。",
+        },
+        {
+          q: "説明ビデオを作成するにはビデオ編集のスキルが必要ですか?",
+          a: "いいえ。スクリプトまたは URL を指定し、AI プレゼンターと音声を選択すると、KreadoAI がすぐに使用できるビデオを生成し、プレビュー、調整、またはエクスポートできます。",
+        },
+      ],
+    },
+    startSection: {
+      title: "今すぐ KreadoAI を使用して製品説明ビデオを作成してください!",
+      desc: "AI アバター、一貫したナレーション、変換可能な出力を備えた製品を、数分で明確で説得力のある説明ビデオに変換します。",
+      btnText: "今すぐビデオを生成しましょう",
+      btnUrl: "/ai/aivideogen",
+    },
   },
-  "ko": {
-    "meta": {
-      "title": "제품 설명 비디오 생성기 | AI 아바타가 포함된 맞춤형 비디오",
-      "description": "전자 상거래, 광고 및 글로벌 시장을 위한 다국어 음성 해설이 포함된 다중 장면, 원클릭 지원 KreadoAI 아바타로 전환율이 높은 제품 설명 동영상을 제작하세요."
+  ko: {
+    meta: {
+      title: "제품 설명 비디오 생성기 | AI 아바타가 포함된 맞춤형 비디오",
+      description:
+        "전자 상거래, 광고 및 글로벌 시장을 위한 다국어 음성 해설이 포함된 다중 장면, 원클릭 지원 KreadoAI 아바타로 전환율이 높은 제품 설명 동영상을 제작하세요.",
     },
-    "pagePath": "/ai/aivideogen",
-    "pageTitle": "KreadoAI로 전환율이 높은 AI 제품 설명 동영상 제작",
-    "pageDesc": "AI 아바타를 사용하여 일관된 디지털 발표자와 함께 전문적인 제품 설명 동영상을 제작하세요. 스크립트를 다중 장면 설명 동영상으로 변환하세요. 촬영이나 배우, 편집 기술이 필요하지 않습니다.",
-    "pageBtnText": "제품 비디오 제작",
-    "pageImageUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6358c9b2459c4abb98d85c4aba5781b3.webp",
-    "modelCanMake": {
-      "title": "KreadoAI 제품 설명 비디오 생성기로 할 수 있는 작업",
-      "scenariosList": [
+    pagePath: "/ai/aivideogen",
+    pageTitle: "KreadoAI로 전환율이 높은 AI 제품 설명 동영상 제작",
+    pageDesc:
+      "AI 아바타를 사용하여 일관된 디지털 발표자와 함께 전문적인 제품 설명 동영상을 제작하세요. 스크립트를 다중 장면 설명 동영상으로 변환하세요. 촬영이나 배우, 편집 기술이 필요하지 않습니다.",
+    pageBtnText: "제품 비디오 제작",
+    pageImageUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6358c9b2459c4abb98d85c4aba5781b3.webp",
+    modelCanMake: {
+      title: "KreadoAI 제품 설명 비디오 생성기로 할 수 있는 작업",
+      scenariosList: [
         {
-          "id": 1,
-          "title": "신제품 출시 간소화",
-          "desc": "제품 포지셔닝과 혁신을 신속하게 전달하기 위해 설명 비디오를 출시, 보도 자료, 웹 사이트 배너의 주요 시각적 요소로 사용하세요."
+          id: 1,
+          title: "신제품 출시 간소화",
+          desc: "제품 포지셔닝과 혁신을 신속하게 전달하기 위해 설명 비디오를 출시, 보도 자료, 웹 사이트 배너의 주요 시각적 요소로 사용하세요.",
         },
         {
-          "id": 2,
-          "title": "고객 온보딩 및 지원 단순화",
-          "desc": "구매 후 안내, FAQ, 챗봇 설명을 표준화하여 지원 비용을 줄이고 사용자 경험을 개선합니다."
+          id: 2,
+          title: "고객 온보딩 및 지원 단순화",
+          desc: "구매 후 안내, FAQ, 챗봇 설명을 표준화하여 지원 비용을 줄이고 사용자 경험을 개선합니다.",
         },
         {
-          "id": 3,
-          "title": "글로벌 시장 진출 확대",
-          "desc": "확장 가능한 국제 콘텐츠를 위해 네이티브 음성 해설과 현지화된 자막이 포함된 다국어 비디오를 제작하세요."
+          id: 3,
+          title: "글로벌 시장 진출 확대",
+          desc: "확장 가능한 국제 콘텐츠를 위해 네이티브 음성 해설과 현지화된 자막이 포함된 다국어 비디오를 제작하세요.",
         },
         {
-          "id": 4,
-          "title": "장기적인 브랜드 자산 구축",
-          "desc": "브랜드 아이덴티티와 핵심가치를 영상에 담아 인지도를 강화하고 전문적인 이미지를 구축합니다."
-        }
-      ]
-    },
-    "steps": {
-      "title": "간단한 3단계로 제품 설명 동영상을 만드는 방법",
-      "list": [
-        {
-          "id": 1,
-          "title": "1단계: URL 입력 및 콘텐츠 수집",
-          "desc": "제품 페이지 URL을 붙여넣으세요. 시스템은 AI 비디오 제작을 준비하기 위해 자동으로 제목, 설명, 이미지 및 비디오를 가져옵니다.",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/20f269aba2744c7681d12353b5e59362.webp",
-          "path": "/ai/aivideogen"
+          id: 4,
+          title: "장기적인 브랜드 자산 구축",
+          desc: "브랜드 아이덴티티와 핵심가치를 영상에 담아 인지도를 강화하고 전문적인 이미지를 구축합니다.",
         },
-        {
-          "id": 2,
-          "title": "2단계: 콘텐츠 및 설정 편집",
-          "desc": "이미지를 검토 및 조정하고 복사합니다. 그런 다음 비디오 길이, 형식, 언어 및 청중 키워드를 설정하고 여러 AI 음성 스크립트 중에서 선택하십시오.",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/5b6067cb0030443abeb329db5df006c9.webp",
-          "path": "/ai/aivideogen"
-        },
-        {
-          "id": 3,
-          "title": "3단계: 비디오 생성 및 미리보기",
-          "desc": "웹사이트, 광고, 소셜 미디어에 최적화된 형식으로 AI가 생성한 설명 동영상을 즉시 미리 보고, 편집하고, 내보낼 수 있습니다.",
-          "image": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6ee99aacaad84daebb6a1db6053dca5e.webp",
-          "path": "/ai/aivideogen"
-        }
       ],
-      "btnText": "비디오 시작"
     },
-    "caseInfo": {
-      "title": "KreadoAI 제품 설명 영상 예시",
-      "type": "동영상",
-      "videoRatio": "9:16",
-      "caseBtnText": "제품 쇼케이스 시작",
-      "list": [
+    steps: {
+      title: "간단한 3단계로 제품 설명 동영상을 만드는 방법",
+      list: [
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/ba471a7f457a410898fc2cce0875958d.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/30ed4896a3dd4a9399b60c6b3a77c2ee.mp4",
-          "isPlaying": false,
-          "id": 1
+          id: 1,
+          title: "1단계: URL 입력 및 콘텐츠 수집",
+          desc: "제품 페이지 URL을 붙여넣으세요. 시스템은 AI 비디오 제작을 준비하기 위해 자동으로 제목, 설명, 이미지 및 비디오를 가져옵니다.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/20f269aba2744c7681d12353b5e59362.webp",
+          path: "/ai/aivideogen",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b7eb34e850bf41919513b778bf571e0d.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/14cbdc817daf41cba9cb58193779776d.mp4",
-          "isPlaying": false,
-          "id": 2
+          id: 2,
+          title: "2단계: 콘텐츠 및 설정 편집",
+          desc: "이미지를 검토 및 조정하고 복사합니다. 그런 다음 비디오 길이, 형식, 언어 및 청중 키워드를 설정하고 여러 AI 음성 스크립트 중에서 선택하십시오.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/5b6067cb0030443abeb329db5df006c9.webp",
+          path: "/ai/aivideogen",
         },
         {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/820ff868d3884143abfe2c5a00c24eb4.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/28fa9858e3774bd7adc830790cee1714.mp4",
-          "isPlaying": false,
-          "id": 3
+          id: 3,
+          title: "3단계: 비디오 생성 및 미리보기",
+          desc: "웹사이트, 광고, 소셜 미디어에 최적화된 형식으로 AI가 생성한 설명 동영상을 즉시 미리 보고, 편집하고, 내보낼 수 있습니다.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6ee99aacaad84daebb6a1db6053dca5e.webp",
+          path: "/ai/aivideogen",
         },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/bdab8018a6944892bc170de199f9dadd.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/3dfda008b19a4a3abb4df99a7a525796.mp4",
-          "isPlaying": false,
-          "id": 4
-        },
-        {
-          "poster": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/dc845f6536c642cd83f6b1c229868d69.webp",
-          "videoUrl": "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/57bf68368bbc49f0bdc2df178023a54a.mp4",
-          "isPlaying": false,
-          "id": 5
-        }
-      ]
+      ],
+      btnText: "비디오 시작",
     },
-    "selectModel": {
-      "title": "KreadoAI 제품 설명 비디오 생성기를 선택하는 이유는 무엇입니까?",
-      "scenariosList": [
+    caseInfo: {
+      title: "KreadoAI 제품 설명 영상 예시",
+      type: "동영상",
+      videoRatio: "9:16",
+      caseBtnText: "제품 쇼케이스 시작",
+      list: [
         {
-          "id": 1,
-          "title": "장면 전반에 걸쳐 일관된 AI 아바타",
-          "desc": "기존 애니메이션 설명 비디오와 달리 KreadoAI는 설명 비디오 전체에 동일한 AI 발표자가 나타나도록 보장하여 신뢰와 브랜드 인지도를 구축합니다."
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/ba471a7f457a410898fc2cce0875958d.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/30ed4896a3dd4a9399b60c6b3a77c2ee.mp4",
+          isPlaying: false,
+          id: 1,
         },
         {
-          "id": 2,
-          "title": "최적화된 AI 설명자 비디오 스크립트",
-          "desc": "AI는 자동으로 제품 기능을 마케팅 또는 교육용으로 완전히 편집 가능한 설득력 있는 설명 스크립트로 변환합니다."
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b7eb34e850bf41919513b778bf571e0d.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/14cbdc817daf41cba9cb58193779776d.mp4",
+          isPlaying: false,
+          id: 2,
         },
         {
-          "id": 3,
-          "title": "저비용, 대량 생산",
-          "desc": "대행사와 값비싼 설명 동영상 서비스를 대체하세요. 전문적인 품질로 대규모로 비용 효율적인 설명 동영상을 제작하세요."
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/820ff868d3884143abfe2c5a00c24eb4.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/28fa9858e3774bd7adc830790cee1714.mp4",
+          isPlaying: false,
+          id: 3,
         },
         {
-          "id": 4,
-          "title": "제품 및 비즈니스 사용 사례를 위해 제작됨",
-          "desc": "마케팅, 제품 출시, 온보딩 및 웹사이트 설명 비디오 제작을 위한 설명 비디오에 이상적입니다."
-        }
-      ]
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/bdab8018a6944892bc170de199f9dadd.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/3dfda008b19a4a3abb4df99a7a525796.mp4",
+          isPlaying: false,
+          id: 4,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/dc845f6536c642cd83f6b1c229868d69.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/57bf68368bbc49f0bdc2df178023a54a.mp4",
+          isPlaying: false,
+          id: 5,
+        },
+      ],
     },
-    "discoverMoreTools": {
-      "title": "KreadoAI에서 더 많은 AI 크리에이티브 도구를 살펴보세요",
-      "desc": "AI 기반 광고 크리에이티브 이미지 및 비디오 생성을 통해 고품질 마케팅 자산을 빠르고 확장 가능하게 제작할 수 있습니다.",
-      "list": [
+    selectModel: {
+      title: "KreadoAI 제품 설명 비디오 생성기를 선택하는 이유는 무엇입니까?",
+      scenariosList: [
         {
-          "name": "TikTok / UGC 제품 비디오",
-          "path": "product-marketing-video"
+          id: 1,
+          title: "장면 전반에 걸쳐 일관된 AI 아바타",
+          desc: "기존 애니메이션 설명 비디오와 달리 KreadoAI는 설명 비디오 전체에 동일한 AI 발표자가 나타나도록 보장하여 신뢰와 브랜드 인지도를 구축합니다.",
         },
         {
-          "name": "가상 시착 영상",
-          "path": "virtual-try-on-video"
+          id: 2,
+          title: "최적화된 AI 설명자 비디오 스크립트",
+          desc: "AI는 자동으로 제품 기능을 마케팅 또는 교육용으로 완전히 편집 가능한 설득력 있는 설명 스크립트로 변환합니다.",
         },
         {
-          "name": "제품 보유 영상",
-          "path": "product-holding-video"
+          id: 3,
+          title: "저비용, 대량 생산",
+          desc: "대행사와 값비싼 설명 동영상 서비스를 대체하세요. 전문적인 품질로 대규모로 비용 효율적인 설명 동영상을 제작하세요.",
         },
         {
-          "name": "AI 비디오 얼굴 교환",
-          "path": "video-face-swap"
+          id: 4,
+          title: "제품 및 비즈니스 사용 사례를 위해 제작됨",
+          desc: "마케팅, 제품 출시, 온보딩 및 웹사이트 설명 비디오 제작을 위한 설명 비디오에 이상적입니다.",
         },
-        {
-          "name": "AI 영상번역",
-          "path": "video-translator"
-        },
-        {
-          "name": "이미지 업스케일러",
-          "path": "ai-image/image-upscaler"
-        },
-        {
-          "name": "다양한 크기의 광고 이미지 생성기",
-          "path": "ai-image/ad-image-generator"
-        },
-        {
-          "name": "옷 갈아입기",
-          "path": "ai-image/clothes-changer"
-        },
-        {
-          "name": "이미지 텍스트 편집기",
-          "path": "ai-image/text-editor"
-        },
-        {
-          "name": "이미지 번역기",
-          "path": "ai-image/image-translator"
-        },
-        {
-          "name": "이미지 인페인팅",
-          "path": "ai-image/inpainting"
-        },
-        {
-          "name": "배경 제거",
-          "path": "image-background-remover"
-        },
-        {
-          "name": "이미지 아웃페인팅",
-          "path": "ai-image/outpainting"
-        },
-        {
-          "name": "비디오 광고 생성기의 URL",
-          "path": "url-to-video"
-        }
-      ]
+      ],
     },
-    "faq": {
-      "title": "KreadoAI 제품 설명 비디오 생성기에 대해 자주 묻는 질문",
-      "questionList": [
+    discoverMoreTools: {
+      title: "KreadoAI에서 더 많은 AI 크리에이티브 도구를 살펴보세요",
+      desc: "AI 기반 광고 크리에이티브 이미지 및 비디오 생성을 통해 고품질 마케팅 자산을 빠르고 확장 가능하게 제작할 수 있습니다.",
+      list: [
         {
-          "q": "KreadoAI 제품 설명 비디오 생성기란 무엇입니까?",
-          "a": "KreadoAI 제품 설명 비디오 생성기는 촬영, 배우 또는 편집 기술이 필요 없이 짧고 명확한 제품 비디오, 쇼케이스 기능, 사용법 및 주요 이점을 빠르게 생성하는 AI 도구입니다."
+          name: "TikTok / UGC 제품 비디오",
+          path: "product-marketing-video",
         },
         {
-          "q": "KreadoAI는 기존의 설명 비디오 소프트웨어와 어떻게 다릅니까?",
-          "a": "KreadoAI는 일관된 디지털 프리젠터를 사용하여 스크립트, AI 음성 해설 및 비디오를 하나의 도구로 결합하여 기존 소프트웨어보다 빠르고 저렴하게 다중 장면 설명 비디오를 만듭니다."
+          name: "가상 시착 영상",
+          path: "virtual-try-on-video",
         },
         {
-          "q": "여러 제품이나 언어에 대한 설명 동영상을 만들 수 있나요?",
-          "a": "예. KreadoAI는 다국어 AI 설명 동영상을 지원하며 동일한 AI 아바타로 여러 맞춤형 동영상을 빠르게 만들 수 있습니다."
+          name: "제품 보유 영상",
+          path: "product-holding-video",
         },
         {
-          "q": "이러한 설명 동영상이 마케팅 및 광고에 적합한가요?",
-          "a": "예. 짧은 UGC 스타일 동영상부터 상세한 다중 장면 데모까지 광고, 소셜 미디어, 랜딩 페이지, 제품 페이지에 최적화되어 있습니다."
+          name: "AI 비디오 얼굴 교환",
+          path: "video-face-swap",
         },
         {
-          "q": "설명 영상을 만들려면 영상 편집 기술이 필요한가요?",
-          "a": "아니요. 스크립트나 URL을 제공하고, AI 프리젠터와 음성을 선택하면 KreadoAI가 미리보기, 조정 또는 내보낼 수 있는 즉시 사용 가능한 비디오를 생성합니다."
-        }
-      ]
+          name: "AI 영상번역",
+          path: "video-translator",
+        },
+        {
+          name: "이미지 업스케일러",
+          path: "ai-image/image-upscaler",
+        },
+        {
+          name: "다양한 크기의 광고 이미지 생성기",
+          path: "ai-image/ad-image-generator",
+        },
+        {
+          name: "옷 갈아입기",
+          path: "ai-image/clothes-changer",
+        },
+        {
+          name: "이미지 텍스트 편집기",
+          path: "ai-image/text-editor",
+        },
+        {
+          name: "이미지 번역기",
+          path: "ai-image/image-translator",
+        },
+        {
+          name: "이미지 인페인팅",
+          path: "ai-image/inpainting",
+        },
+        {
+          name: "배경 제거",
+          path: "image-background-remover",
+        },
+        {
+          name: "이미지 아웃페인팅",
+          path: "ai-image/outpainting",
+        },
+        {
+          name: "비디오 광고 생성기의 URL",
+          path: "url-to-video",
+        },
+      ],
     },
-    "startSection": {
-      "title": "오늘 KreadoAI로 제품 설명 동영상을 만들어보세요!",
-      "desc": "AI 아바타, 일관된 내레이션, 변환 가능한 출력을 통해 몇 분 만에 제품을 명확하고 설득력 있는 설명 비디오로 전환할 수 있습니다.",
-      "btnText": "지금 비디오를 생성하세요",
-      "btnUrl": "/ai/aivideogen"
-    }
-  },};
+    faq: {
+      title: "KreadoAI 제품 설명 비디오 생성기에 대해 자주 묻는 질문",
+      questionList: [
+        {
+          q: "KreadoAI 제품 설명 비디오 생성기란 무엇입니까?",
+          a: "KreadoAI 제품 설명 비디오 생성기는 촬영, 배우 또는 편집 기술이 필요 없이 짧고 명확한 제품 비디오, 쇼케이스 기능, 사용법 및 주요 이점을 빠르게 생성하는 AI 도구입니다.",
+        },
+        {
+          q: "KreadoAI는 기존의 설명 비디오 소프트웨어와 어떻게 다릅니까?",
+          a: "KreadoAI는 일관된 디지털 프리젠터를 사용하여 스크립트, AI 음성 해설 및 비디오를 하나의 도구로 결합하여 기존 소프트웨어보다 빠르고 저렴하게 다중 장면 설명 비디오를 만듭니다.",
+        },
+        {
+          q: "여러 제품이나 언어에 대한 설명 동영상을 만들 수 있나요?",
+          a: "예. KreadoAI는 다국어 AI 설명 동영상을 지원하며 동일한 AI 아바타로 여러 맞춤형 동영상을 빠르게 만들 수 있습니다.",
+        },
+        {
+          q: "이러한 설명 동영상이 마케팅 및 광고에 적합한가요?",
+          a: "예. 짧은 UGC 스타일 동영상부터 상세한 다중 장면 데모까지 광고, 소셜 미디어, 랜딩 페이지, 제품 페이지에 최적화되어 있습니다.",
+        },
+        {
+          q: "설명 영상을 만들려면 영상 편집 기술이 필요한가요?",
+          a: "아니요. 스크립트나 URL을 제공하고, AI 프리젠터와 음성을 선택하면 KreadoAI가 미리보기, 조정 또는 내보낼 수 있는 즉시 사용 가능한 비디오를 생성합니다.",
+        },
+      ],
+    },
+    startSection: {
+      title: "오늘 KreadoAI로 제품 설명 동영상을 만들어보세요!",
+      desc: "AI 아바타, 일관된 내레이션, 변환 가능한 출력을 통해 몇 분 만에 제품을 명확하고 설득력 있는 설명 비디오로 전환할 수 있습니다.",
+      btnText: "지금 비디오를 생성하세요",
+      btnUrl: "/ai/aivideogen",
+    },
+  },
+  ar: {
+    meta: {
+      title:
+        "مولد فيديو شرح المنتج | مقاطع فيديو مخصصة باستخدام الصور الرمزية للذكاء الاصطناعي",
+      description:
+        "أنشئ مقاطع فيديو توضيحية للمنتجات عالية التحويل باستخدام الصور الرمزية لـ KreadoAI — مشاهد متعددة، بنقرة واحدة، مع تعليقات صوتية متعددة اللغات للتجارة الإلكترونية، والإعلانات، والأسواق العالمية",
+    },
+    pagePath: "/ai/aivideogen",
+    pageTitle:
+      "أنشئ مقاطع فيديو توضيحية لمنتج الذكاء الاصطناعي عالية التحويل باستخدام KreadoAI",
+    pageDesc:
+      "استخدم الصور الرمزية للذكاء الاصطناعي لإنشاء مقاطع فيديو توضيحية احترافية للمنتج باستخدام مقدمي عروض رقميين متسقين. يمكنك تحويل النصوص البرمجية إلى مقاطع فيديو توضيحية متعددة المشاهد، دون الحاجة إلى تصوير أو ممثلين أو مهارات تحرير.",
+    pageBtnText: "إنشاء فيديو المنتج",
+    pageImageUrl:
+      "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6358c9b2459c4abb98d85c4aba5781b3.webp",
+    modelCanMake: {
+      title: "ما يمكنك فعله باستخدام مولد الفيديو التوضيحي لمنتج KreadoAI",
+      scenariosList: [
+        {
+          id: 1,
+          title: "تبسيط إطلاق المنتجات الجديدة",
+          desc: "استخدم مقاطع الفيديو التوضيحية كمرئيات رئيسية لعمليات الإطلاق والنشرات الصحفية ولافتات مواقع الويب لنقل موضع المنتج والابتكارات بسرعة.",
+        },
+        {
+          id: 2,
+          title: "تبسيط عملية تأهيل العملاء ودعمهم",
+          desc: "قم بتوحيد إرشادات ما بعد الشراء والأسئلة الشائعة وتفسيرات chatbot لتقليل تكاليف الدعم وتحسين تجربة المستخدم.",
+        },
+        {
+          id: 3,
+          title: "توسيع نطاق الوصول إلى الأسواق العالمية",
+          desc: "قم بإنشاء مقاطع فيديو متعددة اللغات مع تعليقات صوتية أصلية وترجمات مترجمة للمحتوى الدولي القابل للتطوير.",
+        },
+        {
+          id: 4,
+          title: "بناء أصول العلامة التجارية طويلة الأجل",
+          desc: "قم بدمج هوية العلامة التجارية والقيم الأساسية في مقاطع الفيديو لتعزيز التعرف عليها وإنشاء صورة احترافية.",
+        },
+      ],
+    },
+    steps: {
+      title: "كيفية إنشاء فيديو توضيحي للمنتج في 3 خطوات بسيطة",
+      list: [
+        {
+          id: 1,
+          title: "الخطوة 1: أدخل عنوان URL واجمع المحتوى",
+          desc: "الصق عنوان URL لصفحة منتجك؛ يقوم النظام تلقائيًا بسحب العناوين والأوصاف والصور ومقاطع الفيديو للتحضير لإنشاء فيديو بتقنية الذكاء الاصطناعي.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/20f269aba2744c7681d12353b5e59362.webp",
+          path: "/ai/aivideogen",
+        },
+        {
+          id: 2,
+          title: "الخطوة 2: تحرير المحتوى والإعدادات",
+          desc: "مراجعة وضبط الصور ونسخها. ثم قم بتعيين طول الفيديو، وتنسيقه، ولغته، والكلمات الرئيسية للجمهور، واختر من بين النصوص الصوتية المتعددة التي تعمل بتقنية الذكاء الاصطناعي.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/5b6067cb0030443abeb329db5df006c9.webp",
+          path: "/ai/aivideogen",
+        },
+        {
+          id: 3,
+          title: "الخطوة 3: إنشاء ومعاينة الفيديو",
+          desc: "قم بمعاينة وتحرير وتصدير مقاطع الفيديو التوضيحية التي تم إنشاؤها بواسطة الذكاء الاصطناعي على الفور بتنسيقات محسنة لمواقع الويب والإعلانات ووسائل التواصل الاجتماعي.",
+          image:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/6ee99aacaad84daebb6a1db6053dca5e.webp",
+          path: "/ai/aivideogen",
+        },
+      ],
+      btnText: "ابدأ الفيديو الخاص بك",
+    },
+    caseInfo: {
+      title: "أمثلة فيديو لشرح منتج KreadoAI",
+      type: "فيديو",
+      videoRatio: "9:16",
+      caseBtnText: "ابدأ عرض المنتجات",
+      list: [
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/ba471a7f457a410898fc2cce0875958d.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/30ed4896a3dd4a9399b60c6b3a77c2ee.mp4",
+          isPlaying: false,
+          id: 1,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/b7eb34e850bf41919513b778bf571e0d.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/14cbdc817daf41cba9cb58193779776d.mp4",
+          isPlaying: false,
+          id: 2,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/820ff868d3884143abfe2c5a00c24eb4.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/28fa9858e3774bd7adc830790cee1714.mp4",
+          isPlaying: false,
+          id: 3,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/bdab8018a6944892bc170de199f9dadd.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/3dfda008b19a4a3abb4df99a7a525796.mp4",
+          isPlaying: false,
+          id: 4,
+        },
+        {
+          poster:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/dc845f6536c642cd83f6b1c229868d69.webp",
+          videoUrl:
+            "https://aigc-cdn.kreadoai.com/web_static/secondaryPage/2026/1/57bf68368bbc49f0bdc2df178023a54a.mp4",
+          isPlaying: false,
+          id: 5,
+        },
+      ],
+    },
+    selectModel: {
+      title: "لماذا تختار مولد الفيديو التوضيحي لمنتج KreadoAI؟",
+      scenariosList: [
+        {
+          id: 1,
+          title: "صور رمزية متسقة للذكاء الاصطناعي عبر المشاهد",
+          desc: "على عكس مقاطع الفيديو التوضيحية المتحركة التقليدية، يضمن KreadoAI ظهور نفس مقدم الذكاء الاصطناعي في جميع أنحاء الفيديو التوضيحي الخاص بك - مما يؤدي إلى بناء الثقة والتعرف على العلامة التجارية.",
+        },
+        {
+          id: 2,
+          title: "نصوص فيديو توضيحية محسّنة للذكاء الاصطناعي",
+          desc: "يقوم الذكاء الاصطناعي تلقائيًا بتحويل ميزات المنتج إلى نصوص توضيحية مقنعة، قابلة للتحرير بالكامل للاستخدام التسويقي أو التعليمي.",
+        },
+        {
+          id: 3,
+          title: "إنتاج منخفض التكلفة وكبير الحجم",
+          desc: "استبدل الوكالات وخدمات الفيديو الشرحية الباهظة الثمن. قم بإنشاء مقاطع فيديو توضيحية فعالة من حيث التكلفة على نطاق واسع وبجودة احترافية.",
+        },
+        {
+          id: 4,
+          title: "مُصمم خصيصًا لحالات استخدام المنتجات والأعمال",
+          desc: "مثالية لمقاطع الفيديو التوضيحية للتسويق، وإطلاق المنتجات، والتأهيل، وإنشاء مقاطع فيديو توضيحية لموقع الويب.",
+        },
+      ],
+    },
+    discoverMoreTools: {
+      title: "اكتشف المزيد من أدوات الذكاء الاصطناعي الإبداعية على KreadoAI",
+      desc: "يتيح إنشاء الصور والفيديوهات الإبداعية للإعلانات المستندة إلى الذكاء الاصطناعي إنتاجًا سريعًا وقابلاً للتطوير لأصول تسويقية عالية الجودة",
+      list: [
+        {
+          name: "فيديو منتج TikTok / UGC",
+          path: "product-marketing-video",
+        },
+        {
+          name: "فيديو تجريبي افتراضي",
+          path: "virtual-try-on-video",
+        },
+        {
+          name: "فيديو عقد المنتج",
+          path: "product-holding-video",
+        },
+        {
+          name: "AI فيديو الوجه مبادلة",
+          path: "video-face-swap",
+        },
+        {
+          name: "ترجمة الفيديو بالذكاء الاصطناعي",
+          path: "video-translator",
+        },
+        {
+          name: "ترقية الصورة",
+          path: "ai-image/image-upscaler",
+        },
+        {
+          name: "مولد صور إعلان متعدد الأحجام",
+          path: "ai-image/ad-image-generator",
+        },
+        {
+          name: "تغيير الملابس",
+          path: "ai-image/clothes-changer",
+        },
+        {
+          name: "محرر نص الصورة",
+          path: "ai-image/text-editor",
+        },
+        {
+          name: "مترجم الصور",
+          path: "ai-image/image-translator",
+        },
+        {
+          name: "صورة إنبينتينج",
+          path: "ai-image/inpainting",
+        },
+        {
+          name: "إزالة الخلفية",
+          path: "image-background-remover",
+        },
+        {
+          name: "الرسم الخارجي للصورة",
+          path: "ai-image/outpainting",
+        },
+        {
+          name: "عنوان URL لمولد إعلانات الفيديو",
+          path: "url-to-video",
+        },
+      ],
+    },
+    faq: {
+      title: "الأسئلة المتداولة حول مولد الفيديو التوضيحي لمنتج KreadoAI",
+      questionList: [
+        {
+          q: "ما هو مولد الفيديو الشرح لمنتج KreadoAI؟",
+          a: "KreadoAI Product Explaner Video Generator هي أداة ذكاء اصطناعي تنشئ بسرعة مقاطع فيديو قصيرة وواضحة عن المنتج، وتعرض الميزات، والاستخدام، والفوائد الرئيسية - لا يلزم وجود مهارات تصوير أو ممثلين أو تحرير.",
+        },
+        {
+          q: "كيف يختلف KreadoAI عن برامج الفيديو التوضيحية التقليدية؟",
+          a: "يقوم KreadoAI بإنشاء مقاطع فيديو توضيحية متعددة المشاهد باستخدام عروض تقديمية رقمية متسقة، ويجمع بين النص والتعليق الصوتي بالذكاء الاصطناعي والفيديو في أداة واحدة - أسرع وأرخص من البرامج التقليدية.",
+        },
+        {
+          q: "هل يمكنني إنشاء مقاطع فيديو توضيحية لمنتجات أو لغات متعددة؟",
+          a: "نعم. يدعم KreadoAI مقاطع فيديو توضيحية متعددة اللغات تعمل بالذكاء الاصطناعي ويتيح لك إنشاء مقاطع فيديو مخصصة متعددة بسرعة باستخدام نفس الصورة الرمزية للذكاء الاصطناعي.",
+        },
+        {
+          q: "هل هذه الفيديوهات التوضيحية مناسبة للتسويق والإعلان؟",
+          a: "نعم. مُحسّن للإعلانات ووسائل التواصل الاجتماعي والصفحات المقصودة وصفحات المنتجات، بدءًا من مقاطع الفيديو القصيرة بنمط المحتوى الذي ينشئه المستخدمون وحتى العروض التوضيحية التفصيلية متعددة المشاهد.",
+        },
+        {
+          q: "هل أحتاج إلى أي مهارات في تحرير الفيديو لعمل فيديو توضيحي؟",
+          a: "لا. قم بتوفير نص برمجي أو عنوان URL، واختر مقدم عرض وصوتًا يعمل بتقنية الذكاء الاصطناعي، وسيقوم KreadoAI بإنشاء فيديو جاهز للاستخدام يمكنك معاينته أو تعديله أو تصديره.",
+        },
+      ],
+    },
+    startSection: {
+      title: "قم بإنشاء فيديو توضيحي لمنتجك باستخدام KreadoAI اليوم!",
+      desc: "قم بتحويل منتجك إلى فيديو توضيحي واضح ومقنع في دقائق معدودة - باستخدام الصور الرمزية المدعومة بالذكاء الاصطناعي والسرد المتسق والمخرجات الجاهزة للتحويل",
+      btnText: "قم بإنشاء الفيديو الخاص بك الآن",
+      btnUrl: "/ai/aivideogen",
+    },
+  },
+};

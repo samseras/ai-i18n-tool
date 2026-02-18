@@ -5,10 +5,12 @@ import fr from "./template-data/fr";
 import es from "./template-data/es";
 import ja from "./template-data/ja";
 import ko from "./template-data/ko";
+import ar from "./template-data/ar";
 
 export const sora2TemplateData = {
   zh: zh.sora2,
   en: en.sora2,
+  ar: ar.sora2,
   ko: ko.sora2,
   ja: ja.sora2,
   es: es.sora2,
@@ -19,6 +21,7 @@ export const sora2TemplateData = {
 export const hailuo02TemplateData = {
   zh: zh.hailuo02,
   en: en.hailuo02,
+  ar: ar.hailuo02,
   ko: ko.hailuo02,
   ja: ja.hailuo02,
   es: es.hailuo02,
@@ -29,6 +32,7 @@ export const hailuo02TemplateData = {
 export const veo31TemplateData = {
   zh: zh.veo31,
   en: en.veo31,
+  ar: ar.veo31,
   ko: ko.veo31,
   ja: ja.veo31,
   es: es.veo31,
@@ -39,6 +43,7 @@ export const veo31TemplateData = {
 export const veo3TemplateData = {
   zh: zh.veo3,
   en: en.veo3,
+  ar: ar.veo3,
   ko: ko.veo3,
   ja: ja.veo3,
   es: es.veo3,
@@ -49,6 +54,7 @@ export const veo3TemplateData = {
 export const tiktokTemplateData = {
   zh: zh.tiktok,
   en: en.tiktok,
+  ar: ar.tiktok,
   ko: ko.tiktok,
   ja: ja.tiktok,
   es: es.tiktok,
@@ -59,6 +65,7 @@ export const tiktokTemplateData = {
 export const doubaoSeedanceTemplateData = {
   zh: zh.doubaoSeedance,
   en: en.doubaoSeedance,
+  ar: ar.doubaoSeedance,
   ko: ko.doubaoSeedance,
   ja: ja.doubaoSeedance,
   es: es.doubaoSeedance,
@@ -69,6 +76,7 @@ export const doubaoSeedanceTemplateData = {
 export const seedance15ProTemplateData = {
   zh: zh.seedance15Pro,
   en: en.seedance15Pro,
+  ar: ar.seedance15Pro,
   ko: ko.seedance15Pro,
   ja: ja.seedance15Pro,
   es: es.seedance15Pro,
@@ -79,6 +87,7 @@ export const seedance15ProTemplateData = {
 export const wan26TemplateData = {
   zh: zh.wan26,
   en: en.wan26,
+  ar: ar.wan26,
   ko: ko.wan26,
   ja: ja.wan26,
   es: es.wan26,
